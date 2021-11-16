@@ -1,0 +1,177 @@
+# baseURI: http://example.org/tp
+# TP1 - Websemantique
+
+###########################################################
+
+########## definitions de prefixes ########################
+@prefix : <http://example.org/tp#> .
+@prefix cc: <http://creativecommons.org/licences/> .
+@prefix dbpedia-fr: <http://fr.dbpedia.org/resource/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://dublincore.org/documents/dcmi-terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p1: <http://www.geonames.org/countries/#> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix prop-en: <http://dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+#########################################################
+#
+dbpedia-owl:ArchitecturalStructure
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:Monument ;
+.
+dbpedia-owl:Monument
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+dbpedia-owl:Museum
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:Monument ;
+.
+dbpedia-owl:PopulatedPlace
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+dbpedia-owl:ReligiousBuilding
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:Monument ;
+.
+<http://example.org/perscido>
+  rdf:type owl:Ontology ;
+.
+:Genre
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+:Photo
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+:anniversaire
+  rdf:type :Genre ;
+.
+:famille
+  rdf:type :Genre ;
+.
+:mer
+  rdf:type :Genre ;
+.
+:montagne
+  rdf:type :Genre ;
+.
+:paysage
+  rdf:type :Genre ;
+.
+:shows
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range owl:Thing ;
+.
+prop-fr:ville
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain dbpedia-owl:Monument ;
+  rdfs:range dbpedia-owl:PopulatedPlace ;
+.
+prop-en:url
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:string;
+.
+dc:creator
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range foaf:Person ;
+.
+dbpedia-owl:owner
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain dbpedia-fr:Album_photos ;
+  rdfs:range foaf:Person ;
+.
+:AlbumParent
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range dbpedia-fr:Album_photos;
+.
+dc:date
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:date ;
+.
+dc:description
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:string ;
+.
+dc:type
+  rdf:type rdf:Property ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:string ;
+.
+foaf:Person
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+foaf:firstName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain foaf:Person ;
+  rdfs:range xsd:string ;
+.
+foaf:lastName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain foaf:Person ;
+  rdfs:range xsd:string ;
+.
+#
+#########################################################
+##### partie definitions des instances ##################
+#########################################################
+#
+######### instances de Monuments ########################
+dbpedia-fr:Cathédrale_Notre-Dame_de_Paris
+  rdf:type dbpedia-owl:ReligiousBuilding ;
+  prop-fr:ville dbpedia-fr:Paris ;
+.
+dbpedia-fr:Musée_du_Louvre
+  rdf:type dbpedia-owl:Museum ;
+  prop-fr:ville dbpedia-fr:Paris ;
+.
+dbpedia-fr:Paris
+  rdf:type dbpedia-owl:PopulatedPlace ;
+.
+dbpedia-fr:Tour_Eiffel
+  rdf:type dbpedia-owl:ArchitecturalStructure ;
+  prop-fr:ville dbpedia-fr:Paris ;
+.
+#
+######## instances de personnes #########################
+:JeanDupont
+  foaf:firstName "Jean";
+  foaf:lastName "Dupont";
+.
+#
+######## instances d'album #############################
+:Album1
+  rdf:type dbpedia-fr:Album_photos;
+  dbpedia-owl:owner :JeanDupont;
+.
+######## instances de photos ###########################
+:Photo_1
+  rdf:type :Photo ;
+  :shows :anniversaire ;
+  :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
+  :AlbumParent :Album1;
+  prop-fr:url "https://upload.wikimedia.org/wikipedia/commons/7/7e/Parvis_Notre_Dame_05%2C_850th_anniversary_of_Notre-Dame.jpg";
+.
+:Photo_2
+  rdf:type :Photo ;
+  :shows :anniversaire ;
+  :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
+.
+########################################################
+####### fin ############################################

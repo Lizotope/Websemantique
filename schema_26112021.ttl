@@ -16,25 +16,29 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dbpedia-owl:ArchitecturalStructure
-  rdf:type owl:Class ;
-  rdfs:subClassOf dbpedia-owl:Monument ;
-.
 dbpedia-owl:Monument
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:ArchitecturalStructure ;
+.
+dbpedia-owl:ArchitecturalStructure
   rdf:type owl:Class ;
   rdfs:subClassOf owl:Thing ;
 .
 dbpedia-owl:Museum
   rdf:type owl:Class ;
-  rdfs:subClassOf dbpedia-owl:Monument ;
+  rdfs:subClassOf dbpedia-owl:Building ;
 .
 dbpedia-owl:PopulatedPlace
   rdf:type owl:Class ;
   rdfs:subClassOf owl:Thing ;
 .
+dbpedia-owl:Building
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:ArchitecturalStructure ;
+.
 dbpedia-owl:ReligiousBuilding
   rdf:type owl:Class ;
-  rdfs:subClassOf dbpedia-owl:Monument ;
+  rdfs:subClassOf dbpedia-owl:Building ;
 .
 dbpedia-owl:owner
   rdf:type owl:ObjectProperty ;
@@ -1657,9 +1661,22 @@ prop-en:url
 :Photo
   rdf:type owl:Class ;
   rdfs:subClassOf owl:Thing ;
+ .
+:Dessin
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
 .
 :Photo_1
   rdf:type :Photo ;
+  :AlbumParent :Album1 ;
+  :shows :anniversaire ;
+  :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
+  prop-fr:ville dbpedia-fr:Paris ;
+  prop-en:url "https://upload.wikimedia.org/wikipedia/commons/7/7e/Parvis_Notre_Dame_05%2C_850th_anniversary_of_Notre-Dame.jpg" ;
+  dc:date "2017-07-14"^^xsd:date ;
+.
+:Dessin_1
+  rdf:type :Dessin ;
   :AlbumParent :Album1 ;
   :shows :anniversaire ;
   :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
@@ -2106,11 +2123,13 @@ prop-en:url
 .
 prop-fr:ville
   rdf:type owl:ObjectProperty ;
-  rdfs:domain dbpedia-owl:Monument ;
+  rdfs:domain :Photo;
   rdfs:range dbpedia-owl:PopulatedPlace ;
 .
 dbpedia-fr:Cathédrale_Notre-Dame_de_Paris
   rdf:type dbpedia-owl:ReligiousBuilding ;
+  rdf:type dbpedia-owl:Monument ;
+  rdfs:label 'Cathédrale Notre-Dame de Paris';
   prop-fr:ville dbpedia-fr:Paris ;
 .
 dbpedia-fr:Musée_du_Louvre
@@ -2123,6 +2142,7 @@ dbpedia-fr:Paris
 .
 dbpedia-fr:Tour_Eiffel
   rdf:type dbpedia-owl:ArchitecturalStructure ;
+  rdf:type dbpedia-owl:Monument ;
   prop-fr:ville dbpedia-fr:Paris ;
 .
 dc:creator

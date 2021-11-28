@@ -2136,6 +2136,405 @@ dbpedia-fr:Musée_du_Louvre
   rdf:type dbpedia-owl:Museum ;
   prop-fr:ville dbpedia-fr:Paris ;
 .
+dbpedia-fr:10_Downing_Street	rdf:type dbpedia-owl:Monument ; rdfs:label '10 Downing Street';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Arc_de_Wellington	rdf:type dbpedia-owl:Monument ; rdfs:label 'Arc de Wellington';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Bassins_du_Petit_et_Grand_Palais	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bassins du Petit et Grand Palais';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Big_Ben	rdf:type dbpedia-owl:Monument ; rdfs:label 'Big Ben';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Bourse_du_travail_de_Bordeaux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bourse du travail de Bordeaux';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Cenotaphe_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Cénotaphe (Londres)';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Chateau_de_la_Tournelle	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de la Tournelle';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cite_Napoleon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Cité Napoléon';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Bordeaux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Bordeaux';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Fontaine_Bela_Bartók	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine Béla-Bartók';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_de_la_Grave	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine de la Grave';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Fontaine_Dejean	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine Dejean';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_des_Quatre_Saisons	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine des Quatre-Saisons';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_du_jardin_Villemin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine du jardin Villemin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_du_jardin_Villemin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine du jardin Villemin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_Octave_Greard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine Octave Gréard';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Galerie_Bordelaise	rdf:type dbpedia-owl:Monument ; rdfs:label 'Galerie Bordelaise';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_dEstrees	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel dEstrées';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Breteuil	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Breteuil';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Chabannes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Chabannes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Cluny	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Cluny';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Guenegaud	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Guénégaud';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Ruat	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Ruat';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_de_Seignelay	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Seignelay';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Vogue_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Vogüé (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Le_Charron	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Le Charron';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Liberal_Bruant	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Libéral Bruant';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Mel_de_Fontenay	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Mel de Fontenay';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_Piganeau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Piganeau';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_Tubeuf_rue_des_Petits_Champs	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Tubeuf (rue des Petits-Champs)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:London_Eye	rdf:type dbpedia-owl:Monument ; rdfs:label 'London Eye';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Mairie_du_12e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 12e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mairie_du_15e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 15e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mairie_du_3e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 3e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mairie_du_7e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 7e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mansion_House_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mansion House (Londres)';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Old_Billingsgate_Market	rdf:type dbpedia-owl:Monument ; rdfs:label 'Old Billingsgate Market';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Palais_de_Buckingham	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais de Buckingham';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Palais_de_la_Femme	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais de la Femme';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Porte_de_la_Monnaie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Porte de la Monnaie';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Senate_House_universite_de_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Senate House (université de Londres)';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Shell_Mex_House	rdf:type dbpedia-owl:Monument ; rdfs:label 'Shell Mex House';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Statue_dOliver_Cromwell	rdf:type dbpedia-owl:Monument ; rdfs:label 'Statue dOliver Cromwell';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Statue_de_Richard_Cœur_de_Lion	rdf:type dbpedia-owl:Monument ; rdfs:label 'Statue de Richard Cœur de Lion';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Temple_de_lHumanite	rdf:type dbpedia-owl:Monument ; rdfs:label 'Temple de lHumanité';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Tour_de_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Londres';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Tour_Pey_Berland	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Pey-Berland';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Tour_Victoria	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Victoria';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Abbaye_du_Canadel	rdf:type dbpedia-owl:Monument ; rdfs:label 'Abbaye du Canadel';   prop-fr:ville 	dbpedia-fr:La_Colle-sur-Loup	;.
+dbpedia-fr:Altes_Gebäu	rdf:type dbpedia-owl:Monument ; rdfs:label 'Altes Gebäu';   prop-fr:ville 	dbpedia-fr:Coire	;.
+dbpedia-fr:Ancien_parc_dartillerie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Ancien parc dartillerie';   prop-fr:ville 	dbpedia-fr:Saint-Denis_La_Réunion	;.
+dbpedia-fr:Anciennes_Glacières_de_Strasbourg	rdf:type dbpedia-owl:Monument ; rdfs:label 'Anciennes Glacières de Strasbourg';   prop-fr:ville 	dbpedia-fr:Strasbourg	;.
+dbpedia-fr:Aqueduc_de_Coutances	rdf:type dbpedia-owl:Monument ; rdfs:label 'Aqueduc de Coutances';   prop-fr:ville 	dbpedia-fr:Coutances	;.
+dbpedia-fr:Ascenseur_à_bateaux_des_Fontinettes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Ascenseur à bateaux des Fontinettes';   prop-fr:ville 	dbpedia-fr:Arques	;.
+dbpedia-fr:Auberge_du_Roy_dEspagne_Sablon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Auberge du Roy dEspagne (Sablon)';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Auberge_La_Cardinale	rdf:type dbpedia-owl:Monument ; rdfs:label 'Auberge La Cardinale';   prop-fr:ville 	dbpedia-fr:Baix	;.
+dbpedia-fr:Bagne_de_Nice	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bagne de Nice';   prop-fr:ville 	dbpedia-fr:Nice	;.
+dbpedia-fr:Bastion_des_pecheurs	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bastion des pêcheurs';   prop-fr:ville 	dbpedia-fr:Budapest	;.
+dbpedia-fr:Beffroi_de_Saint_Trond	rdf:type dbpedia-owl:Monument ; rdfs:label 'Beffroi de Saint-Trond';   prop-fr:ville 	dbpedia-fr:Saint-Trond	;.
+dbpedia-fr:Cafe_de_la_Paix_de_Valreas	rdf:type dbpedia-owl:Monument ; rdfs:label 'Café de la Paix de Valréas';   prop-fr:ville 	dbpedia-fr:Valreas	;.
+dbpedia-fr:Calvaire_de_Pontaubert	rdf:type dbpedia-owl:Monument ; rdfs:label 'Calvaire de Pontaubert';   prop-fr:ville 	dbpedia-fr:Pontaubert	;.
+dbpedia-fr:Casa_Amatller	rdf:type dbpedia-owl:Monument ; rdfs:label 'Casa Amatller';   prop-fr:ville 	dbpedia-fr:Barcelone	;.
+dbpedia-fr:Centre_des_archives_industrielles_et_techniques_de_la_Moselle	rdf:type dbpedia-owl:Monument ; rdfs:label 'Centre des archives industrielles et techniques de la Moselle';   prop-fr:ville 	dbpedia-fr:Saint-Avold	;.
+dbpedia-fr:Chancellerie_du_Reich	rdf:type dbpedia-owl:Monument ; rdfs:label 'Chancellerie du Reich';   prop-fr:ville 	dbpedia-fr:Berlin	;.
+dbpedia-fr:Chancellerie_federale_Berlin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Chancellerie fédérale (Berlin)';   prop-fr:ville 	dbpedia-fr:Berlin	;.
+dbpedia-fr:Chapelle_Saint_Michel_Questembert	rdf:type dbpedia-owl:Monument ; rdfs:label 'Chapelle Saint-Michel (Questembert)';   prop-fr:ville 	dbpedia-fr:Questembert	;.
+dbpedia-fr:Chateau_Bilstein	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château Bilstein';   prop-fr:ville 	dbpedia-fr:Urbeis	;.
+dbpedia-fr:Chateau_de_Bois_lès_Pargny	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Bois-lès-Pargny';   prop-fr:ville 	dbpedia-fr:Bois-les-Pargny	;.
+dbpedia-fr:Chateau_de_Molleville	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Molleville';   prop-fr:ville 	dbpedia-fr:Molleville	;.
+dbpedia-fr:Chateau_de_Semur_en_Brionnais	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Semur-en-Brionnais';   prop-fr:ville 	dbpedia-fr:Semur-en-Brionnais	;.
+dbpedia-fr:Chateau_de_Tautavel	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Tautavel';   prop-fr:ville 	dbpedia-fr:Tautavel	;.
+dbpedia-fr:Chateau_de_Verseilles	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Verseilles';   prop-fr:ville 	dbpedia-fr:Saint-Etienne-de-Vicq	;.
+dbpedia-fr:Clyde_Auditorium	rdf:type dbpedia-owl:Monument ; rdfs:label 'Clyde Auditorium';   prop-fr:ville 	dbpedia-fr:Glasgow	;.
+dbpedia-fr:College_des_Jesuites_de_Clermont_Ferrand	rdf:type dbpedia-owl:Monument ; rdfs:label 'Collège des Jésuites de Clermont-Ferrand';   prop-fr:ville 	dbpedia-fr:Clermont-Ferrand	;.
+dbpedia-fr:Couvent_des_Cordeliers_de_Reims	rdf:type dbpedia-owl:Monument ; rdfs:label 'Couvent des Cordeliers de Reims';   prop-fr:ville 	dbpedia-fr:Reims	;.
+dbpedia-fr:Couvent_des_Minimes_de_Lille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Couvent des Minimes de Lille';   prop-fr:ville 	dbpedia-fr:Lille	;.
+dbpedia-fr:Croix_de_Belmont_sur_Vair	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix de Belmont-sur-Vair';   prop-fr:ville 	dbpedia-fr:Belmont-sur-Vair	;.
+dbpedia-fr:Croix_de_Fegreac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix de Fégréac';   prop-fr:ville 	dbpedia-fr:Fegreac	;.
+dbpedia-fr:Croix_de_Penchateau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix de Penchâteau';   prop-fr:ville 	dbpedia-fr:Le_Pouliguen	;.
+dbpedia-fr:Croix_du_chemin_de_Coëtcandec	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix du chemin de Coëtcandec';   prop-fr:ville 	dbpedia-fr:Locqueltas	;.
+dbpedia-fr:Croix_du_Moustoir_de_Locoal_Mendon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix du Moustoir de Locoal-Mendon';   prop-fr:ville 	dbpedia-fr:Locoal-Mendon	;.
+dbpedia-fr:Dolmen_de_la_Fabière	rdf:type dbpedia-owl:Monument ; rdfs:label 'Dolmen de la Fabière';   prop-fr:ville 	dbpedia-fr:La_Cavalerie	;.
+dbpedia-fr:ecluse_de_Negra	rdf:type dbpedia-owl:Monument ; rdfs:label 'Écluse de Négra';   prop-fr:ville 	dbpedia-fr:Villefranche_de_Lauragais	;.
+dbpedia-fr:eglise_de_la_Nativite_de_lile_dArz	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église de la Nativité de lÎle-dArz';   prop-fr:ville 	dbpedia-fr:Ile-dArz	;.
+dbpedia-fr:eglise_de_la_Nativite_de_la_Sainte_Vierge_de_Bonneil	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église de la Nativité-de-la-Sainte-Vierge de Bonneil';   prop-fr:ville 	dbpedia-fr:Bonneil	;.
+dbpedia-fr:eglise_de_Saint_Hilaire_du_Bois_Gironde	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église de Saint-Hilaire-du-Bois (Gironde)';   prop-fr:ville 	dbpedia-fr:Saint-Hilaire-du-Bois_Gironde	;.
+dbpedia-fr:eglise_Notre_Dame_devrecy	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Notre-Dame dÉvrecy';   prop-fr:ville 	dbpedia-fr:Evrecy	;.
+dbpedia-fr:eglise_Notre_Dame_de_Courdemanche	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Notre-Dame de Courdemanche';   prop-fr:ville 	dbpedia-fr:Courdemanche_Sarthe	;.
+dbpedia-fr:eglise_Notre_Dame_de_Rozay_en_Brie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Notre-Dame de Rozay-en-Brie';   prop-fr:ville 	dbpedia-fr:Rozay-en-Brie	;.
+dbpedia-fr:eglise_Saint_Andre_de_Barberier	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-André de Barberier';   prop-fr:ville 	dbpedia-fr:Barberier	;.
+dbpedia-fr:eglise_Saint_Andre_de_Burzet	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-André de Burzet';   prop-fr:ville 	dbpedia-fr:Burzet	;.
+dbpedia-fr:eglise_Saint_Barthelemy_de_Lans_en_Vercors	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Barthélemy de Lans-en-Vercors';   prop-fr:ville 	dbpedia-fr:Lans-en-Vercors	;.
+dbpedia-fr:eglise_Saint_Benigne_de_Savigny_en_Terre_Plaine	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Bénigne de Savigny-en-Terre-Plaine';   prop-fr:ville 	dbpedia-fr:Savigny-en-Terre-Plaine	;.
+dbpedia-fr:eglise_Saint_Christophe_de_Nitry	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Christophe de Nitry';   prop-fr:ville 	dbpedia-fr:Nitry	;.
+dbpedia-fr:eglise_Saint_Denis_dHodenc_en_Bray	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Denis dHodenc-en-Bray';   prop-fr:ville 	dbpedia-fr:Hodenc-en-Bray	;.
+dbpedia-fr:eglise_Saint_Denis_de_Merry_sur_Yonne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Denis de Merry-sur-Yonne';   prop-fr:ville 	dbpedia-fr:Merry-sur-Yonne	;.
+dbpedia-fr:eglise_Saint_Didier_dAutrey_les_Gray	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Didier dAutrey-lès-Gray';   prop-fr:ville 	dbpedia-fr:Autrey-les-Gray	;.
+dbpedia-fr:eglise_Saint_eloi_de_Barzy_sur_Marne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Éloi de Barzy-sur-Marne';   prop-fr:ville 	dbpedia-fr:Barzy-sur-Marne	;.
+dbpedia-fr:eglise_Saint_eloi_de_Tracy_le_Val	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Éloi de Tracy-le-Val';   prop-fr:ville 	dbpedia-fr:Tracy-le-Val	;.
+dbpedia-fr:eglise_Saint_eloi_des_fonderies_de_Vivier_au_Court	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Éloi-des-fonderies de Vivier-au-Court';   prop-fr:ville 	dbpedia-fr:Vivier-au-Court	;.
+dbpedia-fr:eglise_Saint_etienne_de_Vernouillet	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Étienne de Vernouillet';   prop-fr:ville 	dbpedia-fr:Vernouillet	;.
+dbpedia-fr:eglise_Saint_etienne_de_Villiers_sous_Grez	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Étienne de Villiers-sous-Grez';   prop-fr:ville 	dbpedia-fr:Villiers-sous-Grez	;.
+dbpedia-fr:eglise_Saint_Eutrope_de_Bellefond	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Eutrope de Bellefond';   prop-fr:ville 	dbpedia-fr:Bellefond	;.
+dbpedia-fr:eglise_Saint_Felix_de_Fillols	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Félix de Fillols';   prop-fr:ville 	dbpedia-fr:Fillols	;.
+dbpedia-fr:eglise_Saint_Firmin_de_Rochehaut	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Firmin de Rochehaut';   prop-fr:ville 	dbpedia-fr:Rochehaut	;.
+dbpedia-fr:eglise_Saint_Gervais_de_Pontpoint	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Gervais de Pontpoint';   prop-fr:ville 	dbpedia-fr:Pontpoint	;.
+dbpedia-fr:eglise_Saint_Hubert_de_Gandrange	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Hubert de Gandrange';   prop-fr:ville 	dbpedia-fr:Gandrange	;.
+dbpedia-fr:eglise_Saint_Jacques_de_Lisieux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Jacques de Lisieux';   prop-fr:ville 	dbpedia-fr:Lisieux	;.
+dbpedia-fr:eglise_Saint_Jacques_de_Perros_Guirec	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Jacques de Perros-Guirec';   prop-fr:ville 	dbpedia-fr:Perros-Guirec	;.
+dbpedia-fr:eglise_Saint_Jean_Baptiste_de_Combret	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Jean-Baptiste de Combret';   prop-fr:ville 	dbpedia-fr:Combret	;.
+dbpedia-fr:eglise_Saint_Lambert_de_Montigny_sur_Meuse	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Lambert de Montigny-sur-Meuse';   prop-fr:ville 	dbpedia-fr:Montigny-sur-Meuse	;.
+dbpedia-fr:eglise_Saint_Martin_de_Cormeilles_en_Parisis	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Cormeilles-en-Parisis';   prop-fr:ville 	dbpedia-fr:Cormeilles-en-Parisis	;.
+dbpedia-fr:eglise_Saint_Martin_de_Cuiry_les_Iviers	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Cuiry-lès-Iviers';   prop-fr:ville 	dbpedia-fr:Cuiry-les-Iviers	;.
+dbpedia-fr:eglise_Saint_Martin_de_Faucogney_et_la_Mer	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Faucogney-et-la-Mer';   prop-fr:ville 	dbpedia-fr:Faucogney-et-la-Mer	;.
+dbpedia-fr:eglise_Saint_Martin_de_Josselin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Josselin';   prop-fr:ville 	dbpedia-fr:Josselin	;.
+dbpedia-fr:eglise_Saint_Martin_de_Longny_au_Perche	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Longny-au-Perche';   prop-fr:ville 	dbpedia-fr:Longny-au-Perche	;.
+dbpedia-fr:eglise_Saint_Martin_de_Meillard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Meillard';   prop-fr:ville 	dbpedia-fr:Meillard	;.
+dbpedia-fr:eglise_Saint_Martin_de_Parfouru_leclin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Parfouru-lÉclin';   prop-fr:ville 	dbpedia-fr:Livry	;.
+dbpedia-fr:eglise_Saint_Martin_de_Raillicourt	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Raillicourt';   prop-fr:ville 	dbpedia-fr:Raillicourt	;.
+dbpedia-fr:eglise_Saint_Martin_du_Mesnil_Amelot	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin du Mesnil-Amelot';   prop-fr:ville 	dbpedia-fr:Le_Mesnil-Amelot	;.
+dbpedia-fr:eglise_Saint_Martin_de_Tours_de_Courgenard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin-de-Tours de Courgenard';   prop-fr:ville 	dbpedia-fr:Courgenard	;.
+dbpedia-fr:eglise_Saint_Martin_de_Vertou_de_Boce	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin-de-Vertou de Bocé';   prop-fr:ville 	dbpedia-fr:Boce	;.
+dbpedia-fr:eglise_Saint_Nicolas_de_Tremolat	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Nicolas de Trémolat';   prop-fr:ville 	dbpedia-fr:Tremolat	;.
+dbpedia-fr:eglise_Saint_Ouen_de_Bennecourt	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Ouen de Bennecourt';   prop-fr:ville 	dbpedia-fr:Bennecourt	;.
+dbpedia-fr:eglise_Saint_Pallais_de_Villars_en_Pons	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pallais de Villars-en-Pons';   prop-fr:ville 	dbpedia-fr:Villars-en-Pons	;.
+dbpedia-fr:eglise_Saint_Paul_de_Salles_la_Source	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Paul de Salles-la-Source';   prop-fr:ville 	dbpedia-fr:Salles-la-Source	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Beugneux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Beugneux';   prop-fr:ville 	dbpedia-fr:Beugneux	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Chartres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Chartres';   prop-fr:ville 	dbpedia-fr:Chartres	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Lanuejols	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Lanuéjols';   prop-fr:ville 	dbpedia-fr:Lanuejols	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Mauperthuis	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Mauperthuis';   prop-fr:ville 	dbpedia-fr:Mauperthuis	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Moulins	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Moulins';   prop-fr:ville 	dbpedia-fr:Moulins	;.
+dbpedia-fr:eglise_Saint_Pierre_et_Saint_Paul_de_Moutiers_en_Puisaye	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre-et-Saint-Paul de Moutiers-en-Puisaye';   prop-fr:ville 	dbpedia-fr:Moutiers-en-Puisaye	;.
+dbpedia-fr:eglise_Saint_Pierre_Saint_Paul_de_Guiscriff	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre-Saint-Paul de Guiscriff';   prop-fr:ville 	dbpedia-fr:Guiscriff	;.
+dbpedia-fr:eglise_Saint_Quentin_de_Chermignac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Quentin de Chermignac';   prop-fr:ville 	dbpedia-fr:Chermignac	;.
+dbpedia-fr:eglise_Saint_Quintien_de_Picherande	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Quintien de Picherande';   prop-fr:ville 	dbpedia-fr:Picherande	;.
+dbpedia-fr:eglise_Saint_Remi_dAsnieres_sur_Oise	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Rémi dAsnières-sur-Oise';   prop-fr:ville 	dbpedia-fr:Asnières-sur-Oise	;.
+dbpedia-fr:eglise_Saint_Romain_de_Targon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Romain de Targon';   prop-fr:ville 	dbpedia-fr:Targon	;.
+dbpedia-fr:eglise_Saint_Sauveur_de_Coucy_le_Chateau_Auffrique	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Sauveur de Coucy-le-Château-Auffrique';   prop-fr:ville 	dbpedia-fr:Coucy-le-Chateau-Auffrique	;.
+dbpedia-fr:eglise_Sainte_Croix_de_Champeix	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Sainte-Croix de Champeix';   prop-fr:ville 	dbpedia-fr:Champeix	;.
+dbpedia-fr:eglise_Sainte_Onesime_de_Donchery	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Sainte-Onésime de Donchery';   prop-fr:ville 	dbpedia-fr:Donchery	;.
+dbpedia-fr:eglise_Saints_Julien_et_Basilisse_de_Bram	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saints-Julien-et-Basilisse de Bram';   prop-fr:ville 	dbpedia-fr:Bram	;.
+dbpedia-fr:Ferme_de_Chapieu	rdf:type dbpedia-owl:Monument ; rdfs:label 'Ferme de Chapieu';   prop-fr:ville 	dbpedia-fr:Lanuejols	;.
+dbpedia-fr:Fontaine_de_la_Sirène_de_Lleida	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine de la Sirène de Lleida';   prop-fr:ville 	dbpedia-fr:Lerida	;.
+dbpedia-fr:Fontaine_des_Pisseurs_Lacaune	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine des Pisseurs (Lacaune)';   prop-fr:ville 	dbpedia-fr:Lacaune	;.
+dbpedia-fr:Fontaine_du_Tresor	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine du Trésor';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fort_Mackinac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fort Mackinac';   prop-fr:ville 	dbpedia-fr:Mackinac_Island	;.
+dbpedia-fr:Fortin_de_Port_Fouquet	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fortin de Port-Fouquet';   prop-fr:ville 	dbpedia-fr:Le_Palais	;.
+dbpedia-fr:Habitation_Zevallos	rdf:type dbpedia-owl:Monument ; rdfs:label 'Habitation Zévallos';   prop-fr:ville 	dbpedia-fr:Le_Moule	;.
+dbpedia-fr:Halle_de_Lesmont	rdf:type dbpedia-owl:Monument ; rdfs:label 'Halle de Lesmont';   prop-fr:ville 	dbpedia-fr:Lesmont	;.
+dbpedia-fr:Halle_de_Ricey_Haut	rdf:type dbpedia-owl:Monument ; rdfs:label 'Halle de Ricey-Haut';   prop-fr:ville 	dbpedia-fr:Les_Riceys	;.
+dbpedia-fr:Hopital_de_Sant_Pau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôpital de Sant Pau';   prop-fr:ville 	dbpedia-fr:Barcelone	;.
+dbpedia-fr:Hopital_des_Anglais	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôpital des Anglais';   prop-fr:ville 	dbpedia-fr:Peyrusse-le-Roc	;.
+dbpedia-fr:Hotel_Cottereau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Cottereau';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Hotel_dAngouleme_Lamoignon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel dAngoulême Lamoignon';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Bourges	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Bourges';   prop-fr:ville 	dbpedia-fr:Bazas	;.
+dbpedia-fr:Hotel_de_Fourcy	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Fourcy';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Jocas	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Jocas';   prop-fr:ville 	dbpedia-fr:Pernes-les-Fontaines	;.
+dbpedia-fr:Hotel_de_Knuyt_de_Vosmaer	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Knuyt de Vosmaer';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Hotel_de_Mongelas	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Mongelas';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_prefecture_dIndre_et_Loire	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de préfecture dIndre-et-Loire';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Hotel_de_prefecture_de_lAin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de préfecture de lAin';   prop-fr:ville 	dbpedia-fr:Bourg-en-Bresse	;.
+dbpedia-fr:Hotel_de_prefecture_des_Bouches_du_Rhone	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de préfecture des Bouches-du-Rhône';   prop-fr:ville 	dbpedia-fr:Marseille	;.
+dbpedia-fr:Hotel_de_Tinteniac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Tinténiac';   prop-fr:ville 	dbpedia-fr:Angers	;.
+dbpedia-fr:Hotel_de_ville_de_Charleroi	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de ville de Charleroi';   prop-fr:ville 	dbpedia-fr:Charleroi	;.
+dbpedia-fr:Hotel_des_Creneaux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel des Créneaux';   prop-fr:ville 	dbpedia-fr:Orleans	;.
+dbpedia-fr:Hotel_des_postes_de_Caen	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel des postes de Caen';   prop-fr:ville 	dbpedia-fr:Caen	;.
+dbpedia-fr:Hotel_Duffau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Duffau';   prop-fr:ville 	dbpedia-fr:Montpellier	;.
+dbpedia-fr:Hotel_Gaillard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Gaillard';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Joubert_Bonnaire	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Joubert-Bonnaire';   prop-fr:ville 	dbpedia-fr:Angers	;.
+dbpedia-fr:Hotel_Le_Pelletier_de_Souzy	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Le Pelletier de Souzy';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Vauloup	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Vauloup';   prop-fr:ville 	dbpedia-fr:Nantes	;.
+dbpedia-fr:Immeuble_au_11__rue_Kervegan_de_Nantes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Immeuble au 11, rue Kervégan de Nantes';   prop-fr:ville 	dbpedia-fr:Nantes	;.
+dbpedia-fr:Immeuble_au_13__rue_Kervegan_de_Nantes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Immeuble au 13, rue Kervégan de Nantes';   prop-fr:ville 	dbpedia-fr:Nantes	;.
+dbpedia-fr:Immeuble_Clarte	rdf:type dbpedia-owl:Monument ; rdfs:label 'Immeuble Clarté';   prop-fr:ville 	dbpedia-fr:Geneve	;.
+dbpedia-fr:Iparosotthon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Iparosotthon';   prop-fr:ville 	dbpedia-fr:Kecskemet	;.
+dbpedia-fr:Kruger_House_Museum	rdf:type dbpedia-owl:Monument ; rdfs:label 'Kruger House Museum';   prop-fr:ville 	dbpedia-fr:Pretoria	;.
+dbpedia-fr:Limmeuble_à_velos	rdf:type dbpedia-owl:Monument ; rdfs:label 'limmeuble à vélos';   prop-fr:ville 	dbpedia-fr:Grenoble	;.
+dbpedia-fr:Lavoir_des_Chavannes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Lavoir des Chavannes';   prop-fr:ville 	dbpedia-fr:Saint-Vallier	;.
+dbpedia-fr:Le_Vieux_Moulin_Vernon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Le Vieux-Moulin';   prop-fr:ville 	dbpedia-fr:Vernon	;.
+dbpedia-fr:Lex_batiment	rdf:type dbpedia-owl:Monument ; rdfs:label 'Lex (bâtiment)';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Mairie_de_Kuopio	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie de Kuopio';   prop-fr:ville 	dbpedia-fr:Kuopio	;.
+dbpedia-fr:Maison_à_loriflamme	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison à loriflamme';   prop-fr:ville 	dbpedia-fr:Luxeuil-les-Bains	;.
+dbpedia-fr:Maison_Bermont	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Bermont';   prop-fr:ville 	dbpedia-fr:Montjaux	;.
+dbpedia-fr:Maison_coloniale_de_sante	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison coloniale de santé';   prop-fr:ville 	dbpedia-fr:Saint-Pierre_Martinique	;.
+dbpedia-fr:Maison_Coquille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Coquille';   prop-fr:ville 	dbpedia-fr:Basse-Terre	;.
+dbpedia-fr:Maison_de_Dimitrije_Krsmanović	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de Dimitrije Krsmanović';   prop-fr:ville 	dbpedia-fr:Belgrade	;.
+dbpedia-fr:Maison_de_Jacques_Louis_David	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de Jacques-Louis David';   prop-fr:ville 	dbpedia-fr:Bruxelles-ville	;.
+dbpedia-fr:Maison_de_justice_du_Bizot	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de justice du Bizot';   prop-fr:ville 	dbpedia-fr:Le_Bizot	;.
+dbpedia-fr:Maison_de_leclusier_du_canal_dEntreroches	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de léclusier du canal dEntreroches';   prop-fr:ville 	dbpedia-fr:Orny	;.
+dbpedia-fr:Maison_de_la_Banque_de_La_Reunion	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de la Banque de La Réunion';   prop-fr:ville 	dbpedia-fr:Saint-Denis_La_Réunion	;.
+dbpedia-fr:Maison_de_la_Renommee	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de la Renommée';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Maison_de_la_Rose	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de la Rose';   prop-fr:ville 	dbpedia-fr:Bruxelles-ville	;.
+dbpedia-fr:Maison_de_Louis_XI_Cusset	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de Louis XI (Cusset)';   prop-fr:ville 	dbpedia-fr:Cusset	;.
+dbpedia-fr:Maison_des_Anglais_Le_Chalard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison des Anglais (Le Chalard)';   prop-fr:ville 	dbpedia-fr:Le_Chalard	;.
+dbpedia-fr:Maison_Frugès	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Frugès';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Maison_romane_de_Saint_Gilles	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison romane de Saint-Gilles';   prop-fr:ville 	dbpedia-fr:Saint-Gilles_Gard	;.
+dbpedia-fr:Maison_Timol	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Timol';   prop-fr:ville 	dbpedia-fr:Saint-Denis_La_Réunion	;.
+dbpedia-fr:Manoir_Beranger	rdf:type dbpedia-owl:Monument ; rdfs:label 'Manoir Béranger';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Manoir__rue_Maupertuis_2_4__Nyon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Manoir, rue Maupertuis 2-4, Nyon';   prop-fr:ville 	dbpedia-fr:Nyon	;.
+dbpedia-fr:Mausolee_du_Prince_Imperial	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mausolée du Prince Impérial';   prop-fr:ville 	dbpedia-fr:Rueil-Malmaison	;.
+dbpedia-fr:Mausolee_Juselius	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mausolée Juselius';   prop-fr:ville 	dbpedia-fr:Pori	;.
+dbpedia-fr:Megalithe_de_Guillay	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mégalithe de Guillay';   prop-fr:ville 	dbpedia-fr:Larriviere-Saint-Savin	;.
+dbpedia-fr:Menhir_de_la_Riveraie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Menhir de la Riveraie';   prop-fr:ville 	dbpedia-fr:Saint-Pere-en-Retz	;.
+dbpedia-fr:Meulières_du_Mont_Vouan	rdf:type dbpedia-owl:Monument ; rdfs:label 'Meulières du Mont Vouan';   prop-fr:ville 	dbpedia-fr:Viuz-en-Sallaz	;.
+dbpedia-fr:Mont_calvaire_de_Sombacour	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mont-calvaire de Sombacour';   prop-fr:ville 	dbpedia-fr:Sombacour	;.
+dbpedia-fr:Monument_aux_Hanovriens	rdf:type dbpedia-owl:Monument ; rdfs:label 'Monument aux Hanovriens';   prop-fr:ville 	dbpedia-fr:Lasne	;.
+dbpedia-fr:Monument_du_Centenaire	rdf:type dbpedia-owl:Monument ; rdfs:label 'Monument du Centenaire';   prop-fr:ville 	dbpedia-fr:Nice	;.
+dbpedia-fr:Moulin_de_la_Saulaie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Moulin de la Saulaie';   prop-fr:ville 	dbpedia-fr:Cande	;.
+dbpedia-fr:Moulin_Delestic	rdf:type dbpedia-owl:Monument ; rdfs:label 'Moulin Delestic';   prop-fr:ville 	dbpedia-fr:Reillanne	;.
+dbpedia-fr:Moulins_à_vent_du_Champ_des_iles	rdf:type dbpedia-owl:Monument ; rdfs:label 'Moulins à vent du Champ des Îles';   prop-fr:ville 	dbpedia-fr:Varennes-sur-Loire	;.
+dbpedia-fr:Mur_de_Berlin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mur de Berlin';   prop-fr:ville 	dbpedia-fr:Berlin-Ouest	;.
+dbpedia-fr:Noviciat_des_Jesuites_dAvignon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Noviciat des Jésuites dAvignon';   prop-fr:ville 	dbpedia-fr:Avignon	;.
+dbpedia-fr:Office_du_tourisme_dAndenne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Office du tourisme dAndenne';   prop-fr:ville 	dbpedia-fr:Andenne	;.
+dbpedia-fr:Palais_de_justice_de_Tours	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais de justice de Tours';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Palais_des_archeveques_de_Narbonne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais des archevêques de Narbonne';   prop-fr:ville 	dbpedia-fr:Narbonne	;.
+dbpedia-fr:Palais_des_Arts_Marseille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais des Arts (Marseille)';   prop-fr:ville 	dbpedia-fr:Marseille	;.
+dbpedia-fr:Palais_Porto_piazza_Castello	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais Porto (piazza Castello)';   prop-fr:ville 	dbpedia-fr:Vicence	;.
+dbpedia-fr:Palazzo_Piccolomini_Sienne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palazzo Piccolomini (Sienne)';   prop-fr:ville 	dbpedia-fr:Sienne	;.
+dbpedia-fr:Pierre_couverte_de_la_planche	rdf:type dbpedia-owl:Monument ; rdfs:label 'Pierre couverte de la planche';   prop-fr:ville 	dbpedia-fr:Broc	;.
+dbpedia-fr:Polissoir_de_Mezy_Moulins	rdf:type dbpedia-owl:Monument ; rdfs:label 'Polissoir de Mézy-Moulins';   prop-fr:ville 	dbpedia-fr:Mezy-Moulins	;.
+dbpedia-fr:Pont_dEstaing	rdf:type dbpedia-owl:Monument ; rdfs:label 'Pont dEstaing';   prop-fr:ville 	dbpedia-fr:Estaing	;.
+dbpedia-fr:Pont_sur_la_Truyère_Entraygues_sur_Truyère	rdf:type dbpedia-owl:Monument ; rdfs:label 'Pont sur la Truyère (Entraygues-sur-Truyère)';   prop-fr:ville 	dbpedia-fr:Entraygues-sur-Truyere	;.
+dbpedia-fr:Porte_de_Genève	rdf:type dbpedia-owl:Monument ; rdfs:label 'Porte de Genève';   prop-fr:ville 	dbpedia-fr:Yvoire	;.
+dbpedia-fr:Presbytère_de_Satillieu	rdf:type dbpedia-owl:Monument ; rdfs:label 'Presbytère de Satillieu';   prop-fr:ville 	dbpedia-fr:Satillieu	;.
+dbpedia-fr:Prison_de_Petit_Canal	rdf:type dbpedia-owl:Monument ; rdfs:label 'Prison de Petit-Canal';   prop-fr:ville 	dbpedia-fr:Petit-Canal	;.
+dbpedia-fr:Remparts_du_Malzieu_Ville	rdf:type dbpedia-owl:Monument ; rdfs:label 'Remparts du Malzieu-Ville';   prop-fr:ville 	dbpedia-fr:Le_Malzieu-Ville	;.
+dbpedia-fr:Salins_de_Bregille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Salins de Bregille';   prop-fr:ville 	dbpedia-fr:Besançon	;.
+dbpedia-fr:Saumoduc_de_Salins_les_Bains_à_Arc_et_Senans	rdf:type dbpedia-owl:Monument ; rdfs:label 'Saumoduc de Salins-les-Bains à Arc-et-Senans';   prop-fr:ville 	dbpedia-fr:Salins-les-Bains	;.
+dbpedia-fr:Sculpture_tricephale_Lugrin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Sculpture tricéphale (Lugrin)';   prop-fr:ville 	dbpedia-fr:Lugrin	;.
+dbpedia-fr:Temple_du_feu_dIspahan	rdf:type dbpedia-owl:Monument ; rdfs:label 'Temple du feu dIspahan';   prop-fr:ville 	dbpedia-fr:Ispahan	;.
+dbpedia-fr:Thermes_de_Salies_de_Bearn	rdf:type dbpedia-owl:Monument ; rdfs:label 'Thermes de Salies-de-Béarn';   prop-fr:ville 	dbpedia-fr:Salies-de-Bearn	;.
+dbpedia-fr:Tour_de_Bregille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Bregille';   prop-fr:ville 	dbpedia-fr:Besancon	;.
+dbpedia-fr:Tour_de_Chamars	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Chamars';   prop-fr:ville 	dbpedia-fr:Besancon	;.
+dbpedia-fr:Tour_de_lHorloge_Nevers	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de lHorloge (Nevers)';   prop-fr:ville 	dbpedia-fr:Nevers	;.
+dbpedia-fr:Tour_de_Saint_Hospice	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Saint-Hospice';   prop-fr:ville 	dbpedia-fr:Saint-Jean-Cap-Ferrat	;.
+dbpedia-fr:Tour_Gloriette	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Gloriette';   prop-fr:ville 	dbpedia-fr:Arbois	;.
+dbpedia-fr:Tour_Magne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Magne';   prop-fr:ville 	dbpedia-fr:Nimes	;.
+dbpedia-fr:Triumphpforte	rdf:type dbpedia-owl:Monument ; rdfs:label 'Triumphpforte';   prop-fr:ville 	dbpedia-fr:Innsbruck	;.
+dbpedia-fr:Usine_à_chaux_de_Saint_Pierre	rdf:type dbpedia-owl:Monument ; rdfs:label 'Usine à chaux de Saint-Pierre';   prop-fr:ville 	dbpedia-fr:Angrie	;.
+dbpedia-fr:Vieux_couvent	rdf:type dbpedia-owl:Monument ; rdfs:label 'Vieux couvent';   prop-fr:ville 	dbpedia-fr:Caraquet	;.
+dbpedia-fr:Villa_Kramář	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Kramář';   prop-fr:ville 	dbpedia-fr:Prague	;.
+dbpedia-fr:Villa_Le_Castel	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Le Castel';   prop-fr:ville 	dbpedia-fr:Le_Touquet-Paris-Plage	;.
+dbpedia-fr:Villa_Mediterranee	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Méditerranée';   prop-fr:ville 	dbpedia-fr:Marseille	;.
+dbpedia-fr:Villa_Rotonda	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Rotonda';   prop-fr:ville 	dbpedia-fr:Vicence	;.
+dbpedia-fr:Villa_Strassburger	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Strassburger';   prop-fr:ville 	dbpedia-fr:Deauville	;.
+dbpedia-fr:Waag_Amsterdam	rdf:type dbpedia-owl:Monument ; rdfs:label 'Waag (Amsterdam)';   prop-fr:ville 	dbpedia-fr:Amsterdam	;.
+dbpedia-fr:Musee_de_la_Maison_Bonaparte	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Maison Bonaparte';   prop-fr:ville 	dbpedia-fr:Ajaccio	;.
+dbpedia-fr:Musee_dart_contemporain_de_San_Diego	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart contemporain de San Diego';   prop-fr:ville 	dbpedia-fr:San_Diego	;.
+dbpedia-fr:Musee_Rockefeller	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Rockefeller';   prop-fr:ville 	dbpedia-fr:Jerusalem	;.
+dbpedia-fr:Fondation_suisse_pour_la_photographie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Fondation suisse pour la photographie';   prop-fr:ville 	dbpedia-fr:Winterthour	;.
+dbpedia-fr:Musee_Thyssen_Bornemisza	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Thyssen-Bornemisza';   prop-fr:ville 	dbpedia-fr:Madrid	;.
+dbpedia-fr:Musee_dart_colonial_de_Bogota	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart colonial de Bogota';   prop-fr:ville 	dbpedia-fr:Bogota	;.
+dbpedia-fr:Maison_des_anciens_remèdes	rdf:type dbpedia-owl:Museum ; rdfs:label 'Maison des anciens remèdes';   prop-fr:ville 	dbpedia-fr:Jovençan	;.
+dbpedia-fr:Musee_de_Tahiti_et_des_iles	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de Tahiti et des Îles';   prop-fr:ville 	dbpedia-fr:Punaauia	;.
+dbpedia-fr:Musee_metropolitain_de_Manille	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée métropolitain de Manille';   prop-fr:ville 	dbpedia-fr:Manille	;.
+dbpedia-fr:Musee_archeologique_national_de_Vulci	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée archéologique national de Vulci';   prop-fr:ville 	dbpedia-fr:Vulci	;.
+dbpedia-fr:Musee_Jorn	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Jorn';   prop-fr:ville 	dbpedia-fr:Silkeborg	;.
+dbpedia-fr:Musee_prefectoral_dhistoire_dIbaraki	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée préfectoral dhistoire dIbaraki';   prop-fr:ville 	dbpedia-fr:Mito	;.
+dbpedia-fr:Miami_Science_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Miami Science Museum';   prop-fr:ville 	dbpedia-fr:Miami	;.
+dbpedia-fr:Musee_dart_contemporain_de_Cracovie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart contemporain de Cracovie';   prop-fr:ville 	dbpedia-fr:Cracovie	;.
+dbpedia-fr:Musee_de_la_Liberation_de_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du Général-Leclerc-de-Hauteclocque-et-de-la-Libération-de-Paris – musée Jean-Moulin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_la_Contrefaçon	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Contrefaçon';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_la_vie_romantique	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la vie romantique';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Galerie_Lefebvre_et_Fils	rdf:type dbpedia-owl:Museum ; rdfs:label 'Galerie Lefebvre et Fils';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_national_des_arts_asiatiques___Guimet	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée national des arts asiatiques - Guimet';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_la_Legion_dhonneur	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Légion dhonneur';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Catacombes_de_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Catacombes de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Museum_national_dhistoire_naturelle	rdf:type dbpedia-owl:Museum ; rdfs:label 'Muséum national dhistoire naturelle';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Palais_de_la_decouverte	rdf:type dbpedia-owl:Museum ; rdfs:label 'Palais de la découverte';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_des_Arts_forains	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des Arts forains';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_lerotisme_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de lérotisme (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Aquarium_de_Paris___Cineaqua	rdf:type dbpedia-owl:Museum ; rdfs:label 'Aquarium de Paris - Cinéaqua';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Maison_de_lHistoire_de_France	rdf:type dbpedia-owl:Museum ; rdfs:label 'Maison de lHistoire de France';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Maison_de_Victor_Hugo	rdf:type dbpedia-owl:Museum ; rdfs:label 'Maison de Victor Hugo';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Zadkine	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Zadkine';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_lArmee_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de lArmée (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_lhistoire_de_limmigration	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de l’histoire de l’immigration';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Marmottan_Monet	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Marmottan Monet';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_du_Louvre	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du Louvre';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Gustave_Moreau	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Gustave-Moreau';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Appartement_du_docteur_Gagnon	rdf:type dbpedia-owl:Museum ; rdfs:label 'Appartement du docteur Gagnon';   prop-fr:ville 	dbpedia-fr:Grenoble	;.
+dbpedia-fr:Musee_archeologique_national_de_Urbisaglia	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée archéologique national de Urbisaglia';   prop-fr:ville 	dbpedia-fr:Urbisaglia	;.
+dbpedia-fr:Palais_de_la_decouverte	rdf:type dbpedia-owl:Museum ; rdfs:label 'Palais de la découverte';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_dart_contemporain_de_Rome	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart contemporain de Rome';   prop-fr:ville 	dbpedia-fr:Rome	;.
+dbpedia-fr:Musee_dart_et_dhistoire_de_Geneve	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart et dhistoire de Genève';   prop-fr:ville 	dbpedia-fr:Geneve	;.
+dbpedia-fr:Reiss_Engelhorn_Museen	rdf:type dbpedia-owl:Museum ; rdfs:label 'Reiss-Engelhorn-Museen';   prop-fr:ville 	dbpedia-fr:Mannheim	;.
+dbpedia-fr:Musee_national_du_Soudan	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée national du Soudan';   prop-fr:ville 	dbpedia-fr:Khartoum	;.
+dbpedia-fr:Achilleion	rdf:type dbpedia-owl:Museum ; rdfs:label 'Achilleion';   prop-fr:ville 	dbpedia-fr:Corfou	;.
+dbpedia-fr:Clark_Art_Institute	rdf:type dbpedia-owl:Museum ; rdfs:label 'Clark Art Institute';   prop-fr:ville 	dbpedia-fr:Williamstown	;.
+dbpedia-fr:Musee_Horne	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Horne';   prop-fr:ville 	dbpedia-fr:Florence	;.
+dbpedia-fr:Musee_du_rhum_de_Sainte_Marie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du rhum de Sainte-Marie';   prop-fr:ville 	dbpedia-fr:Sainte-Marie_Martinique	;.
+dbpedia-fr:Musee_des_beaux_arts_de_Nimes	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des beaux-arts de Nîmes';   prop-fr:ville 	dbpedia-fr:Nimes	;.
+dbpedia-fr:Hong_Kong_Museum_of_Coastal_Defence	rdf:type dbpedia-owl:Museum ; rdfs:label 'Hong Kong Museum of Coastal Defence';   prop-fr:ville 	dbpedia-fr:Hong_Kong	;.
+dbpedia-fr:Musee_polonais_de_Rapperswil	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée polonais de Rapperswil';   prop-fr:ville 	dbpedia-fr:Rapperswil	;.
+dbpedia-fr:Elyseum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Elyseum';   prop-fr:ville 	dbpedia-fr:Goteborg	;.
+dbpedia-fr:Imperial_War_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Imperial War Museum';   prop-fr:ville 	dbpedia-fr:Imperial_War_Museum_Duxford	;.
+dbpedia-fr:Musee_dart_du_comte_de_Los_Angeles	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart du comté de Los Angeles';   prop-fr:ville 	dbpedia-fr:Los_Angeles	;.
+dbpedia-fr:British_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'British Museum';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Musee_de_la_Mer_de_Cannes	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Mer de Cannes';   prop-fr:ville 	dbpedia-fr:Cannes	;.
+dbpedia-fr:Musee_du_Chiado	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du Chiado';   prop-fr:ville 	dbpedia-fr:Lisbonne	;.
+dbpedia-fr:Musee_archeologique_dephese	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée archéologique dÉphèse';   prop-fr:ville 	dbpedia-fr:Selçuk	;.
+dbpedia-fr:Musee_Ernest_Cognacq	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Ernest-Cognacq';   prop-fr:ville 	dbpedia-fr:Saint-Martin-de-Re	;.
+dbpedia-fr:Musee_du_theatre_romain_de_Carthagene	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du théâtre romain de Carthagène';   prop-fr:ville 	dbpedia-fr:Carthagene	;.
+dbpedia-fr:Musee_des_fossiles_de_Tourtour	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des fossiles de Tourtour';   prop-fr:ville 	dbpedia-fr:Tourtour	;.
+dbpedia-fr:Musee_national_dhistoire_Bulgarie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée national dhistoire (Bulgarie)';   prop-fr:ville 	dbpedia-fr:Sofia	;.
+dbpedia-fr:Crypte_archeologique_du_parvis_Notre_Dame	rdf:type dbpedia-owl:Museum ; rdfs:label 'Crypte archéologique du parvis Notre-Dame';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Mathurin_Meheut	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Mathurin-Méheut';   prop-fr:ville 	dbpedia-fr:Lamballe	;.
+dbpedia-fr:Barnums_American_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Barnums American Museum';   prop-fr:ville 	dbpedia-fr:New_York	;.
+dbpedia-fr:Moulin_et_musee_rural_du_Steenmeulen_de_Terdeghem	rdf:type dbpedia-owl:Museum ; rdfs:label 'Moulin et musée rural du Steenmeulen de Terdeghem';   prop-fr:ville 	dbpedia-fr:Terdeghem	;.
+dbpedia-fr:Museum_dhistoire_naturelle_de_Bourges	rdf:type dbpedia-owl:Museum ; rdfs:label 'Muséum dhistoire naturelle de Bourges';   prop-fr:ville 	dbpedia-fr:Bourges	;.
+dbpedia-fr:Musee_romain_de_Vallon	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée romain de Vallon';   prop-fr:ville 	dbpedia-fr:Vallon	;.
+dbpedia-fr:Musee_des_sciences_Príncipe_Felipe	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des sciences Príncipe Felipe';   prop-fr:ville 	dbpedia-fr:Valence	;.
+dbpedia-fr:Seminaire_des_Carmes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Séminaire des Carmes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Synagogue_Rashi_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Synagogue Rashi (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_reformee_de_lAnnonciation	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église réformée de lAnnonciation';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_de_lArche_dAlliance	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-lArche-dAlliance';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Vincent_de_Paul_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Vincent-de-Paul de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Germain_de_Charonne	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Germain de Charonne';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_reformee_de_Port_Royal	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église réformée de Port-Royal';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Georges_de_la_Villette	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Georges de la Villette';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Sainte_Jeanne_dArc_du_Touquet_Paris_Plage	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Sainte-Jeanne-dArc du Touquet-Paris-Plage';   prop-fr:ville 	dbpedia-fr:Le_Touquet-Paris-Plage	;.
+dbpedia-fr:Cloitre_et_eglise_des_Billettes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cloître et église des Billettes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Medard_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Médard de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_de_Compassion_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-Compassion de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Severin	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Séverin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Andre_des_Arts	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-André-des-Arts';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_du_Bon_Conseil_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-du-Bon-Conseil de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_evangelique_Saint_Marcel	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église évangélique Saint-Marcel';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Michel_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Michel de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Ferdinand_des_Ternes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Ferdinand-des-Ternes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Roch_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Roch de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_reformee_Saint_Jean	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église réformée Saint-Jean';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Chapelle_Notre_Dame_de_Consolation_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Notre-Dame-de-Consolation de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_des_Otages	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-des-Otages';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Basilique_Sainte_Jeanne_dArc_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Basilique Sainte-Jeanne-dArc de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Jacques_Saint_Christophe_de_la_Villette	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Jacques-Saint-Christophe de la Villette';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Sava_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Sava de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_des_Champs	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-des-Champs';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Paroisse_Notre_Dame_Joie_des_Affliges_et_Sainte_Genevieve	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Paroisse Notre-Dame-Joie-des-Affligés-et-Sainte-Geneviève';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_des_Trois_Saints_Docteurs_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale des Trois-Saints-Docteurs de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Union_liberale_israelite_de_France	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Union libérale israélite de France';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Nicolas_du_Chardonnet	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Nicolas-du-Chardonnet';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Denys_de_la_Chapelle	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Denys de la Chapelle';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_du_Rosaire_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-du-Rosaire de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_americaine_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale américaine de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_du_Travail_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-du-Travail de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Philippe_du_Roule	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Philippe-du-Roule';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Montrouge	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Pierre-de-Montrouge';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Sulpice_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Sulpice de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Abbaye_Sainte_Geneviève_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Abbaye Sainte-Geneviève de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Eustache_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Eustache de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Chapelle_expiatoire	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle expiatoire';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Antoine_de_Padoue_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Antoine-de-Padoue de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_de_lAssomption_de_Passy	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-lAssomption-de-Passy';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_grecque_Saint_etienne_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale grecque Saint-Étienne de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_Saint_Alexandre_Nevsky_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Saint-Alexandre-Nevsky de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_Saint_Nicolas_de_Sremski_Karlovci	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Saint-Nicolas de Sremski Karlovci';   prop-fr:ville 	dbpedia-fr:Sremski_Karlovci	;.
+dbpedia-fr:Chapelle_Notre_Dame_de_Nize	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Notre-Dame-de-Nize';   prop-fr:ville 	dbpedia-fr:Lunas	;.
+dbpedia-fr:Abbaye_Saint_Wandrille_de_Fontenelle	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Abbaye Saint-Wandrille de Fontenelle';   prop-fr:ville 	dbpedia-fr:Saint-Wandrille-Rançon	;.
+dbpedia-fr:eglise_Saint_Michel_et_Saint_Gabriel_de_Batajnica	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Michel et Saint-Gabriel de Batajnica';   prop-fr:ville 	dbpedia-fr:Belgrade	;.
+dbpedia-fr:eglise_Santa_Maria_del_Priorato	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Santa Maria del Priorato';   prop-fr:ville 	dbpedia-fr:Rome	;.
+dbpedia-fr:Mosquee_bleue	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Mosquée bleue';   prop-fr:ville 	dbpedia-fr:Istanbul	;.
+dbpedia-fr:eglise_armenienne_Saint_Jacques_de_Lyon	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église arménienne Saint-Jacques de Lyon';   prop-fr:ville 	dbpedia-fr:Lyon	;.
+dbpedia-fr:Cathedrale_de_Bologne	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Bologne';   prop-fr:ville 	dbpedia-fr:Bologne	;.
+dbpedia-fr:Maison_natale_dEsprit_Flechier	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Maison natale dEsprit Fléchier';   prop-fr:ville 	dbpedia-fr:Pernes-les-Fontaines	;.
+dbpedia-fr:Cathedrale_dIvree	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale dIvrée';   prop-fr:ville 	dbpedia-fr:Ivree	;.
+dbpedia-fr:Chapelle_Saint_Martin_de_Saduran	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Saint-Martin-de-Saduran';   prop-fr:ville 	dbpedia-fr:Bagnols-sur-Ceze	;.
+dbpedia-fr:Cathedrale_de_Bois_le_Duc	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Bois-le-Duc';   prop-fr:ville 	dbpedia-fr:Bois-le-Duc	;.
+dbpedia-fr:Monastère_de_Banjska	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Monastère de Banjska';   prop-fr:ville 	dbpedia-fr:Banjska	;.
+dbpedia-fr:Chapelle_Saint_Jean_du_Grès	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Saint-Jean-du-Grès';   prop-fr:ville 	dbpedia-fr:Fontvieille	;.
+dbpedia-fr:eglise_Saint_Clement_de_Sirach	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Clément de Sirach';   prop-fr:ville 	dbpedia-fr:Ria-Sirach	;.
+dbpedia-fr:Cathedrale_Saint_Maclou_de_Pontoise	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Saint-Maclou de Pontoise';   prop-fr:ville 	dbpedia-fr:Pontoise	;.
+dbpedia-fr:eglise_Notre_Dame_de_la_Purification_de_Lauris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-la-Purification de Lauris';   prop-fr:ville 	dbpedia-fr:Lauris	;.
+dbpedia-fr:Saint_Michel_de_Gignac	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Saint-Michel de Gignac';   prop-fr:ville 	dbpedia-fr:Le_Rove	;.
+dbpedia-fr:Cathedrale_de_Nuoro	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Nuoro';   prop-fr:ville 	dbpedia-fr:Nuoro	;.
+dbpedia-fr:Cathedrale_de_Talin	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Talin';   prop-fr:ville 	dbpedia-fr:Talin	;.
+dbpedia-fr:Abbaye_Saint_Vigor_le_Grand	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Abbaye Saint-Vigor-le-Grand';   prop-fr:ville 	dbpedia-fr:Saint-Vigor-le-Grand	;.
+dbpedia-fr:eglise_protestante_Saint_Pierre_le_Jeune_de_Strasbourg	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église protestante Saint-Pierre-le-Jeune de Strasbourg';   prop-fr:ville 	dbpedia-fr:Strasbourg	;.
+dbpedia-fr:Prieure_de_Rauzet	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Prieuré de Rauzet';   prop-fr:ville 	dbpedia-fr:Combiers	;.
+dbpedia-fr:Cathedrale_Notre_Dame_dAmiens	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Notre-Dame dAmiens';   prop-fr:ville 	dbpedia-fr:Amiens	;.
+dbpedia-fr:eglise_Saint_Medard_dAncienville	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Médard dAncienville';   prop-fr:ville 	dbpedia-fr:Ancienville	;.
+dbpedia-fr:Cathedrale_de_Giovinazzo	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Giovinazzo';   prop-fr:ville 	dbpedia-fr:Giovinazzo	;.
+dbpedia-fr:Cathedrale_Sainte_Marie_de_lAssomption_de_Vaison_la_Romaine	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Sainte Marie de lAssomption de Vaison-la-Romaine';   prop-fr:ville 	dbpedia-fr:Vaison-la-Romaine	;.
+dbpedia-fr:eglise_Saint_Denis_dHellemmes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Denis-dHellemmes';   prop-fr:ville 	dbpedia-fr:Lille	;.
+dbpedia-fr:Chartreuse_de_Pavie	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chartreuse de Pavie';   prop-fr:ville 	dbpedia-fr:Pavie	;.
+dbpedia-fr:Cathedrale_nouvelle_Lerida	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale nouvelle (Lérida)';   prop-fr:ville 	dbpedia-fr:Lerida	;.
+dbpedia-fr:eglise_Notre_Dame_de_Valliquerville	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame de Valliquerville';   prop-fr:ville 	dbpedia-fr:Valliquerville	;.
+dbpedia-fr:Carmel_de_Montreal	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Carmel de Montréal';   prop-fr:ville 	dbpedia-fr:Montreal	;.
+dbpedia-fr:Cathedrale_de_Sessa_Aurunca	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Sessa Aurunca';   prop-fr:ville 	dbpedia-fr:Sessa_Aurunca	;.
+dbpedia-fr:eglise_Sainte_Marie_des_Abeilles	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Sainte-Marie des Abeilles';   prop-fr:ville 	dbpedia-fr:Les_Abeilles	;.
+dbpedia-fr:eglise_Santa_Maria_Nuova_de_Perouse	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Santa Maria Nuova de Pérouse';   prop-fr:ville 	dbpedia-fr:Perouse	;.
+dbpedia-fr:eglise_Saint_Pierre_et_Saint_Romain_de_Savennieres	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Pierre-et-Saint-Romain de Savennières';   prop-fr:ville 	dbpedia-fr:Savennieres	;.
+dbpedia-fr:eglise_Notre_Dame_de_la_Bonne_Delivrance_des_Trois_ilets	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame de la Bonne-Délivrance des Trois-Îlets';   prop-fr:ville 	dbpedia-fr:Les_Trois-Ilets	;.
+dbpedia-fr:eglise_Saint_Pierre_et_Saint_Paul_de_Silly_le_Long	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Pierre-et-Saint-Paul de Silly-le-Long';   prop-fr:ville 	dbpedia-fr:Silly-le-Long	;.
+dbpedia-fr:Vieille_eglise_dAmsterdam	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Vieille église dAmsterdam';   prop-fr:ville 	dbpedia-fr:Amsterdam	;.
+dbpedia-fr:Cathedrale_Notre_Dame_de_Kazan_de_Moscou	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Notre-Dame-de-Kazan de Moscou';   prop-fr:ville 	dbpedia-fr:Moscou	;.
+dbpedia-fr:eglise_Saint_Augustin_Mayence	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Augustin (Mayence)';   prop-fr:ville 	dbpedia-fr:Mayence	;.
+dbpedia-fr:eglise_Saint_Georges_Villeneuve_Saint_Georges	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Georges (Villeneuve-Saint-Georges)';   prop-fr:ville 	dbpedia-fr:Villeneuve-Saint-Georges	;.
+
 dbpedia-fr:Ajaccio rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ajaccio';.
 dbpedia-fr:Amiens rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Amiens';.
 dbpedia-fr:Amsterdam rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Amsterdam' ;.
@@ -2329,7 +2728,7 @@ dbpedia-fr:Rozay-en-Brie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rozay
 dbpedia-fr:Rueil-Malmaison rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rueil-Malmaison';.
 dbpedia-fr:Saint-Avold rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Avold';.
 dbpedia-fr:Saint-Denis_La_Réunion rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Denis (La Réunion)';.
-dbpedia-fr:Saint-Étienne-de-Vicq rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Étienne-de-Vicq';.
+dbpedia-fr:Saint-Etienne-de-Vicq rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Étienne-de-Vicq';.
 dbpedia-fr:Saint-Gilles_Gard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Gilles (Gard)';.
 dbpedia-fr:Saint-Hilaire-du-Bois_Gironde rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Hilaire-du-Bois (Gironde)';.
 dbpedia-fr:Saint-Jean-Cap-Ferrat rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Jean-Cap-Ferrat';.

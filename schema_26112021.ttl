@@ -2136,10 +2136,257 @@ dbpedia-fr:Musée_du_Louvre
   rdf:type dbpedia-owl:Museum ;
   prop-fr:ville dbpedia-fr:Paris ;
 .
-dbpedia-fr:Paris
-  rdf:type dbpedia-owl:PopulatedPlace ;
-  rdfs:label 'Paris';
-.
+dbpedia-fr:Ajaccio rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ajaccio';.
+dbpedia-fr:Amiens rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Amiens';.
+dbpedia-fr:Amsterdam rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Amsterdam' ;.
+dbpedia-fr:Ancienville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ancienville';.
+dbpedia-fr:Andenne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Andenne';.
+dbpedia-fr:Angers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Angers';.
+dbpedia-fr:Angrie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Angrie';.
+dbpedia-fr:Arbois rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Arbois';.
+dbpedia-fr:Arques rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Arques (Pas-de-Calais)';.
+dbpedia-fr:Asnières-sur-Oise rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Asnières-sur-Oise';.
+dbpedia-fr:Autrey-les-Gray rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Autrey-lès-Gray';.
+dbpedia-fr:Avignon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Avignon';.
+dbpedia-fr:Bagnols-sur-Ceze rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bagnols-sur-Cèze';.
+dbpedia-fr:Baix rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Baix';.
+dbpedia-fr:Banjska rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Banjska (Zvečan)';.
+dbpedia-fr:Barberier rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Barberier';.
+dbpedia-fr:Barcelone rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Barcelone';.
+dbpedia-fr:Barzy-sur-Marne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Barzy-sur-Marne';.
+dbpedia-fr:Basse-Terre rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Basse-Terre';.
+dbpedia-fr:Bazas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bazas';.
+dbpedia-fr:Belgrade rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Belgrade';.
+dbpedia-fr:Bellefond rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bellefond (Gironde)';.
+dbpedia-fr:Belmont-sur-Vair rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Belmont-sur-Vair';.
+dbpedia-fr:Bennecourt rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bennecourt';.
+dbpedia-fr:Berlin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Berlin';.
+dbpedia-fr:Berlin-Ouest rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Berlin-Ouest';.
+dbpedia-fr:Besancon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Besançon';.
+dbpedia-fr:Besançon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Besançon';.
+dbpedia-fr:Beugneux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Beugneux';.
+dbpedia-fr:Boce rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bocé';.
+dbpedia-fr:Bogota rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bogota';.
+dbpedia-fr:Bois-le-Duc rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bois-le-Duc';.
+dbpedia-fr:Bois-les-Pargny rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bois-lès-Pargny';.
+dbpedia-fr:Bologne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bologne';.
+dbpedia-fr:Bonneil rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bonneil';.
+dbpedia-fr:Bordeaux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bordeaux';.
+dbpedia-fr:Bourg-en-Bresse rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bourg-en-Bresse';.
+dbpedia-fr:Bourges rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bourges';.
+dbpedia-fr:Bram rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bram';.
+dbpedia-fr:Broc rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Broc (Maine-et-Loire)';.
+dbpedia-fr:Bruxelles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bruxelles-ville';.
+dbpedia-fr:Bruxelles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bruxelles';.
+dbpedia-fr:Bruxelles-ville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bruxelles-ville';.
+dbpedia-fr:Budapest rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Budapest';.
+dbpedia-fr:Burzet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Burzet';.
+dbpedia-fr:Caen rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Caen';.
+dbpedia-fr:Cande rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Candé';.
+dbpedia-fr:Cannes rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cannes';.
+dbpedia-fr:Caraquet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Caraquet';.
+dbpedia-fr:Carthagene rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Carthagène (Espagne)';.
+dbpedia-fr:Champeix rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Champeix';.
+dbpedia-fr:Charleroi rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Charleroi';.
+dbpedia-fr:Chartres rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Chartres';.
+dbpedia-fr:Chermignac rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Chermignac';.
+dbpedia-fr:Clermont-Ferrand rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Clermont-Ferrand';.
+dbpedia-fr:Coire rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Coire';.
+dbpedia-fr:Combiers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Combiers';.
+dbpedia-fr:Combret rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Combret';.
+dbpedia-fr:Corfou rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Corfou';.
+dbpedia-fr:Cormeilles-en-Parisis rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cormeilles-en-Parisis';.
+dbpedia-fr:Coucy-le-Chateau-Auffrique rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Coucy-le-Château-Auffrique';.
+dbpedia-fr:Courdemanche_Sarthe rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Courdemanche (Sarthe)';.
+dbpedia-fr:Courgenard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Courgenard';.
+dbpedia-fr:Coutances rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Coutances';.
+dbpedia-fr:Cracovie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cracovie';.
+dbpedia-fr:Cuiry-les-Iviers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cuiry-lès-Iviers';.
+dbpedia-fr:Cusset rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cusset';.
+dbpedia-fr:Deauville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Deauville';.
+dbpedia-fr:Donchery rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Donchery';.
+dbpedia-fr:Entraygues-sur-Truyere rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Entraygues-sur-Truyère';.
+dbpedia-fr:Estaing rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Estaing (Aveyron)';.
+dbpedia-fr:Evrecy rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Évrecy';.
+dbpedia-fr:Faucogney-et-la-Mer rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Faucogney-et-la-Mer';.
+dbpedia-fr:Fegreac rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Fégréac';.
+dbpedia-fr:Fillols rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Fillols';.
+dbpedia-fr:Florence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Florence';.
+dbpedia-fr:Fontvieille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Fontvieille';.
+dbpedia-fr:Gandrange rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Gandrange';.
+dbpedia-fr:Geneve rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Genève';.
+dbpedia-fr:Giovinazzo rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Giovinazzo';.
+dbpedia-fr:Glasgow rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Glasgow';.
+dbpedia-fr:Goteborg rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Göteborg';.
+dbpedia-fr:Grenoble rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Grenoble';.
+dbpedia-fr:Guiscriff rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Guiscriff';.
+dbpedia-fr:Hodenc-en-Bray rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Hodenc-en-Bray';.
+dbpedia-fr:Hong_Kong rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Hong Kong';.
+dbpedia-fr:Ile-dArz rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Île-dArz';.
+dbpedia-fr:Imperial_War_Museum_Duxford rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Imperial War Museum Duxford';.
+dbpedia-fr:Innsbruck rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Innsbruck';.
+dbpedia-fr:Ispahan rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ispahan';.
+dbpedia-fr:Istanbul rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Istanbul';.
+dbpedia-fr:Ivree rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ivrée';.
+dbpedia-fr:Jerusalem rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Jérusalem';.
+dbpedia-fr:Josselin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Josselin (Morbihan)';.
+dbpedia-fr:Jovençan rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Jovençan';.
+dbpedia-fr:Kecskemet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Kecskemét';.
+dbpedia-fr:Khartoum rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Khartoum';.
+dbpedia-fr:Kuopio rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Kuopio';.
+dbpedia-fr:La_Cavalerie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'La Cavalerie';.
+dbpedia-fr:La_Colle-sur-Loup rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'La Colle-sur-Loup';.
+dbpedia-fr:Lacaune rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lacaune (Tarn)';.
+dbpedia-fr:Lamballe rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lamballe';.
+dbpedia-fr:Lans-en-Vercors rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lans-en-Vercors';.
+dbpedia-fr:Lanuejols rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lanuéjols (Lozère)';.
+dbpedia-fr:Larriviere-Saint-Savin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Larrivière-Saint-Savin';.
+dbpedia-fr:Lasne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lasne';.
+dbpedia-fr:Lauris rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lauris';.
+dbpedia-fr:Le_Bizot rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Bizot';.
+dbpedia-fr:Le_Chalard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Chalard';.
+dbpedia-fr:Le_Malzieu-Ville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Malzieu-Ville';.
+dbpedia-fr:Le_Mesnil-Amelot rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Mesnil-Amelot';.
+dbpedia-fr:Le_Moule rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Moule';.
+dbpedia-fr:Le_Palais rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Palais';.
+dbpedia-fr:Le_Pouliguen rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Pouliguen';.
+dbpedia-fr:Le_Rove rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Rove';.
+dbpedia-fr:Le_Touquet-Paris-Plage rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Touquet-Paris-Plage';.
+dbpedia-fr:Lerida rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lérida';.
+dbpedia-fr:Les_Abeilles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Les Abeilles';.
+dbpedia-fr:Les_Riceys rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Les Riceys';.
+dbpedia-fr:Les_Trois-Ilets rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Les Trois-Îlets';.
+dbpedia-fr:Lesmont rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lesmont';.
+dbpedia-fr:Lille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lille';.
+dbpedia-fr:Lisbonne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lisbonne';.
+dbpedia-fr:Lisieux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lisieux';.
+dbpedia-fr:Livry rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Livry (Calvados)';.
+dbpedia-fr:Locoal-Mendon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Locoal-Mendon';.
+dbpedia-fr:Locqueltas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Locqueltas';.
+dbpedia-fr:Londres rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Londres';.
+dbpedia-fr:Longny-au-Perche rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Longny-au-Perche';.
+dbpedia-fr:Los_Angeles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Los Angeles';.
+dbpedia-fr:Lugrin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lugrin';.
+dbpedia-fr:Lunas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lunas (Hérault)';.
+dbpedia-fr:Luxeuil-les-Bains rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Luxeuil-les-Bains';.
+dbpedia-fr:Lyon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lyon';.
+dbpedia-fr:Mackinac_Island rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mackinac Island';.
+dbpedia-fr:Madrid rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Madrid';.
+dbpedia-fr:Manille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Manille';.
+dbpedia-fr:Mannheim rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mannheim';.
+dbpedia-fr:Marseille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label '6e arrondissement de Marseille';.
+dbpedia-fr:Marseille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Marseille';.
+dbpedia-fr:Mauperthuis rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mauperthuis';.
+dbpedia-fr:Mayence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mayence';.
+dbpedia-fr:Meillard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Meillard';.
+dbpedia-fr:Merry-sur-Yonne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Merry-sur-Yonne';.
+dbpedia-fr:Mezy-Moulins rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mézy-Moulins';.
+dbpedia-fr:Miami rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Miami';.
+dbpedia-fr:Mito rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mito';.
+dbpedia-fr:Molleville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Molleville';.
+dbpedia-fr:Montigny-sur-Meuse rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montigny-sur-Meuse';.
+dbpedia-fr:Montjaux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montjaux';.
+dbpedia-fr:Montpellier rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montpellier';.
+dbpedia-fr:Montreal rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montréal';.
+dbpedia-fr:Moscou rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Moscou';.
+dbpedia-fr:Moulins rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Moulins (Allier)';.
+dbpedia-fr:Moutiers-en-Puisaye rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Moutiers-en-Puisaye';.
+dbpedia-fr:Nantes rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nantes';.
+dbpedia-fr:Narbonne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Narbonne';.
+dbpedia-fr:Nevers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nevers';.
+dbpedia-fr:New_York rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'New York';.
+dbpedia-fr:Nice rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nice';.
+dbpedia-fr:Nimes rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nîmes';.
+dbpedia-fr:Nitry rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nitry';.
+dbpedia-fr:Nuoro rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nuoro';.
+dbpedia-fr:Nyon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nyon';.
+dbpedia-fr:Orleans rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Orléans';.
+dbpedia-fr:Orny rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Orny (Vaud)';.
+dbpedia-fr:Paris rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Paris';.
+dbpedia-fr:Pavie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pavie';.
+dbpedia-fr:Pernes-les-Fontaines rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pernes-les-Fontaines';.
+dbpedia-fr:Perouse rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pérouse (Italie)';.
+dbpedia-fr:Perros-Guirec rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Perros-Guirec';.
+dbpedia-fr:Petit-Canal rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Petit-Canal';.
+dbpedia-fr:Peyrusse-le-Roc rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Peyrusse-le-Roc';.
+dbpedia-fr:Picherande rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Picherande';.
+dbpedia-fr:Pontaubert rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pontaubert';.
+dbpedia-fr:Pontoise rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pontoise';.
+dbpedia-fr:Pontpoint rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pontpoint';.
+dbpedia-fr:Pori rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pori';.
+dbpedia-fr:Prague rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Prague';.
+dbpedia-fr:Pretoria rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pretoria';.
+dbpedia-fr:Punaauia rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Punaauia';.
+dbpedia-fr:Questembert rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Questembert';.
+dbpedia-fr:Raillicourt rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Raillicourt';.
+dbpedia-fr:Rapperswil rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rapperswil (Saint-Gall)';.
+dbpedia-fr:Reillanne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Reillanne';.
+dbpedia-fr:Reims rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Reims';.
+dbpedia-fr:Ria-Sirach rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ria-Sirach';.
+dbpedia-fr:Rochehaut rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rochehaut';.
+dbpedia-fr:Rome rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rome';.
+dbpedia-fr:Rozay-en-Brie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rozay-en-Brie';.
+dbpedia-fr:Rueil-Malmaison rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rueil-Malmaison';.
+dbpedia-fr:Saint-Avold rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Avold';.
+dbpedia-fr:Saint-Denis_La_Réunion rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Denis (La Réunion)';.
+dbpedia-fr:Saint-Étienne-de-Vicq rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Étienne-de-Vicq';.
+dbpedia-fr:Saint-Gilles_Gard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Gilles (Gard)';.
+dbpedia-fr:Saint-Hilaire-du-Bois_Gironde rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Hilaire-du-Bois (Gironde)';.
+dbpedia-fr:Saint-Jean-Cap-Ferrat rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Jean-Cap-Ferrat';.
+dbpedia-fr:Saint-Martin-de-Re rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Martin-de-Ré';.
+dbpedia-fr:Saint-Pere-en-Retz rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Père-en-Retz';.
+dbpedia-fr:Saint-Pierre_Martinique rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Pierre (Martinique)';.
+dbpedia-fr:Saint-Trond rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Trond';.
+dbpedia-fr:Saint-Vallier rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Vallier (Saône-et-Loire)';.
+dbpedia-fr:Saint-Vigor-le-Grand rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Vigor-le-Grand';.
+dbpedia-fr:Saint-Wandrille-Rançon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Wandrille-Rançon';.
+dbpedia-fr:Sainte-Marie_Martinique rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sainte-Marie (Martinique)';.
+dbpedia-fr:Salies-de-Bearn rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Salies-de-Béarn';.
+dbpedia-fr:Salins-les-Bains rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Salins-les-Bains';.
+dbpedia-fr:Salles-la-Source rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Salles-la-Source';.
+dbpedia-fr:San_Diego rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'San Diego';.
+dbpedia-fr:Satillieu rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Satillieu';.
+dbpedia-fr:Savennieres rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Savennières';.
+dbpedia-fr:Savigny-en-Terre-Plaine rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Savigny-en-Terre-Plaine';.
+dbpedia-fr:Selçuk rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Selçuk (İzmir)';.
+dbpedia-fr:Semur-en-Brionnais rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Semur-en-Brionnais';.
+dbpedia-fr:Sessa_Aurunca rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sessa Aurunca';.
+dbpedia-fr:Sienne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sienne';.
+dbpedia-fr:Silkeborg rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Silkeborg';.
+dbpedia-fr:Silly-le-Long rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Silly-le-Long';.
+dbpedia-fr:Sofia rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sofia';.
+dbpedia-fr:Sombacour rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sombacour';.
+dbpedia-fr:Sremski_Karlovci rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sremski Karlovci';.
+dbpedia-fr:Strasbourg rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Strasbourg';.
+dbpedia-fr:Talin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Talin';.
+dbpedia-fr:Targon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Targon';.
+dbpedia-fr:Tautavel rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tautavel';.
+dbpedia-fr:Terdeghem rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Terdeghem';.
+dbpedia-fr:Tours rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tours';.
+dbpedia-fr:Tourtour rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tourtour';.
+dbpedia-fr:Tracy-le-Val rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tracy-le-Val';.
+dbpedia-fr:Tremolat rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Trémolat';.
+dbpedia-fr:Urbeis rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Urbeis';.
+dbpedia-fr:Urbisaglia rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Urbisaglia';.
+dbpedia-fr:Vaison-la-Romaine rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vaison-la-Romaine';.
+dbpedia-fr:Valence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Valence (Espagne)';.
+dbpedia-fr:Valliquerville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Valliquerville';.
+dbpedia-fr:Vallon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vallon';.
+dbpedia-fr:Valreas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Valréas';.
+dbpedia-fr:Varennes-sur-Loire rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Varennes-sur-Loire';.
+dbpedia-fr:Vernon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vernon';.
+dbpedia-fr:Vernouillet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vernouillet (Yvelines)';.
+dbpedia-fr:Vicence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vicence';.
+dbpedia-fr:Villars-en-Pons rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villars-en-Pons';.
+dbpedia-fr:Villefranche_de_Lauragais rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villefranche de Lauragais';.
+dbpedia-fr:Villeneuve-Saint-Georges rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villeneuve-Saint-Georges';.
+dbpedia-fr:Villiers-sous-Grez rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villiers-sous-Grez';.
+dbpedia-fr:Viuz-en-Sallaz rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Viuz-en-Sallaz';.
+dbpedia-fr:Vivier-au-Court rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vivier-au-Court';.
+dbpedia-fr:Vulci rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vulci';.
+dbpedia-fr:Williamstown rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Williamstown (Massachusetts)';.
+dbpedia-fr:Winterthour rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Winterthour';.
+dbpedia-fr:Yvoire rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Yvoire';.
 dbpedia-fr:Tour_Eiffel
   rdf:type dbpedia-owl:ArchitecturalStructure ;
   rdf:type dbpedia-owl:Monument ;

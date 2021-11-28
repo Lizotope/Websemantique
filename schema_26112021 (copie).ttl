@@ -1,0 +1,2823 @@
+# baseURI: http://example.org/tp.
+@prefix : <http://example.org/tp#> .
+@prefix cc: <http://creativecommons.org/licences/> .
+@prefix dbpedia-fr: <http://fr.dbpedia.org/resource/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://dublincore.org/documents/dcmi-terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p1: <http://www.geonames.org/countries/#> .
+@prefix prop-en: <http://dbpedia.org/property/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbpedia-owl:Monument
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:ArchitecturalStructure ;
+.
+dbpedia-owl:ArchitecturalStructure
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+dbpedia-owl:Museum
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:Building ;
+.
+dbpedia-owl:PopulatedPlace
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+dbpedia-owl:Building
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:ArchitecturalStructure ;
+.
+dbpedia-owl:ReligiousBuilding
+  rdf:type owl:Class ;
+  rdfs:subClassOf dbpedia-owl:Building ;
+.
+dbpedia-owl:owner
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain dbpedia-fr:Album_photos ;
+  rdfs:range foaf:Person ;
+.
+prop-en:url
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:string ;
+.
+<http://example.org/perscido>
+  rdf:type owl:Ontology ;
+.
+:AdelaideBienvenue
+  foaf:firstName "Adélaïde" ;
+  foaf:lastName "Bienvenue" ;
+.
+:AfrodilleMigneault
+  foaf:firstName "Afrodille" ;
+  foaf:lastName "Migneault" ;
+.
+:AgateLachapelle
+  foaf:firstName "Agate" ;
+  foaf:lastName "Lachapelle" ;
+.
+:AgatheChaussee
+  foaf:firstName "Agathe" ;
+  foaf:lastName "Chaussée" ;
+.
+:AgnesGuilmette
+  foaf:firstName "Agnès" ;
+  foaf:lastName "Guilmette" ;
+.
+:AgramantSoucy
+  foaf:firstName "Agramant" ;
+  foaf:lastName "Soucy" ;
+.
+:AgricanBlondlot
+  foaf:firstName "Agrican" ;
+  foaf:lastName "Blondlot" ;
+.
+:AgricanHuot
+  foaf:firstName "Agrican" ;
+  foaf:lastName "Huot" ;
+.
+:AimeeMigneault
+  foaf:firstName "Aimée" ;
+  foaf:lastName "Migneault" ;
+.
+:AlainCoupart
+  foaf:firstName "Alain" ;
+  foaf:lastName "Coupart" ;
+.
+:AlainLacharite
+  foaf:firstName "Alain" ;
+  foaf:lastName "Lacharité" ;
+.
+:AlbraccaCourcelle
+  foaf:firstName "Albracca" ;
+  foaf:lastName "Courcelle" ;
+.
+:Album1
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :JeanDupont ;
+.
+:AlbumParent
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range dbpedia-fr:Album_photos ;
+.
+:AleronCorbin
+  foaf:firstName "Aleron" ;
+  foaf:lastName "Corbin" ;
+.
+:AlexandrinDuhamel
+  foaf:firstName "Alexandrin" ;
+  foaf:lastName "Duhamel" ;
+.
+:AlfredLaGrande
+  foaf:firstName "Alfred" ;
+  foaf:lastName "LaGrande" ;
+.
+:AlgernonCourtois
+  foaf:firstName "Algernon" ;
+  foaf:lastName "Courtois" ;
+.
+:AlgernonLaramee
+  foaf:firstName "Algernon" ;
+  foaf:lastName "Laramée" ;
+.
+:AlgernonLebrun
+  foaf:firstName "Algernon" ;
+  foaf:lastName "Lebrun" ;
+.
+:AlitaLereau
+  foaf:firstName "Alita" ;
+  foaf:lastName "Lereau" ;
+.
+:AllyrianeBreton
+  foaf:firstName "Allyriane" ;
+  foaf:lastName "Breton" ;
+.
+:AmabellaMarcheterre
+  foaf:firstName "Amabella" ;
+  foaf:lastName "Marcheterre" ;
+.
+:AmabellaMigneault
+  foaf:firstName "Amabella" ;
+  foaf:lastName "Migneault" ;
+.
+:AmaranteDesMeaux
+  foaf:firstName "Amarante" ;
+  foaf:lastName "Des Meaux" ;
+.
+:AmaranteDoyon
+  foaf:firstName "Amarante" ;
+  foaf:lastName "Doyon" ;
+.
+:AmauryLaberge
+  foaf:firstName "Amaury" ;
+  foaf:lastName "Laberge" ;
+.
+:AmelieBeaulieu
+  foaf:firstName "Amélie" ;
+  foaf:lastName "Beaulieu" ;
+.
+:AmelieBrasseur
+  foaf:firstName "Amélie" ;
+  foaf:lastName "Brasseur" ;
+.
+:AmelieGiguere
+  foaf:firstName "Amélie" ;
+  foaf:lastName "Giguère" ;
+.
+:AmiteeMartel
+  foaf:firstName "Amitee" ;
+  foaf:lastName "Martel" ;
+.
+:AmoretteMigneault
+  foaf:firstName "Amorette" ;
+  foaf:lastName "Migneault" ;
+.
+:AnaisAngélil
+  foaf:firstName "Anaïs" ;
+  foaf:lastName "Angélil" ;
+.
+:AnaisDeblois
+  foaf:firstName "Anaïs" ;
+  foaf:lastName "Deblois" ;
+.
+:AncelinaGousse
+  foaf:firstName "Ancelina" ;
+  foaf:lastName "Gousse" ;
+.
+:AndrePariseau
+  foaf:firstName "André" ;
+  foaf:lastName "Pariseau" ;
+.
+:AngeletteBussiere
+  foaf:firstName "Angelette" ;
+  foaf:lastName "Bussière" ;
+.
+:AnneBordeaux
+  foaf:firstName "Anne" ;
+  foaf:lastName "Bordeaux" ;
+.
+:AnnetteChalifour
+  foaf:firstName "Annette" ;
+  foaf:lastName "Chalifour" ;
+.
+:AnnotPomerleau
+  foaf:firstName "Annot" ;
+  foaf:lastName "Pomerleau" ;
+.
+:AntonGabriaux
+  foaf:firstName "Anton" ;
+  foaf:lastName "Gabriaux" ;
+.
+:ArchaimbauMathieu
+  foaf:firstName "Archaimbau" ;
+  foaf:lastName "Mathieu" ;
+.
+:ArchardDoucet
+  foaf:firstName "Archard" ;
+  foaf:lastName "Doucet" ;
+.
+:ArienneAustin
+  foaf:firstName "Arienne" ;
+  foaf:lastName "Austin" ;
+.
+:ArmandGuilmette
+  foaf:firstName "Armand" ;
+  foaf:lastName "Guilmette" ;
+.
+:ArminaAuthier
+  foaf:firstName "Armina" ;
+  foaf:lastName "Authier" ;
+.
+:ArnouChaloux
+  foaf:firstName "Arnou" ;
+  foaf:lastName "Chaloux" ;
+.
+:ArthurBolduc
+  foaf:firstName "Arthur" ;
+  foaf:lastName "Bolduc" ;
+.
+:ArthurDagenais
+  foaf:firstName "Arthur" ;
+  foaf:lastName "Dagenais" ;
+.
+:ArthurGarnier
+  foaf:firstName "Arthur" ;
+  foaf:lastName "Garnier" ;
+.
+:ArthurGaulin
+  foaf:firstName "Arthur" ;
+  foaf:lastName "Gaulin" ;
+.
+:AubertChaloux
+  foaf:firstName "Aubert" ;
+  foaf:lastName "Chaloux" ;
+.
+:AubertMoise
+  foaf:firstName "Aubert" ;
+  foaf:lastName "Moïse" ;
+.
+:AubineBelair
+  foaf:firstName "Aubine" ;
+  foaf:lastName "Bélair" ;
+.
+:AubretteJacques
+  foaf:firstName "Aubrette" ;
+  foaf:lastName "Jacques" ;
+.
+:AubreyBrisette
+  foaf:firstName "Aubrey" ;
+  foaf:lastName "Brisette" ;
+.
+:AubreyVaillancourt
+  foaf:firstName "Aubrey" ;
+  foaf:lastName "Vaillancourt" ;
+.
+:AudaDesjardins
+  foaf:firstName "Auda" ;
+  foaf:lastName "Desjardins" ;
+.
+:AugusteGrenier
+  foaf:firstName "Auguste" ;
+  foaf:lastName "Grenier" ;
+.
+:AugusteMarceau
+  foaf:firstName "Auguste" ;
+  foaf:lastName "Marceau" ;
+.
+:AurelieBarjavel
+  foaf:firstName "Aurélie" ;
+  foaf:lastName "Barjavel" ;
+.
+:AureliePlaisance
+  foaf:firstName "Aurélie" ;
+  foaf:lastName "Plaisance" ;
+.
+:AurivilleAuger
+  foaf:firstName "Auriville" ;
+  foaf:lastName "Auger" ;
+.
+:AventBeaudouin
+  foaf:firstName "Avent" ;
+  foaf:lastName "Beaudouin" ;
+.
+:AventGaillard
+  foaf:firstName "Avent" ;
+  foaf:lastName "Gaillard" ;
+.
+:AviceHughes
+  foaf:firstName "Avice" ;
+  foaf:lastName "Hughes" ;
+.
+:AyaTurgeon
+  foaf:firstName "Aya" ;
+  foaf:lastName "Turgeon" ;
+.
+:AzuraLamoureux
+  foaf:firstName "Azura" ;
+  foaf:lastName "Lamoureux" ;
+.
+:AzuraLampron
+  foaf:firstName "Azura" ;
+  foaf:lastName "Lampron" ;
+.
+:BarryBernier
+  foaf:firstName "Barry" ;
+  foaf:lastName "Bernier" ;
+.
+:BarryEcheverri
+  foaf:firstName "Barry" ;
+  foaf:lastName "Echeverri" ;
+.
+:BelleGosselin
+  foaf:firstName "Belle" ;
+  foaf:lastName "Gosselin" ;
+.
+:BenoitCorbin
+  foaf:firstName "Benoît" ;
+  foaf:lastName "Corbin" ;
+.
+:BernadetteLacroix
+  foaf:firstName "Bernadette" ;
+  foaf:lastName "Lacroix" ;
+.
+:BernadetteSaindon
+  foaf:firstName "Bernadette" ;
+  foaf:lastName "Saindon" ;
+.
+:BertrandFecteau
+  foaf:firstName "Bertrand" ;
+  foaf:lastName "Fecteau" ;
+.
+:BlondellePaquin
+  foaf:firstName "Blondelle" ;
+  foaf:lastName "Paquin" ;
+.
+:BlondelleRobitaille
+  foaf:firstName "Blondelle" ;
+  foaf:lastName "Robitaille" ;
+.
+:BriceBelair
+  foaf:firstName "Brice" ;
+  foaf:lastName "Bélair" ;
+.
+:BriceDuval
+  foaf:firstName "Brice" ;
+  foaf:lastName "Duval" ;
+.
+:BriceVadnais
+  foaf:firstName "Brice" ;
+  foaf:lastName "Vadnais" ;
+.
+:BrierBoileau
+  foaf:firstName "Brier" ;
+  foaf:lastName "Boileau" ;
+.
+:BrigitteAyot
+  foaf:firstName "Brigitte" ;
+  foaf:lastName "Ayot" ;
+.
+:BrigliadorDastous
+  foaf:firstName "Brigliador" ;
+  foaf:lastName "Dastous" ;
+.
+:BrigliadorSarrazin
+  foaf:firstName "Brigliador" ;
+  foaf:lastName "Sarrazin" ;
+.
+:BrunoBazin
+  foaf:firstName "Bruno" ;
+  foaf:lastName "Bazin" ;
+.
+:BrunoGamelin
+  foaf:firstName "Bruno" ;
+  foaf:lastName "Gamelin" ;
+.
+:BurnellBrousseau
+  foaf:firstName "Burnell" ;
+  foaf:lastName "Brousseau" ;
+.
+:BurnellCharron
+  foaf:firstName "Burnell" ;
+  foaf:lastName "Charron" ;
+.
+:BurnellGousse
+  foaf:firstName "Burnell" ;
+  foaf:lastName "Gousse" ;
+.
+:BurnellSeguin
+  foaf:firstName "Burnell" ;
+  foaf:lastName "Séguin" ;
+.
+:CalandreRaymond
+  foaf:firstName "Calandre" ;
+  foaf:lastName "Raymond" ;
+.
+:CammileGiguere
+  foaf:firstName "Cammile" ;
+  foaf:lastName "Giguère" ;
+.
+:CapucineBonneville
+  foaf:firstName "Capucine" ;
+  foaf:lastName "Bonneville" ;
+.
+:CarineDavid
+  foaf:firstName "Carine" ;
+  foaf:lastName "David" ;
+.
+:CaroleLampron
+  foaf:firstName "Carole" ;
+  foaf:lastName "Lampron" ;
+.
+:CarolineChatigny
+  foaf:firstName "Caroline" ;
+  foaf:lastName "Chatigny" ;
+.
+:CarolineLouineaux
+  foaf:firstName "Caroline" ;
+  foaf:lastName "Louineaux" ;
+.
+:CatherineGamache
+  foaf:firstName "Catherine" ;
+  foaf:lastName "Gamache" ;
+.
+:CecileBazin
+  foaf:firstName "Cécile" ;
+  foaf:lastName "Bazin" ;
+.
+:CecileBeriault
+  foaf:firstName "Cécile" ;
+  foaf:lastName "Bériault" ;
+.
+:CelineLevasseur
+  foaf:firstName "Céline" ;
+  foaf:lastName "Levasseur" ;
+.
+:CelineRancourt
+  foaf:firstName "Céline" ;
+  foaf:lastName "Rancourt" ;
+.
+:CeriseDavid
+  foaf:firstName "Cerise" ;
+  foaf:lastName "David" ;
+.
+:ChandlerMoise
+  foaf:firstName "Chandler" ;
+  foaf:lastName "Moïse" ;
+.
+:ChantalBienvenue
+  foaf:firstName "Chantal" ;
+  foaf:lastName "Bienvenue" ;
+.
+:ChapinLabossiere
+  foaf:firstName "Chapin" ;
+  foaf:lastName "Labossière" ;
+.
+:ChapinMireault
+  foaf:firstName "Chapin" ;
+  foaf:lastName "Mireault" ;
+.
+:CharlesBouchard
+  foaf:firstName "Charles" ;
+  foaf:lastName "Bouchard" ;
+.
+:CharlotLacharite
+  foaf:firstName "Charlot" ;
+  foaf:lastName "Lacharité" ;
+.
+:CharlotteAngelil
+  foaf:firstName "Charlotte" ;
+  foaf:lastName "Angélil" ;
+.
+:CharlotteBazin
+  foaf:firstName "Charlotte" ;
+  foaf:lastName "Bazin" ;
+.
+:CharlotteEmond
+  foaf:firstName "Charlotte" ;
+  foaf:lastName "Émond" ;
+.
+:CharmaineLussier
+  foaf:firstName "Charmaine" ;
+  foaf:lastName "Lussier" ;
+.
+:CheneyBoncoeur
+  foaf:firstName "Cheney" ;
+  foaf:lastName "Boncoeur" ;
+.
+:CheneyFortier
+  foaf:firstName "Cheney" ;
+  foaf:lastName "Fortier" ;
+.
+:CheneyGadbois
+  foaf:firstName "Cheney" ;
+  foaf:lastName "Gadbois" ;
+.
+:CherCartier
+  foaf:firstName "Cher" ;
+  foaf:lastName "Cartier" ;
+.
+:ChristelleDaoust
+  foaf:firstName "Christelle" ;
+  foaf:lastName "Daoust" ;
+.
+:ChristelleMetivier
+  foaf:firstName "Christelle" ;
+  foaf:lastName "Metivier" ;
+.
+:ChristianFaubert
+  foaf:firstName "Christian" ;
+  foaf:lastName "Faubert" ;
+.
+:ChristopheBisaillon
+  foaf:firstName "Christophe" ;
+  foaf:lastName "Bisaillon" ;
+.
+:CinderellaAdler
+  foaf:firstName "Cinderella" ;
+  foaf:lastName "Adler" ;
+.
+:ClaireAustin
+  foaf:firstName "Claire" ;
+  foaf:lastName "Austin" ;
+.
+:ClaireBatard
+  foaf:firstName "Claire" ;
+  foaf:lastName "Batard" ;
+.
+:ClaireLambert
+  foaf:firstName "Claire" ;
+  foaf:lastName "Lambert" ;
+.
+:ClariceBabin
+  foaf:firstName "Clarice" ;
+  foaf:lastName "Babin" ;
+.
+:ClariceLanoie
+  foaf:firstName "Clarice" ;
+  foaf:lastName "Lanoie" ;
+.
+:ClaudeDeschenes
+  foaf:firstName "Claude" ;
+  foaf:lastName "Deschênes" ;
+.
+:ClementineRenaud
+  foaf:firstName "Clementine" ;
+  foaf:lastName "Renaud" ;
+.
+:ClothildeRiel
+  foaf:firstName "Clothilde" ;
+  foaf:lastName "Riel" ;
+.
+:ClovisDandonneau
+  foaf:firstName "Clovis" ;
+  foaf:lastName "Dandonneau" ;
+.
+:ColetteBriard
+  foaf:firstName "Colette" ;
+  foaf:lastName "Briard" ;
+.
+:ComforteHenrichon
+  foaf:firstName "Comforte" ;
+  foaf:lastName "Henrichon" ;
+.
+:ComforteVeilleux
+  foaf:firstName "Comforte" ;
+  foaf:lastName "Veilleux" ;
+.
+:ConstanceLaGrande
+  foaf:firstName "Constance" ;
+  foaf:lastName "LaGrande" ;
+.
+:ConstanceVachon
+  foaf:firstName "Constance" ;
+  foaf:lastName "Vachon" ;
+.
+:CoralieLessard
+  foaf:firstName "Coralie" ;
+  foaf:lastName "Lessard" ;
+.
+:CosetteHervieux
+  foaf:firstName "Cosette" ;
+  foaf:lastName "Hervieux" ;
+.
+:CosetteJosseaume
+  foaf:firstName "Cosette" ;
+  foaf:lastName "Josseaume" ;
+.
+:CourtlandLafond
+  foaf:firstName "Courtland" ;
+  foaf:lastName "Lafond" ;
+.
+:CourtlandTherrien
+  foaf:firstName "Courtland" ;
+  foaf:lastName "Therrien" ;
+.
+:CrescentAlexandre
+  foaf:firstName "Crescent" ;
+  foaf:lastName "Alexandre" ;
+.
+:CrescentMoise
+  foaf:firstName "Crescent" ;
+  foaf:lastName "Moïse" ;
+.
+:CurtisRheaume
+  foaf:firstName "Curtis" ;
+  foaf:lastName "Rhéaume" ;
+.
+:DArcyBarrette
+  foaf:firstName "D'Arcy" ;
+  foaf:lastName "Barrette" ;
+.
+:DaisiBrisette
+  foaf:firstName "Daisi" ;
+  foaf:lastName "Brisette" ;
+.
+:DaisiLafond
+  foaf:firstName "Daisi" ;
+  foaf:lastName "Lafond" ;
+.
+:DamianeJodoin
+  foaf:firstName "Damiane" ;
+  foaf:lastName "Jodoin" ;
+.
+:DanielCoupart
+  foaf:firstName "Daniel" ;
+  foaf:lastName "Coupart" ;
+.
+:DanielTurgeon
+  foaf:firstName "Daniel" ;
+  foaf:lastName "Turgeon" ;
+.
+:DanielleGuimond
+  foaf:firstName "Danielle" ;
+  foaf:lastName "Guimond" ;
+.
+:DavetCliche
+  foaf:firstName "Davet" ;
+  foaf:lastName "Cliche" ;
+.
+:DavetLemelin
+  foaf:firstName "Davet" ;
+  foaf:lastName "Lemelin" ;
+.
+:DavidFontaine
+  foaf:firstName "David" ;
+  foaf:lastName "Fontaine" ;
+.
+:DelitBourgeois
+  foaf:firstName "Delit" ;
+  foaf:lastName "Bourgeois" ;
+.
+:DelitTheberge
+  foaf:firstName "Delit" ;
+  foaf:lastName "Théberge" ;
+.
+:DelmarDuhamel
+  foaf:firstName "Delmar" ;
+  foaf:lastName "Duhamel" ;
+.
+:DelmareCotuand
+  foaf:firstName "Delmare" ;
+  foaf:lastName "Cotuand" ;
+.
+:DelphineGour
+  foaf:firstName "Delphine" ;
+  foaf:lastName "Gour" ;
+.
+:DemiCoulombe
+  foaf:firstName "Demi" ;
+  foaf:lastName "Coulombe" ;
+.
+:DemiDupuis
+  foaf:firstName "Demi" ;
+  foaf:lastName "Dupuis" ;
+.
+:DemiTremblay
+  foaf:firstName "Demi" ;
+  foaf:lastName "Tremblay" ;
+.
+:DenisDrouin
+  foaf:firstName "Denis" ;
+  foaf:lastName "Drouin" ;
+.
+:DexterBienvenue
+  foaf:firstName "Dexter" ;
+  foaf:lastName "Bienvenue" ;
+.
+:DianeBoule
+  foaf:firstName "Diane" ;
+  foaf:lastName "Boulé" ;
+.
+:DianeHoule
+  foaf:firstName "Diane" ;
+  foaf:lastName "Houle" ;
+.
+:DidianeCroteau
+  foaf:firstName "Didiane" ;
+  foaf:lastName "Croteau" ;
+.
+:DixieVaillancourt
+  foaf:firstName "Dixie" ;
+  foaf:lastName "Vaillancourt" ;
+.
+:DonatBeaulieu
+  foaf:firstName "Donat" ;
+  foaf:lastName "Beaulieu" ;
+.
+:DonatienLabrosse
+  foaf:firstName "Donatien" ;
+  foaf:lastName "Labrosse" ;
+.
+:DoreneAllain
+  foaf:firstName "Dorene" ;
+  foaf:lastName "Allain" ;
+.
+:DoreneRuais
+  foaf:firstName "Dorene" ;
+  foaf:lastName "Ruais" ;
+.
+:EdmeeChouinard
+  foaf:firstName "Edmee" ;
+  foaf:lastName "Chouinard" ;
+.
+:EdmeeJolicoeur
+  foaf:firstName "Edmee" ;
+  foaf:lastName "Jolicoeur" ;
+.
+:EleanorDeblois
+  foaf:firstName "Eleanor" ;
+  foaf:lastName "Deblois" ;
+.
+:EleanorLesperance
+  foaf:firstName "Eleanor" ;
+  foaf:lastName "Lespérance" ;
+.
+:EleonoreGoudreau
+  foaf:firstName "Éléonore" ;
+  foaf:lastName "Goudreau" ;
+.
+:EleonorePelchat
+  foaf:firstName "Éléonore" ;
+  foaf:lastName "Pelchat" ;
+.
+:EliotDastous
+  foaf:firstName "Eliot" ;
+  foaf:lastName "Dastous" ;
+.
+:ElisabethBeriault
+  foaf:firstName "Élisabeth" ;
+  foaf:lastName "Bériault" ;
+.
+:EliseGougeon
+  foaf:firstName "Élise" ;
+  foaf:lastName "Gougeon" ;
+.
+:ElitaLemieux
+  foaf:firstName "Elita" ;
+  foaf:lastName "Lemieux" ;
+.
+:ElodieDeslauriers
+  foaf:firstName "Élodie" ;
+  foaf:lastName "Deslauriers" ;
+.
+:EmileGuedry
+  foaf:firstName "Émile" ;
+  foaf:lastName "Guédry" ;
+.
+:EmileLarocque
+  foaf:firstName "Émile" ;
+  foaf:lastName "Larocque" ;
+.
+:EmmanuelTheriault
+  foaf:firstName "Emmanuel" ;
+  foaf:lastName "Thériault" ;
+.
+:EsmeraudeLouis
+  foaf:firstName "Esmeraude" ;
+  foaf:lastName "Louis" ;
+.
+:EtoileLemelin
+  foaf:firstName "Etoile" ;
+  foaf:lastName "Lemelin" ;
+.
+:EugeneGalarneau
+  foaf:firstName "Eugène" ;
+  foaf:lastName "Galarneau" ;
+.
+:EugeniaJacques
+  foaf:firstName "Eugenia" ;
+  foaf:lastName "Jacques" ;
+.
+:EvrardArcouet
+  foaf:firstName "Evrard" ;
+  foaf:lastName "Arcouet" ;
+.
+:FalerinaBlais
+  foaf:firstName "Falerina" ;
+  foaf:lastName "Blais" ;
+.
+:FanchonEtoile
+  foaf:firstName "Fanchon" ;
+  foaf:lastName "Étoile" ;
+.
+:FaunaBellemare
+  foaf:firstName "Fauna" ;
+  foaf:lastName "Bellemare" ;
+.
+:FaunaTremblay
+  foaf:firstName "Fauna" ;
+  foaf:lastName "Tremblay" ;
+.
+:FavorCarriere
+  foaf:firstName "Favor" ;
+  foaf:lastName "Carrière" ;
+.
+:FavorHebert
+  foaf:firstName "Favor" ;
+  foaf:lastName "Hébert" ;
+.
+:FayeGiroux
+  foaf:firstName "Faye" ;
+  foaf:lastName "Giroux" ;
+.
+:FayetteDAvis
+  foaf:firstName "Fayette" ;
+  foaf:lastName "D'Avis" ;
+.
+:FayetteDube
+  foaf:firstName "Fayette" ;
+  foaf:lastName "Dubé" ;
+.
+:FealtyRoyer
+  foaf:firstName "Fealty" ;
+  foaf:lastName "Royer" ;
+.
+:FelicienCoulombe
+  foaf:firstName "Felicien" ;
+  foaf:lastName "Coulombe" ;
+.
+:FelicienneDeblois
+  foaf:firstName "Felicienne" ;
+  foaf:lastName "Deblois" ;
+.
+:FerragusDesilets
+  foaf:firstName "Ferragus" ;
+  foaf:lastName "Desilets" ;
+.
+:FiacreMarier
+  foaf:firstName "Fiacre" ;
+  foaf:lastName "Marier" ;
+.
+:FitzDubois
+  foaf:firstName "Fitz" ;
+  foaf:lastName "Dubois" ;
+.
+:FleurHebert
+  foaf:firstName "Fleur" ;
+  foaf:lastName "Hébert" ;
+.
+:FleurLetourneau
+  foaf:firstName "Fleur" ;
+  foaf:lastName "Létourneau" ;
+.
+:FleuretteLaforge
+  foaf:firstName "Fleurette" ;
+  foaf:lastName "Laforge" ;
+.
+:FlorusGauthier
+  foaf:firstName "Florus" ;
+  foaf:lastName "Gauthier" ;
+.
+:FortunBeriault
+  foaf:firstName "Fortun" ;
+  foaf:lastName "Bériault" ;
+.
+:FortunBordeleau
+  foaf:firstName "Fortun" ;
+  foaf:lastName "Bordeleau" ;
+.
+:FortunMousseau
+  foaf:firstName "Fortun" ;
+  foaf:lastName "Mousseau" ;
+.
+:FrancisMarleau
+  foaf:firstName "Francis" ;
+  foaf:lastName "Marleau" ;
+.
+:FranckPaquet
+  foaf:firstName "Franck" ;
+  foaf:lastName "Paquet" ;
+.
+:FredericHerve
+  foaf:firstName "Frédéric" ;
+  foaf:lastName "Hervé" ;
+.
+:FredericSacre
+  foaf:firstName "Frédéric" ;
+  foaf:lastName "Sacré" ;
+.
+:FrederiqueBegin
+  foaf:firstName "Frédérique" ;
+  foaf:lastName "Begin" ;
+.
+:FrederiqueFouquet
+  foaf:firstName "Frédérique" ;
+  foaf:lastName "Fouquet" ;
+.
+:FusbertaBeauchamps
+  foaf:firstName "Fusberta" ;
+  foaf:lastName "Beauchamps" ;
+.
+:GabrielCharette
+  foaf:firstName "Gabriel" ;
+  foaf:lastName "Charette" ;
+.
+:GaetanAubin
+  foaf:firstName "Gaetan" ;
+  foaf:lastName "Aubin" ;
+.
+:GaetaneDesilets
+  foaf:firstName "Gaetane" ;
+  foaf:lastName "Desilets" ;
+.
+:GalateeDoiron
+  foaf:firstName "Galatee" ;
+  foaf:lastName "Doiron" ;
+.
+:GalateeGougeon
+  foaf:firstName "Galatee" ;
+  foaf:lastName "Gougeon" ;
+.
+:GalateePatenaude
+  foaf:firstName "Galatee" ;
+  foaf:lastName "Patenaude" ;
+.
+:GalliaCharrette
+  foaf:firstName "Gallia" ;
+  foaf:lastName "Charrette" ;
+.
+:GarlandRiviere
+  foaf:firstName "Garland" ;
+  foaf:lastName "Rivière" ;
+.
+:GauthierAsselin
+  foaf:firstName "Gauthier" ;
+  foaf:lastName "Asselin" ;
+.
+:GauthierBoucher
+  foaf:firstName "Gauthier" ;
+  foaf:lastName "Boucher" ;
+.
+:GenevieveDuclos
+  foaf:firstName "Geneviève" ;
+  foaf:lastName "Duclos" ;
+.
+:GenevieveGregoire
+  foaf:firstName "Geneviève" ;
+  foaf:lastName "Gregoire" ;
+.
+:Genre
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+:GeoffreyLemaître
+  foaf:firstName "Geoffrey" ;
+  foaf:lastName "Lemaître" ;
+.
+:GeoffreyPlaisance
+  foaf:firstName "Geoffrey" ;
+  foaf:lastName "Plaisance" ;
+.
+:GeorgesAllain
+  foaf:firstName "Georges" ;
+  foaf:lastName "Allain" ;
+.
+:GerardCailot
+  foaf:firstName "Gérard" ;
+  foaf:lastName "Cailot" ;
+.
+:GermaineFontaine
+  foaf:firstName "Germaine" ;
+  foaf:lastName "Fontaine" ;
+.
+:GermaineLeroy
+  foaf:firstName "Germaine" ;
+  foaf:lastName "Leroy" ;
+.
+:GillArnoux
+  foaf:firstName "Gill" ;
+  foaf:lastName "Arnoux" ;
+.
+:GillCharpie
+  foaf:firstName "Gill" ;
+  foaf:lastName "Charpie" ;
+.
+:GillMousseau
+  foaf:firstName "Gill" ;
+  foaf:lastName "Mousseau" ;
+.
+:GillPetrie
+  foaf:firstName "Gill" ;
+  foaf:lastName "Petrie" ;
+.
+:GillesLandry
+  foaf:firstName "Gilles" ;
+  foaf:lastName "Landry" ;
+.
+:GranvillePoulin
+  foaf:firstName "Granville" ;
+  foaf:lastName "Poulin" ;
+.
+:GregoireGaillard
+  foaf:firstName "Grégoire" ;
+  foaf:lastName "Gaillard" ;
+.
+:GregoireLanglais
+  foaf:firstName "Grégoire" ;
+  foaf:lastName "Langlais" ;
+.
+:GrosvenorDaigneault
+  foaf:firstName "Grosvenor" ;
+  foaf:lastName "Daigneault" ;
+.
+:GuerinLacasse
+  foaf:firstName "Guerin" ;
+  foaf:lastName "Lacasse" ;
+.
+:GustaveCroquetaigne
+  foaf:firstName "Gustave" ;
+  foaf:lastName "Croquetaigne" ;
+.
+:HarbinDaoust
+  foaf:firstName "Harbin" ;
+  foaf:lastName "Daoust" ;
+.
+:HarcourtBeaujolie
+  foaf:firstName "Harcourt" ;
+  foaf:lastName "Beaujolie" ;
+.
+:HarcourtFongemie
+  foaf:firstName "Harcourt" ;
+  foaf:lastName "Fongemie" ;
+.
+:HarcourtRobert
+  foaf:firstName "Harcourt" ;
+  foaf:lastName "Robert" ;
+.
+:HedvigeMartel
+  foaf:firstName "Hedvige" ;
+  foaf:lastName "Martel" ;
+.
+:HenriDemers
+  foaf:firstName "Henri" ;
+  foaf:lastName "Demers" ;
+.
+:HollySevier
+  foaf:firstName "Holly" ;
+  foaf:lastName "Sevier" ;
+.
+:HonoreHuard
+  foaf:firstName "Honoré" ;
+  foaf:lastName "Huard" ;
+.
+:HortenseBeriault
+  foaf:firstName "Hortense" ;
+  foaf:lastName "Bériault" ;
+.
+:HortenseLabrosse
+  foaf:firstName "Hortense" ;
+  foaf:lastName "Labrosse" ;
+.
+:HortenseMorel
+  foaf:firstName "Hortense" ;
+  foaf:lastName "Morel" ;
+.
+:HuguesAucoin
+  foaf:firstName "Hugues" ;
+  foaf:lastName "Aucoin" ;
+.
+:HuguesNadeau
+  foaf:firstName "Hugues" ;
+  foaf:lastName "Nadeau" ;
+.
+:HuonCorbeil
+  foaf:firstName "Huon" ;
+  foaf:lastName "Corbeil" ;
+.
+:IgnaceBrunelle
+  foaf:firstName "Ignace" ;
+  foaf:lastName "Brunelle" ;
+.
+:IgnaceMiron
+  foaf:firstName "Ignace" ;
+  foaf:lastName "Miron" ;
+.
+:IlaFortier
+  foaf:firstName "Ila" ;
+  foaf:lastName "Fortier" ;
+.
+:InesGaillou
+  foaf:firstName "Inès" ;
+  foaf:lastName "Gaillou" ;
+.
+:IsaacBeaule
+  foaf:firstName "Isaac" ;
+  foaf:lastName "Beaulé" ;
+.
+:IsaacDupuis
+  foaf:firstName "Isaac" ;
+  foaf:lastName "Dupuis" ;
+.
+:IsaacMarceau
+  foaf:firstName "Isaac" ;
+  foaf:lastName "Marceau" ;
+.
+:IsaacMartineau
+  foaf:firstName "Isaac" ;
+  foaf:lastName "Martineau" ;
+.
+:IsabelleAuthier
+  foaf:firstName "Isabelle" ;
+  foaf:lastName "Authier" ;
+.
+:IsabelleDenis
+  foaf:firstName "Isabelle" ;
+  foaf:lastName "Denis" ;
+.
+:JavierBonami
+  foaf:firstName "Javier" ;
+  foaf:lastName "Bonami" ;
+.
+:JayMothe
+  foaf:firstName "Jay" ;
+  foaf:lastName "Mothé" ;
+.
+:JeanDupont
+  foaf:firstName "Jean" ;
+  foaf:lastName "Dupont" ;
+.
+:JeanSicard
+  foaf:firstName "Jean" ;
+  foaf:lastName "Sicard" ;
+.
+:JeanetteArcouet
+  foaf:firstName "Jeanette" ;
+  foaf:lastName "Arcouet" ;
+.
+:JeanetteBinet
+  foaf:firstName "Jeanette" ;
+  foaf:lastName "Binet" ;
+.
+:JeanetteBriard
+  foaf:firstName "Jeanette" ;
+  foaf:lastName "Briard" ;
+.
+:JeanneLAngelier
+  foaf:firstName "Jeanne" ;
+  foaf:lastName "L'Angelier" ;
+.
+:JewelGrimard
+  foaf:firstName "Jewel" ;
+  foaf:lastName "Grimard" ;
+.
+:JoannaDuranseau
+  foaf:firstName "Joanna" ;
+  foaf:lastName "Duranseau" ;
+.
+:JolieSylvain
+  foaf:firstName "Jolie" ;
+  foaf:lastName "Sylvain" ;
+.
+:JosephClement
+  foaf:firstName "Joseph" ;
+  foaf:lastName "Clément" ;
+.
+:JosephVallee
+  foaf:firstName "Joseph" ;
+  foaf:lastName "Vallée" ;
+.
+:JosepheDufresne
+  foaf:firstName "Josephe" ;
+  foaf:lastName "Dufresne" ;
+.
+:JosephineTalon
+  foaf:firstName "Joséphine" ;
+  foaf:lastName "Talon" ;
+.
+:JosetteDupuy
+  foaf:firstName "Josette" ;
+  foaf:lastName "Dupuy" ;
+.
+:JulesPerreault
+  foaf:firstName "Jules" ;
+  foaf:lastName "Perreault" ;
+.
+:JulietteRancourt
+  foaf:firstName "Juliette" ;
+  foaf:lastName "Rancourt" ;
+.
+:KarelBenoit
+  foaf:firstName "Karel" ;
+  foaf:lastName "Benoit" ;
+.
+:KarelFlamand
+  foaf:firstName "Karel" ;
+  foaf:lastName "Flamand" ;
+.
+:KarelTurgeon
+  foaf:firstName "Karel" ;
+  foaf:lastName "Turgeon" ;
+.
+:LaRouxGauthier
+  foaf:firstName "La Roux" ;
+  foaf:lastName "Gauthier" ;
+.
+:LanceSaucier
+  foaf:firstName "Lance" ;
+  foaf:lastName "Saucier" ;
+.
+:LangleyMouet
+  foaf:firstName "Langley" ;
+  foaf:lastName "Mouet" ;
+.
+:LatimerLaberge
+  foaf:firstName "Latimer" ;
+  foaf:lastName "Laberge" ;
+.
+:LaurePinneau
+  foaf:firstName "Laure" ;
+  foaf:lastName "Pinneau" ;
+.
+:LaureneDupont
+  foaf:firstName "Laurene" ;
+  foaf:lastName "Dupont" ;
+.
+:LealDuffet
+  foaf:firstName "Leal" ;
+  foaf:lastName "Duffet" ;
+.
+:LealaMeunier
+  foaf:firstName "Leala" ;
+  foaf:lastName "Meunier" ;
+.
+:LeonBlais
+  foaf:firstName "Léon" ;
+  foaf:lastName "Blais" ;
+.
+:LeonCinqMars
+  foaf:firstName "Léon" ;
+  foaf:lastName "Cinq-Mars" ;
+.
+:LeoneLang
+  foaf:firstName "Leone" ;
+  foaf:lastName "Lang" ;
+.
+:LirienneHoude
+  foaf:firstName "Lirienne" ;
+  foaf:lastName "Houde" ;
+.
+:LogistillaCharpie
+  foaf:firstName "Logistilla" ;
+  foaf:lastName "Charpie" ;
+.
+:LotyeGrondin
+  foaf:firstName "Lotye" ;
+  foaf:lastName "Grondin" ;
+.
+:LouiseBellemare
+  foaf:firstName "Louise" ;
+  foaf:lastName "Bellemare" ;
+.
+:LoyalDeserres
+  foaf:firstName "Loyal" ;
+  foaf:lastName "Deserres" ;
+.
+:LoyalGarcia
+  foaf:firstName "Loyal" ;
+  foaf:lastName "Garcia" ;
+.
+:LucDeschenes
+  foaf:firstName "Luc" ;
+  foaf:lastName "Deschênes" ;
+.
+:LyleLHiver
+  foaf:firstName "Lyle" ;
+  foaf:lastName "L'Hiver" ;
+.
+:LyleLalonde
+  foaf:firstName "Lyle" ;
+  foaf:lastName "Lalonde" ;
+.
+:MadeleineCressac
+  foaf:firstName "Madeleine" ;
+  foaf:lastName "Cressac" ;
+.
+:MadeleineDumont
+  foaf:firstName "Madeleine" ;
+  foaf:lastName "Dumont" ;
+.
+:MadeleineLouis
+  foaf:firstName "Madeleine" ;
+  foaf:lastName "Louis" ;
+.
+:MadeleineVoisine
+  foaf:firstName "Madeleine" ;
+  foaf:lastName "Voisine" ;
+.
+:MadeleneMainville
+  foaf:firstName "Madelene" ;
+  foaf:lastName "Mainville" ;
+.
+:MagnoliaDube
+  foaf:firstName "Magnolia" ;
+  foaf:lastName "Dubé" ;
+.
+:MandelLaCaille
+  foaf:firstName "Mandel" ;
+  foaf:lastName "LaCaille" ;
+.
+:ManonMajory
+  foaf:firstName "Manon" ;
+  foaf:lastName "Majory" ;
+.
+:ManvilleSaurel
+  foaf:firstName "Manville" ;
+  foaf:lastName "Saurel" ;
+.
+:MarcRocheleau
+  foaf:firstName "Marc" ;
+  foaf:lastName "Rocheleau" ;
+.
+:MargauxAvare
+  foaf:firstName "Margaux" ;
+  foaf:lastName "Avare" ;
+.
+:MargueriteMetivier
+  foaf:firstName "Marguerite" ;
+  foaf:lastName "Metivier" ;
+.
+:MariePatry
+  foaf:firstName "Marie" ;
+  foaf:lastName "Patry" ;
+.
+:MariettePitre
+  foaf:firstName "Mariette" ;
+  foaf:lastName "Pitre" ;
+.
+:MarphisaPaquet
+  foaf:firstName "Marphisa" ;
+  foaf:lastName "Paquet" ;
+.
+:MartheMetivier
+  foaf:firstName "Marthe" ;
+  foaf:lastName "Metivier" ;
+.
+:MartineLabossiere
+  foaf:firstName "Martine" ;
+  foaf:lastName "Labossière" ;
+.
+:MasonBegin
+  foaf:firstName "Mason" ;
+  foaf:lastName "Begin" ;
+.
+:MatildaGuay
+  foaf:firstName "Matilda" ;
+  foaf:lastName "Guay" ;
+.
+:MatthieuChartier
+  foaf:firstName "Matthieu" ;
+  foaf:lastName "Chartier" ;
+.
+:MayhewArchambault
+  foaf:firstName "Mayhew" ;
+  foaf:lastName "Archambault" ;
+.
+:MayhewCourse
+  foaf:firstName "Mayhew" ;
+  foaf:lastName "Course" ;
+.
+:MedoroGaudreau
+  foaf:firstName "Medoro" ;
+  foaf:lastName "Gaudreau" ;
+.
+:MedoroSanschagrin
+  foaf:firstName "Medoro" ;
+  foaf:lastName "Sanschagrin" ;
+.
+:MelodieLoiseau
+  foaf:firstName "Melodie" ;
+  foaf:lastName "Loiseau" ;
+.
+:MelusinaDuffet
+  foaf:firstName "Melusina" ;
+  foaf:lastName "Duffet" ;
+.
+:MerciGiguere
+  foaf:firstName "Merci" ;
+  foaf:lastName "Giguère" ;
+.
+:MerciPetit
+  foaf:firstName "Merci" ;
+  foaf:lastName "Petit" ;
+.
+:MerlinPariseau
+  foaf:firstName "Merlin" ;
+  foaf:lastName "Pariseau" ;
+.
+:MethenaLabossiere
+  foaf:firstName "Methena" ;
+  foaf:lastName "Labossière" ;
+.
+:MethenaSanschagrin
+  foaf:firstName "Methena" ;
+  foaf:lastName "Sanschagrin" ;
+.
+:MichelCorbin
+  foaf:firstName "Michel" ;
+  foaf:lastName "Corbin" ;
+.
+:MichelGarnier
+  foaf:firstName "Michel" ;
+  foaf:lastName "Garnier" ;
+.
+:MichelLabbe
+  foaf:firstName "Michel" ;
+  foaf:lastName "Labbé" ;
+.
+:MicheleAuberjonois
+  foaf:firstName "Michèle" ;
+  foaf:lastName "Auberjonois" ;
+.
+:MignonetteSarrazin
+  foaf:firstName "Mignonette" ;
+  foaf:lastName "Sarrazin" ;
+.
+:MillardLaforge
+  foaf:firstName "Millard" ;
+  foaf:lastName "Laforge" ;
+.
+:MillardLagueux
+  foaf:firstName "Millard" ;
+  foaf:lastName "Lagueux" ;
+.
+:MoniqueHetu
+  foaf:firstName "Monique" ;
+  foaf:lastName "Hétu" ;
+.
+:MooreBriard
+  foaf:firstName "Moore" ;
+  foaf:lastName "Briard" ;
+.
+:MooreLacombe
+  foaf:firstName "Moore" ;
+  foaf:lastName "Lacombe" ;
+.
+:MorganaGadbois
+  foaf:firstName "Morgana" ;
+  foaf:lastName "Gadbois" ;
+.
+:NadineVaillancourt
+  foaf:firstName "Nadine" ;
+  foaf:lastName "Vaillancourt" ;
+.
+:NannaHoule
+  foaf:firstName "Nanna" ;
+  foaf:lastName "Houle" ;
+.
+:NannaHuppe
+  foaf:firstName "Nanna" ;
+  foaf:lastName "Huppé" ;
+.
+:NatalieGuernon
+  foaf:firstName "Natalie" ;
+  foaf:lastName "Guernon" ;
+.
+:NathalieDandonneau
+  foaf:firstName "Nathalie" ;
+  foaf:lastName "Dandonneau" ;
+.
+:NinetteDAubigne
+  foaf:firstName "Ninette" ;
+  foaf:lastName "D'Aubigné" ;
+.
+:NoelCamus
+  foaf:firstName "Noël" ;
+  foaf:lastName "Camus" ;
+.
+:NoelleLauzier
+  foaf:firstName "Noelle" ;
+  foaf:lastName "Lauzier" ;
+.
+:NoelleVerreau
+  foaf:firstName "Noelle" ;
+  foaf:lastName "Verreau" ;
+.
+:NormandCliche
+  foaf:firstName "Normand" ;
+  foaf:lastName "Cliche" ;
+.
+:NormandHenrichon
+  foaf:firstName "Normand" ;
+  foaf:lastName "Henrichon" ;
+.
+:NorrisCyr
+  foaf:firstName "Norris" ;
+  foaf:lastName "Cyr" ;
+.
+:NouelDastous
+  foaf:firstName "Nouel" ;
+  foaf:lastName "Dastous" ;
+.
+:NouelGosselin
+  foaf:firstName "Nouel" ;
+  foaf:lastName "Gosselin" ;
+.
+:OlivieBerard
+  foaf:firstName "Olivie" ;
+  foaf:lastName "Bérard" ;
+.
+:OlivieDenis
+  foaf:firstName "Olivie" ;
+  foaf:lastName "Denis" ;
+.
+:OlivieParmentier
+  foaf:firstName "Olivie" ;
+  foaf:lastName "Parmentier" ;
+.
+:OlivieRoussel
+  foaf:firstName "Olivie" ;
+  foaf:lastName "Roussel" ;
+.
+:OlympiaSicard
+  foaf:firstName "Olympia" ;
+  foaf:lastName "Sicard" ;
+.
+:OnfroiDenis
+  foaf:firstName "Onfroi" ;
+  foaf:lastName "Denis" ;
+.
+:OnfroiFaure
+  foaf:firstName "Onfroi" ;
+  foaf:lastName "Faure" ;
+.
+:OpheliaPrimeau
+  foaf:firstName "Ophelia" ;
+  foaf:lastName "Primeau" ;
+.
+:OraneVarieur
+  foaf:firstName "Orane" ;
+  foaf:lastName "Varieur" ;
+.
+:OrleneGuay
+  foaf:firstName "Orlene" ;
+  foaf:lastName "Guay" ;
+.
+:OrmazdAubin
+  foaf:firstName "Ormazd" ;
+  foaf:lastName "Aubin" ;
+.
+:PaigeRene
+  foaf:firstName "Paige" ;
+  foaf:lastName "René" ;
+.
+:ParfaitVernadeau
+  foaf:firstName "Parfait" ;
+  foaf:lastName "Vernadeau" ;
+.
+:ParnellaGodin
+  foaf:firstName "Parnella" ;
+  foaf:lastName "Godin" ;
+.
+:PascaldeLaunay
+  foaf:firstName "Pascal" ;
+  foaf:lastName "de Launay" ;
+.
+:PascalineCloutier
+  foaf:firstName "Pascaline" ;
+  foaf:lastName "Cloutier" ;
+.
+:PatriciaSirois
+  foaf:firstName "Patricia" ;
+  foaf:lastName "Sirois" ;
+.
+:PatrickLapresse
+  foaf:firstName "Patrick" ;
+  foaf:lastName "Lapresse" ;
+.
+:PaulVadnais
+  foaf:firstName "Paul" ;
+  foaf:lastName "Vadnais" ;
+.
+:PauletteCartier
+  foaf:firstName "Paulette" ;
+  foaf:lastName "Cartier" ;
+.
+:PenelopeDuTrieux
+  foaf:firstName "Pénélope" ;
+  foaf:lastName "Du Trieux" ;
+.
+:PenseeGousse
+  foaf:firstName "Pensee" ;
+  foaf:lastName "Gousse" ;
+.
+:PeppinDesruisseaux
+  foaf:firstName "Peppin" ;
+  foaf:lastName "Desruisseaux" ;
+.
+:PeppinLaframboise
+  foaf:firstName "Peppin" ;
+  foaf:lastName "Laframboise" ;
+.
+:PeppinLagueux
+  foaf:firstName "Peppin" ;
+  foaf:lastName "Lagueux" ;
+.
+:PercyJosseaume
+  foaf:firstName "Percy" ;
+  foaf:lastName "Josseaume" ;
+.
+:PhilipBarrientos
+  foaf:firstName "Philip" ;
+  foaf:lastName "Barrientos" ;
+.
+:PhilipDoiron
+  foaf:firstName "Philip" ;
+  foaf:lastName "Doiron" ;
+.
+:PhillipaBoule
+  foaf:firstName "Phillipa" ;
+  foaf:lastName "Boulé" ;
+.
+:Photo
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+ .
+:Dessin
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+:Photo_1
+  rdf:type :Photo ;
+  :AlbumParent :Album1 ;
+  :shows :anniversaire ;
+  :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
+  prop-fr:ville dbpedia-fr:Paris ;
+  prop-en:url "https://upload.wikimedia.org/wikipedia/commons/7/7e/Parvis_Notre_Dame_05%2C_850th_anniversary_of_Notre-Dame.jpg" ;
+  dc:date "2017-07-14"^^xsd:date ;
+.
+:Dessin_1
+  rdf:type :Dessin ;
+  :AlbumParent :Album1 ;
+  :shows :anniversaire ;
+  :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
+  prop-fr:ville dbpedia-fr:Paris ;
+  prop-en:url "https://upload.wikimedia.org/wikipedia/commons/7/7e/Parvis_Notre_Dame_05%2C_850th_anniversary_of_Notre-Dame.jpg" ;
+  dc:date "2017-07-14"^^xsd:date ;
+.
+:Photo_2
+  rdf:type :Photo ;
+  :shows :anniversaire ;
+  :shows dbpedia-fr:Cathédrale_Notre-Dame_de_Paris ;
+.
+:PierretteCroquetaigne
+  foaf:firstName "Pierrette" ;
+  foaf:lastName "Croquetaigne" ;
+.
+:PinabelDuLin
+  foaf:firstName "Pinabel" ;
+  foaf:lastName "DuLin" ;
+.
+:PinabelGiroux
+  foaf:firstName "Pinabel" ;
+  foaf:lastName "Giroux" ;
+.
+:PlattLeblanc
+  foaf:firstName "Platt" ;
+  foaf:lastName "Leblanc" ;
+.
+:PrewittBoulanger
+  foaf:firstName "Prewitt" ;
+  foaf:lastName "Boulanger" ;
+.
+:PrewittBourgeois
+  foaf:firstName "Prewitt" ;
+  foaf:lastName "Bourgeois" ;
+.
+:PrunellaCoupart
+  foaf:firstName "Prunella" ;
+  foaf:lastName "Coupart" ;
+.
+:PryordeBrisay
+  foaf:firstName "Pryor" ;
+  foaf:lastName "de Brisay" ;
+.
+:QuennelBergeron
+  foaf:firstName "Quennel" ;
+  foaf:lastName "Bergeron" ;
+.
+:RachelleLabrosse
+  foaf:firstName "Rachelle" ;
+  foaf:lastName "Labrosse" ;
+.
+:RaisonAudet
+  foaf:firstName "Raison" ;
+  foaf:lastName "Audet" ;
+.
+:RaisonTrepanier
+  foaf:firstName "Raison" ;
+  foaf:lastName "Trépanier" ;
+.
+:RangerBernard
+  foaf:firstName "Ranger" ;
+  foaf:lastName "Bernard" ;
+.
+:RangerBinet
+  foaf:firstName "Ranger" ;
+  foaf:lastName "Binet" ;
+.
+:RangerDeblois
+  foaf:firstName "Ranger" ;
+  foaf:lastName "Deblois" ;
+.
+:RangerSevier
+  foaf:firstName "Ranger" ;
+  foaf:lastName "Sevier" ;
+.
+:RaymondMarcoux
+  foaf:firstName "Raymond" ;
+  foaf:lastName "Marcoux" ;
+.
+:RaymondMercier
+  foaf:firstName "Raymond" ;
+  foaf:lastName "Mercier" ;
+.
+:ReneBlanc
+  foaf:firstName "René" ;
+  foaf:lastName "Blanc" ;
+.
+:ReneeHerve
+  foaf:firstName "Renée" ;
+  foaf:lastName "Hervé" ;
+.
+:RochGougeon
+  foaf:firstName "Roch" ;
+  foaf:lastName "Gougeon" ;
+.
+:RochRheaume
+  foaf:firstName "Roch" ;
+  foaf:lastName "Rhéaume" ;
+.
+:RochRochon
+  foaf:firstName "Roch" ;
+  foaf:lastName "Rochon" ;
+.
+:RogerBordeaux
+  foaf:firstName "Roger" ;
+  foaf:lastName "Bordeaux" ;
+.
+:RogerDeblois
+  foaf:firstName "Roger" ;
+  foaf:lastName "Deblois" ;
+.
+:RomainTruchon
+  foaf:firstName "Romain" ;
+  foaf:lastName "Truchon" ;
+.
+:RoslynTremblay
+  foaf:firstName "Roslyn" ;
+  foaf:lastName "Tremblay" ;
+.
+:RouxFaubert
+  foaf:firstName "Roux" ;
+  foaf:lastName "Faubert" ;
+.
+:RouxQuerry
+  foaf:firstName "Roux" ;
+  foaf:lastName "Querry" ;
+.
+:RoyaleChartre
+  foaf:firstName "Royale" ;
+  foaf:lastName "Chartré" ;
+.
+:RoycePare
+  foaf:firstName "Royce" ;
+  foaf:lastName "Paré" ;
+.
+:RoycePariseau
+  foaf:firstName "Royce" ;
+  foaf:lastName "Pariseau" ;
+.
+:RubyFugere
+  foaf:firstName "Ruby" ;
+  foaf:lastName "Fugère" ;
+.
+:RubySevier
+  foaf:firstName "Ruby" ;
+  foaf:lastName "Sevier" ;
+.
+:RuleViens
+  foaf:firstName "Rule" ;
+  foaf:lastName "Viens" ;
+.
+:SaberBaril
+  foaf:firstName "Saber" ;
+  foaf:lastName "Baril" ;
+.
+:SaberMoise
+  foaf:firstName "Saber" ;
+  foaf:lastName "Moïse" ;
+.
+:SabineBordeaux
+  foaf:firstName "Sabine" ;
+  foaf:lastName "Bordeaux" ;
+.
+:SabineCormier
+  foaf:firstName "Sabine" ;
+  foaf:lastName "Cormier" ;
+.
+:SatordiSarrazin
+  foaf:firstName "Satordi" ;
+  foaf:lastName "Sarrazin" ;
+.
+:SatordiSauve
+  foaf:firstName "Satordi" ;
+  foaf:lastName "Sauvé" ;
+.
+:ScovilleDufour
+  foaf:firstName "Scoville" ;
+  foaf:lastName "Dufour" ;
+.
+:ScovilleNoel
+  foaf:firstName "Scoville" ;
+  foaf:lastName "Noël" ;
+.
+:SearlaitMarceau
+  foaf:firstName "Searlait" ;
+  foaf:lastName "Marceau" ;
+.
+:SebastienLebel
+  foaf:firstName "Sébastien" ;
+  foaf:lastName "Lebel" ;
+.
+:SenapusRossignol
+  foaf:firstName "Senapus" ;
+  foaf:lastName "Rossignol" ;
+.
+:SibylaAllard
+  foaf:firstName "Sibyla" ;
+  foaf:lastName "Allard" ;
+.
+:SidneyDupuy
+  foaf:firstName "Sidney" ;
+  foaf:lastName "Dupuy" ;
+.
+:SlainieLabrie
+  foaf:firstName "Slainie" ;
+  foaf:lastName "Labrie" ;
+.
+:SomerLaprise
+  foaf:firstName "Somer" ;
+  foaf:lastName "Laprise" ;
+.
+:SomerVadeboncoeur
+  foaf:firstName "Somer" ;
+  foaf:lastName "Vadeboncoeur" ;
+.
+:SomervilleDoyon
+  foaf:firstName "Somerville" ;
+  foaf:lastName "Doyon" ;
+.
+:TalbotMargand
+  foaf:firstName "Talbot" ;
+  foaf:lastName "Margand" ;
+.
+:TalbotMorin
+  foaf:firstName "Talbot" ;
+  foaf:lastName "Morin" ;
+.
+:TanguyAdler
+  foaf:firstName "Tanguy" ;
+  foaf:lastName "Adler" ;
+.
+:TearlachBrian
+  foaf:firstName "Tearlach" ;
+  foaf:lastName "Brian" ;
+.
+:TelfordFerland
+  foaf:firstName "Telford" ;
+  foaf:lastName "Ferland" ;
+.
+:TempesteDeserres
+  foaf:firstName "Tempeste" ;
+  foaf:lastName "Deserres" ;
+.
+:TempesteSavoie
+  foaf:firstName "Tempeste" ;
+  foaf:lastName "Savoie" ;
+.
+:TheodoreBilodeau
+  foaf:firstName "Théodore" ;
+  foaf:lastName "Bilodeau" ;
+.
+:TheodoreCharlesbois
+  foaf:firstName "Théodore" ;
+  foaf:lastName "Charlesbois" ;
+.
+:TheodoreFrechette
+  foaf:firstName "Théodore" ;
+  foaf:lastName "Fréchette" ;
+.
+:TheodoreLaforge
+  foaf:firstName "Théodore" ;
+  foaf:lastName "Laforge" ;
+.
+:TheophileCaya
+  foaf:firstName "Théophile" ;
+  foaf:lastName "Caya" ;
+.
+:ThomasDeblois
+  foaf:firstName "Thomas" ;
+  foaf:lastName "Deblois" ;
+.
+:TillyBerger
+  foaf:firstName "Tilly" ;
+  foaf:lastName "Berger" ;
+.
+:TillyHuppe
+  foaf:firstName "Tilly" ;
+  foaf:lastName "Huppé" ;
+.
+:ToussaintDaoust
+  foaf:firstName "Toussaint" ;
+  foaf:lastName "Daoust" ;
+.
+:TrinetteLandry
+  foaf:firstName "Trinette" ;
+  foaf:lastName "Landry" ;
+.
+:TristanAudet
+  foaf:firstName "Tristan" ;
+  foaf:lastName "Audet" ;
+.
+:TristanMarcoux
+  foaf:firstName "Tristan" ;
+  foaf:lastName "Marcoux" ;
+.
+:TristanSalois
+  foaf:firstName "Tristan" ;
+  foaf:lastName "Salois" ;
+.
+:TroyPetit
+  foaf:firstName "Troy" ;
+  foaf:lastName "Petit" ;
+.
+:TurnerMorel
+  foaf:firstName "Turner" ;
+  foaf:lastName "Morel" ;
+.
+:VadenMonrency
+  foaf:firstName "Vaden" ;
+  foaf:lastName "Monrency" ;
+.
+:VailLevasseur
+  foaf:firstName "Vail" ;
+  foaf:lastName "Levasseur" ;
+.
+:ValerieCourtois
+  foaf:firstName "Valérie" ;
+  foaf:lastName "Courtois" ;
+.
+:ValerieDastous
+  foaf:firstName "Valérie" ;
+  foaf:lastName "Dastous" ;
+.
+:ValiantVadeboncoeur
+  foaf:firstName "Valiant" ;
+  foaf:lastName "Vadeboncoeur" ;
+.
+:VardenPaulet
+  foaf:firstName "Varden" ;
+  foaf:lastName "Paulet" ;
+.
+:VerneyLabrecque
+  foaf:firstName "Verney" ;
+  foaf:lastName "Labrecque" ;
+.
+:VictoireCharpie
+  foaf:firstName "Victoire" ;
+  foaf:lastName "Charpie" ;
+.
+:VictorineLamothe
+  foaf:firstName "Victorine" ;
+  foaf:lastName "Lamothe" ;
+.
+:VignetteCharlebois
+  foaf:firstName "Vignette" ;
+  foaf:lastName "Charlebois" ;
+.
+:VincentDouffet
+  foaf:firstName "Vincent" ;
+  foaf:lastName "Douffet" ;
+.
+:ViolletteChartier
+  foaf:firstName "Viollette" ;
+  foaf:lastName "Chartier" ;
+.
+:VirginiePaimboeuf
+  foaf:firstName "Virginie" ;
+  foaf:lastName "Paimboeuf" ;
+.
+:VivienneBler
+  foaf:firstName "Vivienne" ;
+  foaf:lastName "Bler" ;
+.
+:VivienneChartier
+  foaf:firstName "Vivienne" ;
+  foaf:lastName "Chartier" ;
+.
+:VoletaProvencher
+  foaf:firstName "Voleta" ;
+  foaf:lastName "Provencher" ;
+.
+:WarraneCouturier
+  foaf:firstName "Warrane" ;
+  foaf:lastName "Couturier" ;
+.
+:WyattPinneau
+  foaf:firstName "Wyatt" ;
+  foaf:lastName "Pinneau" ;
+.
+:XavierGabriaux
+  foaf:firstName "Xavier" ;
+  foaf:lastName "Gabriaux" ;
+.
+:XavierRiel
+  foaf:firstName "Xavier" ;
+  foaf:lastName "Riel" ;
+.
+:XavierreDavid
+  foaf:firstName "Xavierre" ;
+  foaf:lastName "David" ;
+.
+:YvesGaillou
+  foaf:firstName "Yves" ;
+  foaf:lastName "Gaillou" ;
+.
+:YvesPiedalue
+  foaf:firstName "Yves" ;
+  foaf:lastName "Piedalue" ;
+.
+:YvettePaulet
+  foaf:firstName "Yvette" ;
+  foaf:lastName "Paulet" ;
+.
+:YvetteVoisine
+  foaf:firstName "Yvette" ;
+  foaf:lastName "Voisine" ;
+.
+:ZacharieBarrientos
+  foaf:firstName "Zacharie" ;
+  foaf:lastName "Barrientos" ;
+.
+:ZacharieGrivois
+  foaf:firstName "Zacharie" ;
+  foaf:lastName "Grivois" ;
+.
+:ZerbinoLajeunesse
+  foaf:firstName "Zerbino" ;
+  foaf:lastName "Lajeunesse" ;
+.
+:ZoeBrunelle
+  foaf:firstName "Zoé" ;
+  foaf:lastName "Brunelle" ;
+.
+:anniversaire
+  rdf:type :Genre ;
+.
+:famille
+  rdf:type :Genre ;
+.
+:mer
+  rdf:type :Genre ;
+.
+:montagne
+  rdf:type :Genre ;
+.
+:paysage
+  rdf:type :Genre ;
+.
+:shows
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range owl:Thing ;
+.
+prop-fr:ville
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo;
+  rdfs:range dbpedia-owl:PopulatedPlace ;
+.
+dbpedia-fr:Cathédrale_Notre-Dame_de_Paris
+  rdf:type dbpedia-owl:ReligiousBuilding ;
+  rdf:type dbpedia-owl:Monument ;
+  rdfs:label 'Cathédrale Notre-Dame de Paris';
+  prop-fr:ville dbpedia-fr:Paris ;
+.
+dbpedia-fr:10_Downing_Street	rdf:type dbpedia-owl:Monument ; rdfs:label '10 Downing Street';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Arc_de_Wellington	rdf:type dbpedia-owl:Monument ; rdfs:label 'Arc de Wellington';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Bassins_du_Petit_et_Grand_Palais	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bassins du Petit et Grand Palais';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Big_Ben	rdf:type dbpedia-owl:Monument ; rdfs:label 'Big Ben';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Bourse_du_travail_de_Bordeaux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bourse du travail de Bordeaux';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Cenotaphe_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Cénotaphe (Londres)';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Chateau_de_la_Tournelle	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de la Tournelle';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cite_Napoleon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Cité Napoléon';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Bordeaux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Bordeaux';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Fontaine_Bela_Bartók	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine Béla-Bartók';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_de_la_Grave	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine de la Grave';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Fontaine_Dejean	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine Dejean';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_des_Quatre_Saisons	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine des Quatre-Saisons';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_du_jardin_Villemin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine du jardin Villemin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_du_jardin_Villemin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine du jardin Villemin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fontaine_Octave_Greard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine Octave Gréard';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Galerie_Bordelaise	rdf:type dbpedia-owl:Monument ; rdfs:label 'Galerie Bordelaise';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_dEstrees	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel dEstrées';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Breteuil	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Breteuil';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Chabannes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Chabannes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Cluny	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Cluny';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Guenegaud	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Guénégaud';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Ruat	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Ruat';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_de_Seignelay	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Seignelay';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Vogue_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Vogüé (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Le_Charron	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Le Charron';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Liberal_Bruant	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Libéral Bruant';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Mel_de_Fontenay	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Mel de Fontenay';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_Piganeau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Piganeau';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Hotel_Tubeuf_rue_des_Petits_Champs	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Tubeuf (rue des Petits-Champs)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:London_Eye	rdf:type dbpedia-owl:Monument ; rdfs:label 'London Eye';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Mairie_du_12e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 12e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mairie_du_15e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 15e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mairie_du_3e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 3e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mairie_du_7e_arrondissement_de_Paris	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie du 7e arrondissement de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Mansion_House_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mansion House (Londres)';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Old_Billingsgate_Market	rdf:type dbpedia-owl:Monument ; rdfs:label 'Old Billingsgate Market';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Palais_de_Buckingham	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais de Buckingham';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Palais_de_la_Femme	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais de la Femme';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Porte_de_la_Monnaie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Porte de la Monnaie';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Senate_House_universite_de_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Senate House (université de Londres)';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Shell_Mex_House	rdf:type dbpedia-owl:Monument ; rdfs:label 'Shell Mex House';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Statue_dOliver_Cromwell	rdf:type dbpedia-owl:Monument ; rdfs:label 'Statue dOliver Cromwell';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Statue_de_Richard_Cœur_de_Lion	rdf:type dbpedia-owl:Monument ; rdfs:label 'Statue de Richard Cœur de Lion';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Temple_de_lHumanite	rdf:type dbpedia-owl:Monument ; rdfs:label 'Temple de lHumanité';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Tour_de_Londres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Londres';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Tour_Pey_Berland	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Pey-Berland';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Tour_Victoria	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Victoria';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Abbaye_du_Canadel	rdf:type dbpedia-owl:Monument ; rdfs:label 'Abbaye du Canadel';   prop-fr:ville 	dbpedia-fr:La_Colle-sur-Loup	;.
+dbpedia-fr:Altes_Gebäu	rdf:type dbpedia-owl:Monument ; rdfs:label 'Altes Gebäu';   prop-fr:ville 	dbpedia-fr:Coire	;.
+dbpedia-fr:Ancien_parc_dartillerie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Ancien parc dartillerie';   prop-fr:ville 	dbpedia-fr:Saint-Denis_La_Réunion	;.
+dbpedia-fr:Anciennes_Glacières_de_Strasbourg	rdf:type dbpedia-owl:Monument ; rdfs:label 'Anciennes Glacières de Strasbourg';   prop-fr:ville 	dbpedia-fr:Strasbourg	;.
+dbpedia-fr:Aqueduc_de_Coutances	rdf:type dbpedia-owl:Monument ; rdfs:label 'Aqueduc de Coutances';   prop-fr:ville 	dbpedia-fr:Coutances	;.
+dbpedia-fr:Ascenseur_à_bateaux_des_Fontinettes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Ascenseur à bateaux des Fontinettes';   prop-fr:ville 	dbpedia-fr:Arques	;.
+dbpedia-fr:Auberge_du_Roy_dEspagne_Sablon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Auberge du Roy dEspagne (Sablon)';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Auberge_La_Cardinale	rdf:type dbpedia-owl:Monument ; rdfs:label 'Auberge La Cardinale';   prop-fr:ville 	dbpedia-fr:Baix	;.
+dbpedia-fr:Bagne_de_Nice	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bagne de Nice';   prop-fr:ville 	dbpedia-fr:Nice	;.
+dbpedia-fr:Bastion_des_pecheurs	rdf:type dbpedia-owl:Monument ; rdfs:label 'Bastion des pêcheurs';   prop-fr:ville 	dbpedia-fr:Budapest	;.
+dbpedia-fr:Beffroi_de_Saint_Trond	rdf:type dbpedia-owl:Monument ; rdfs:label 'Beffroi de Saint-Trond';   prop-fr:ville 	dbpedia-fr:Saint-Trond	;.
+dbpedia-fr:Cafe_de_la_Paix_de_Valreas	rdf:type dbpedia-owl:Monument ; rdfs:label 'Café de la Paix de Valréas';   prop-fr:ville 	dbpedia-fr:Valreas	;.
+dbpedia-fr:Calvaire_de_Pontaubert	rdf:type dbpedia-owl:Monument ; rdfs:label 'Calvaire de Pontaubert';   prop-fr:ville 	dbpedia-fr:Pontaubert	;.
+dbpedia-fr:Casa_Amatller	rdf:type dbpedia-owl:Monument ; rdfs:label 'Casa Amatller';   prop-fr:ville 	dbpedia-fr:Barcelone	;.
+dbpedia-fr:Centre_des_archives_industrielles_et_techniques_de_la_Moselle	rdf:type dbpedia-owl:Monument ; rdfs:label 'Centre des archives industrielles et techniques de la Moselle';   prop-fr:ville 	dbpedia-fr:Saint-Avold	;.
+dbpedia-fr:Chancellerie_du_Reich	rdf:type dbpedia-owl:Monument ; rdfs:label 'Chancellerie du Reich';   prop-fr:ville 	dbpedia-fr:Berlin	;.
+dbpedia-fr:Chancellerie_federale_Berlin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Chancellerie fédérale (Berlin)';   prop-fr:ville 	dbpedia-fr:Berlin	;.
+dbpedia-fr:Chapelle_Saint_Michel_Questembert	rdf:type dbpedia-owl:Monument ; rdfs:label 'Chapelle Saint-Michel (Questembert)';   prop-fr:ville 	dbpedia-fr:Questembert	;.
+dbpedia-fr:Chateau_Bilstein	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château Bilstein';   prop-fr:ville 	dbpedia-fr:Urbeis	;.
+dbpedia-fr:Chateau_de_Bois_lès_Pargny	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Bois-lès-Pargny';   prop-fr:ville 	dbpedia-fr:Bois-les-Pargny	;.
+dbpedia-fr:Chateau_de_Molleville	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Molleville';   prop-fr:ville 	dbpedia-fr:Molleville	;.
+dbpedia-fr:Chateau_de_Semur_en_Brionnais	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Semur-en-Brionnais';   prop-fr:ville 	dbpedia-fr:Semur-en-Brionnais	;.
+dbpedia-fr:Chateau_de_Tautavel	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Tautavel';   prop-fr:ville 	dbpedia-fr:Tautavel	;.
+dbpedia-fr:Chateau_de_Verseilles	rdf:type dbpedia-owl:Monument ; rdfs:label 'Château de Verseilles';   prop-fr:ville 	dbpedia-fr:Saint-Etienne-de-Vicq	;.
+dbpedia-fr:Clyde_Auditorium	rdf:type dbpedia-owl:Monument ; rdfs:label 'Clyde Auditorium';   prop-fr:ville 	dbpedia-fr:Glasgow	;.
+dbpedia-fr:College_des_Jesuites_de_Clermont_Ferrand	rdf:type dbpedia-owl:Monument ; rdfs:label 'Collège des Jésuites de Clermont-Ferrand';   prop-fr:ville 	dbpedia-fr:Clermont-Ferrand	;.
+dbpedia-fr:Couvent_des_Cordeliers_de_Reims	rdf:type dbpedia-owl:Monument ; rdfs:label 'Couvent des Cordeliers de Reims';   prop-fr:ville 	dbpedia-fr:Reims	;.
+dbpedia-fr:Couvent_des_Minimes_de_Lille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Couvent des Minimes de Lille';   prop-fr:ville 	dbpedia-fr:Lille	;.
+dbpedia-fr:Croix_de_Belmont_sur_Vair	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix de Belmont-sur-Vair';   prop-fr:ville 	dbpedia-fr:Belmont-sur-Vair	;.
+dbpedia-fr:Croix_de_Fegreac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix de Fégréac';   prop-fr:ville 	dbpedia-fr:Fegreac	;.
+dbpedia-fr:Croix_de_Penchateau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix de Penchâteau';   prop-fr:ville 	dbpedia-fr:Le_Pouliguen	;.
+dbpedia-fr:Croix_du_chemin_de_Coëtcandec	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix du chemin de Coëtcandec';   prop-fr:ville 	dbpedia-fr:Locqueltas	;.
+dbpedia-fr:Croix_du_Moustoir_de_Locoal_Mendon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Croix du Moustoir de Locoal-Mendon';   prop-fr:ville 	dbpedia-fr:Locoal-Mendon	;.
+dbpedia-fr:Dolmen_de_la_Fabière	rdf:type dbpedia-owl:Monument ; rdfs:label 'Dolmen de la Fabière';   prop-fr:ville 	dbpedia-fr:La_Cavalerie	;.
+dbpedia-fr:ecluse_de_Negra	rdf:type dbpedia-owl:Monument ; rdfs:label 'Écluse de Négra';   prop-fr:ville 	dbpedia-fr:Villefranche_de_Lauragais	;.
+dbpedia-fr:eglise_de_la_Nativite_de_lile_dArz	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église de la Nativité de lÎle-dArz';   prop-fr:ville 	dbpedia-fr:Ile-dArz	;.
+dbpedia-fr:eglise_de_la_Nativite_de_la_Sainte_Vierge_de_Bonneil	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église de la Nativité-de-la-Sainte-Vierge de Bonneil';   prop-fr:ville 	dbpedia-fr:Bonneil	;.
+dbpedia-fr:eglise_de_Saint_Hilaire_du_Bois_Gironde	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église de Saint-Hilaire-du-Bois (Gironde)';   prop-fr:ville 	dbpedia-fr:Saint-Hilaire-du-Bois_Gironde	;.
+dbpedia-fr:eglise_Notre_Dame_devrecy	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Notre-Dame dÉvrecy';   prop-fr:ville 	dbpedia-fr:Evrecy	;.
+dbpedia-fr:eglise_Notre_Dame_de_Courdemanche	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Notre-Dame de Courdemanche';   prop-fr:ville 	dbpedia-fr:Courdemanche_Sarthe	;.
+dbpedia-fr:eglise_Notre_Dame_de_Rozay_en_Brie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Notre-Dame de Rozay-en-Brie';   prop-fr:ville 	dbpedia-fr:Rozay-en-Brie	;.
+dbpedia-fr:eglise_Saint_Andre_de_Barberier	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-André de Barberier';   prop-fr:ville 	dbpedia-fr:Barberier	;.
+dbpedia-fr:eglise_Saint_Andre_de_Burzet	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-André de Burzet';   prop-fr:ville 	dbpedia-fr:Burzet	;.
+dbpedia-fr:eglise_Saint_Barthelemy_de_Lans_en_Vercors	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Barthélemy de Lans-en-Vercors';   prop-fr:ville 	dbpedia-fr:Lans-en-Vercors	;.
+dbpedia-fr:eglise_Saint_Benigne_de_Savigny_en_Terre_Plaine	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Bénigne de Savigny-en-Terre-Plaine';   prop-fr:ville 	dbpedia-fr:Savigny-en-Terre-Plaine	;.
+dbpedia-fr:eglise_Saint_Christophe_de_Nitry	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Christophe de Nitry';   prop-fr:ville 	dbpedia-fr:Nitry	;.
+dbpedia-fr:eglise_Saint_Denis_dHodenc_en_Bray	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Denis dHodenc-en-Bray';   prop-fr:ville 	dbpedia-fr:Hodenc-en-Bray	;.
+dbpedia-fr:eglise_Saint_Denis_de_Merry_sur_Yonne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Denis de Merry-sur-Yonne';   prop-fr:ville 	dbpedia-fr:Merry-sur-Yonne	;.
+dbpedia-fr:eglise_Saint_Didier_dAutrey_les_Gray	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Didier dAutrey-lès-Gray';   prop-fr:ville 	dbpedia-fr:Autrey-les-Gray	;.
+dbpedia-fr:eglise_Saint_eloi_de_Barzy_sur_Marne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Éloi de Barzy-sur-Marne';   prop-fr:ville 	dbpedia-fr:Barzy-sur-Marne	;.
+dbpedia-fr:eglise_Saint_eloi_de_Tracy_le_Val	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Éloi de Tracy-le-Val';   prop-fr:ville 	dbpedia-fr:Tracy-le-Val	;.
+dbpedia-fr:eglise_Saint_eloi_des_fonderies_de_Vivier_au_Court	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Éloi-des-fonderies de Vivier-au-Court';   prop-fr:ville 	dbpedia-fr:Vivier-au-Court	;.
+dbpedia-fr:eglise_Saint_etienne_de_Vernouillet	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Étienne de Vernouillet';   prop-fr:ville 	dbpedia-fr:Vernouillet	;.
+dbpedia-fr:eglise_Saint_etienne_de_Villiers_sous_Grez	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Étienne de Villiers-sous-Grez';   prop-fr:ville 	dbpedia-fr:Villiers-sous-Grez	;.
+dbpedia-fr:eglise_Saint_Eutrope_de_Bellefond	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Eutrope de Bellefond';   prop-fr:ville 	dbpedia-fr:Bellefond	;.
+dbpedia-fr:eglise_Saint_Felix_de_Fillols	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Félix de Fillols';   prop-fr:ville 	dbpedia-fr:Fillols	;.
+dbpedia-fr:eglise_Saint_Firmin_de_Rochehaut	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Firmin de Rochehaut';   prop-fr:ville 	dbpedia-fr:Rochehaut	;.
+dbpedia-fr:eglise_Saint_Gervais_de_Pontpoint	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Gervais de Pontpoint';   prop-fr:ville 	dbpedia-fr:Pontpoint	;.
+dbpedia-fr:eglise_Saint_Hubert_de_Gandrange	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Hubert de Gandrange';   prop-fr:ville 	dbpedia-fr:Gandrange	;.
+dbpedia-fr:eglise_Saint_Jacques_de_Lisieux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Jacques de Lisieux';   prop-fr:ville 	dbpedia-fr:Lisieux	;.
+dbpedia-fr:eglise_Saint_Jacques_de_Perros_Guirec	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Jacques de Perros-Guirec';   prop-fr:ville 	dbpedia-fr:Perros-Guirec	;.
+dbpedia-fr:eglise_Saint_Jean_Baptiste_de_Combret	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Jean-Baptiste de Combret';   prop-fr:ville 	dbpedia-fr:Combret	;.
+dbpedia-fr:eglise_Saint_Lambert_de_Montigny_sur_Meuse	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Lambert de Montigny-sur-Meuse';   prop-fr:ville 	dbpedia-fr:Montigny-sur-Meuse	;.
+dbpedia-fr:eglise_Saint_Martin_de_Cormeilles_en_Parisis	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Cormeilles-en-Parisis';   prop-fr:ville 	dbpedia-fr:Cormeilles-en-Parisis	;.
+dbpedia-fr:eglise_Saint_Martin_de_Cuiry_les_Iviers	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Cuiry-lès-Iviers';   prop-fr:ville 	dbpedia-fr:Cuiry-les-Iviers	;.
+dbpedia-fr:eglise_Saint_Martin_de_Faucogney_et_la_Mer	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Faucogney-et-la-Mer';   prop-fr:ville 	dbpedia-fr:Faucogney-et-la-Mer	;.
+dbpedia-fr:eglise_Saint_Martin_de_Josselin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Josselin';   prop-fr:ville 	dbpedia-fr:Josselin	;.
+dbpedia-fr:eglise_Saint_Martin_de_Longny_au_Perche	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Longny-au-Perche';   prop-fr:ville 	dbpedia-fr:Longny-au-Perche	;.
+dbpedia-fr:eglise_Saint_Martin_de_Meillard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Meillard';   prop-fr:ville 	dbpedia-fr:Meillard	;.
+dbpedia-fr:eglise_Saint_Martin_de_Parfouru_leclin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Parfouru-lÉclin';   prop-fr:ville 	dbpedia-fr:Livry	;.
+dbpedia-fr:eglise_Saint_Martin_de_Raillicourt	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin de Raillicourt';   prop-fr:ville 	dbpedia-fr:Raillicourt	;.
+dbpedia-fr:eglise_Saint_Martin_du_Mesnil_Amelot	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin du Mesnil-Amelot';   prop-fr:ville 	dbpedia-fr:Le_Mesnil-Amelot	;.
+dbpedia-fr:eglise_Saint_Martin_de_Tours_de_Courgenard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin-de-Tours de Courgenard';   prop-fr:ville 	dbpedia-fr:Courgenard	;.
+dbpedia-fr:eglise_Saint_Martin_de_Vertou_de_Boce	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Martin-de-Vertou de Bocé';   prop-fr:ville 	dbpedia-fr:Boce	;.
+dbpedia-fr:eglise_Saint_Nicolas_de_Tremolat	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Nicolas de Trémolat';   prop-fr:ville 	dbpedia-fr:Tremolat	;.
+dbpedia-fr:eglise_Saint_Ouen_de_Bennecourt	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Ouen de Bennecourt';   prop-fr:ville 	dbpedia-fr:Bennecourt	;.
+dbpedia-fr:eglise_Saint_Pallais_de_Villars_en_Pons	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pallais de Villars-en-Pons';   prop-fr:ville 	dbpedia-fr:Villars-en-Pons	;.
+dbpedia-fr:eglise_Saint_Paul_de_Salles_la_Source	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Paul de Salles-la-Source';   prop-fr:ville 	dbpedia-fr:Salles-la-Source	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Beugneux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Beugneux';   prop-fr:ville 	dbpedia-fr:Beugneux	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Chartres	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Chartres';   prop-fr:ville 	dbpedia-fr:Chartres	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Lanuejols	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Lanuéjols';   prop-fr:ville 	dbpedia-fr:Lanuejols	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Mauperthuis	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Mauperthuis';   prop-fr:ville 	dbpedia-fr:Mauperthuis	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Moulins	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre de Moulins';   prop-fr:ville 	dbpedia-fr:Moulins	;.
+dbpedia-fr:eglise_Saint_Pierre_et_Saint_Paul_de_Moutiers_en_Puisaye	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre-et-Saint-Paul de Moutiers-en-Puisaye';   prop-fr:ville 	dbpedia-fr:Moutiers-en-Puisaye	;.
+dbpedia-fr:eglise_Saint_Pierre_Saint_Paul_de_Guiscriff	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Pierre-Saint-Paul de Guiscriff';   prop-fr:ville 	dbpedia-fr:Guiscriff	;.
+dbpedia-fr:eglise_Saint_Quentin_de_Chermignac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Quentin de Chermignac';   prop-fr:ville 	dbpedia-fr:Chermignac	;.
+dbpedia-fr:eglise_Saint_Quintien_de_Picherande	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Quintien de Picherande';   prop-fr:ville 	dbpedia-fr:Picherande	;.
+dbpedia-fr:eglise_Saint_Remi_dAsnieres_sur_Oise	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Rémi dAsnières-sur-Oise';   prop-fr:ville 	dbpedia-fr:Asnières-sur-Oise	;.
+dbpedia-fr:eglise_Saint_Romain_de_Targon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Romain de Targon';   prop-fr:ville 	dbpedia-fr:Targon	;.
+dbpedia-fr:eglise_Saint_Sauveur_de_Coucy_le_Chateau_Auffrique	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saint-Sauveur de Coucy-le-Château-Auffrique';   prop-fr:ville 	dbpedia-fr:Coucy-le-Chateau-Auffrique	;.
+dbpedia-fr:eglise_Sainte_Croix_de_Champeix	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Sainte-Croix de Champeix';   prop-fr:ville 	dbpedia-fr:Champeix	;.
+dbpedia-fr:eglise_Sainte_Onesime_de_Donchery	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Sainte-Onésime de Donchery';   prop-fr:ville 	dbpedia-fr:Donchery	;.
+dbpedia-fr:eglise_Saints_Julien_et_Basilisse_de_Bram	rdf:type dbpedia-owl:Monument ; rdfs:label 'Église Saints-Julien-et-Basilisse de Bram';   prop-fr:ville 	dbpedia-fr:Bram	;.
+dbpedia-fr:Ferme_de_Chapieu	rdf:type dbpedia-owl:Monument ; rdfs:label 'Ferme de Chapieu';   prop-fr:ville 	dbpedia-fr:Lanuejols	;.
+dbpedia-fr:Fontaine_de_la_Sirène_de_Lleida	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine de la Sirène de Lleida';   prop-fr:ville 	dbpedia-fr:Lerida	;.
+dbpedia-fr:Fontaine_des_Pisseurs_Lacaune	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine des Pisseurs (Lacaune)';   prop-fr:ville 	dbpedia-fr:Lacaune	;.
+dbpedia-fr:Fontaine_du_Tresor	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fontaine du Trésor';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Fort_Mackinac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fort Mackinac';   prop-fr:ville 	dbpedia-fr:Mackinac_Island	;.
+dbpedia-fr:Fortin_de_Port_Fouquet	rdf:type dbpedia-owl:Monument ; rdfs:label 'Fortin de Port-Fouquet';   prop-fr:ville 	dbpedia-fr:Le_Palais	;.
+dbpedia-fr:Habitation_Zevallos	rdf:type dbpedia-owl:Monument ; rdfs:label 'Habitation Zévallos';   prop-fr:ville 	dbpedia-fr:Le_Moule	;.
+dbpedia-fr:Halle_de_Lesmont	rdf:type dbpedia-owl:Monument ; rdfs:label 'Halle de Lesmont';   prop-fr:ville 	dbpedia-fr:Lesmont	;.
+dbpedia-fr:Halle_de_Ricey_Haut	rdf:type dbpedia-owl:Monument ; rdfs:label 'Halle de Ricey-Haut';   prop-fr:ville 	dbpedia-fr:Les_Riceys	;.
+dbpedia-fr:Hopital_de_Sant_Pau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôpital de Sant Pau';   prop-fr:ville 	dbpedia-fr:Barcelone	;.
+dbpedia-fr:Hopital_des_Anglais	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôpital des Anglais';   prop-fr:ville 	dbpedia-fr:Peyrusse-le-Roc	;.
+dbpedia-fr:Hotel_Cottereau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Cottereau';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Hotel_dAngouleme_Lamoignon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel dAngoulême Lamoignon';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Bourges	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Bourges';   prop-fr:ville 	dbpedia-fr:Bazas	;.
+dbpedia-fr:Hotel_de_Fourcy	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Fourcy';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_Jocas	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Jocas';   prop-fr:ville 	dbpedia-fr:Pernes-les-Fontaines	;.
+dbpedia-fr:Hotel_de_Knuyt_de_Vosmaer	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Knuyt de Vosmaer';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Hotel_de_Mongelas	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Mongelas';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_de_prefecture_dIndre_et_Loire	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de préfecture dIndre-et-Loire';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Hotel_de_prefecture_de_lAin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de préfecture de lAin';   prop-fr:ville 	dbpedia-fr:Bourg-en-Bresse	;.
+dbpedia-fr:Hotel_de_prefecture_des_Bouches_du_Rhone	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de préfecture des Bouches-du-Rhône';   prop-fr:ville 	dbpedia-fr:Marseille	;.
+dbpedia-fr:Hotel_de_Tinteniac	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de Tinténiac';   prop-fr:ville 	dbpedia-fr:Angers	;.
+dbpedia-fr:Hotel_de_ville_de_Charleroi	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel de ville de Charleroi';   prop-fr:ville 	dbpedia-fr:Charleroi	;.
+dbpedia-fr:Hotel_des_Creneaux	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel des Créneaux';   prop-fr:ville 	dbpedia-fr:Orleans	;.
+dbpedia-fr:Hotel_des_postes_de_Caen	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel des postes de Caen';   prop-fr:ville 	dbpedia-fr:Caen	;.
+dbpedia-fr:Hotel_Duffau	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Duffau';   prop-fr:ville 	dbpedia-fr:Montpellier	;.
+dbpedia-fr:Hotel_Gaillard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Gaillard';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Joubert_Bonnaire	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Joubert-Bonnaire';   prop-fr:ville 	dbpedia-fr:Angers	;.
+dbpedia-fr:Hotel_Le_Pelletier_de_Souzy	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Le Pelletier de Souzy';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Hotel_Vauloup	rdf:type dbpedia-owl:Monument ; rdfs:label 'Hôtel Vauloup';   prop-fr:ville 	dbpedia-fr:Nantes	;.
+dbpedia-fr:Immeuble_au_11__rue_Kervegan_de_Nantes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Immeuble au 11, rue Kervégan de Nantes';   prop-fr:ville 	dbpedia-fr:Nantes	;.
+dbpedia-fr:Immeuble_au_13__rue_Kervegan_de_Nantes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Immeuble au 13, rue Kervégan de Nantes';   prop-fr:ville 	dbpedia-fr:Nantes	;.
+dbpedia-fr:Immeuble_Clarte	rdf:type dbpedia-owl:Monument ; rdfs:label 'Immeuble Clarté';   prop-fr:ville 	dbpedia-fr:Geneve	;.
+dbpedia-fr:Iparosotthon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Iparosotthon';   prop-fr:ville 	dbpedia-fr:Kecskemet	;.
+dbpedia-fr:Kruger_House_Museum	rdf:type dbpedia-owl:Monument ; rdfs:label 'Kruger House Museum';   prop-fr:ville 	dbpedia-fr:Pretoria	;.
+dbpedia-fr:Limmeuble_à_velos	rdf:type dbpedia-owl:Monument ; rdfs:label 'limmeuble à vélos';   prop-fr:ville 	dbpedia-fr:Grenoble	;.
+dbpedia-fr:Lavoir_des_Chavannes	rdf:type dbpedia-owl:Monument ; rdfs:label 'Lavoir des Chavannes';   prop-fr:ville 	dbpedia-fr:Saint-Vallier	;.
+dbpedia-fr:Le_Vieux_Moulin_Vernon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Le Vieux-Moulin';   prop-fr:ville 	dbpedia-fr:Vernon	;.
+dbpedia-fr:Lex_batiment	rdf:type dbpedia-owl:Monument ; rdfs:label 'Lex (bâtiment)';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Mairie_de_Kuopio	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mairie de Kuopio';   prop-fr:ville 	dbpedia-fr:Kuopio	;.
+dbpedia-fr:Maison_à_loriflamme	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison à loriflamme';   prop-fr:ville 	dbpedia-fr:Luxeuil-les-Bains	;.
+dbpedia-fr:Maison_Bermont	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Bermont';   prop-fr:ville 	dbpedia-fr:Montjaux	;.
+dbpedia-fr:Maison_coloniale_de_sante	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison coloniale de santé';   prop-fr:ville 	dbpedia-fr:Saint-Pierre_Martinique	;.
+dbpedia-fr:Maison_Coquille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Coquille';   prop-fr:ville 	dbpedia-fr:Basse-Terre	;.
+dbpedia-fr:Maison_de_Dimitrije_Krsmanović	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de Dimitrije Krsmanović';   prop-fr:ville 	dbpedia-fr:Belgrade	;.
+dbpedia-fr:Maison_de_Jacques_Louis_David	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de Jacques-Louis David';   prop-fr:ville 	dbpedia-fr:Bruxelles-ville	;.
+dbpedia-fr:Maison_de_justice_du_Bizot	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de justice du Bizot';   prop-fr:ville 	dbpedia-fr:Le_Bizot	;.
+dbpedia-fr:Maison_de_leclusier_du_canal_dEntreroches	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de léclusier du canal dEntreroches';   prop-fr:ville 	dbpedia-fr:Orny	;.
+dbpedia-fr:Maison_de_la_Banque_de_La_Reunion	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de la Banque de La Réunion';   prop-fr:ville 	dbpedia-fr:Saint-Denis_La_Réunion	;.
+dbpedia-fr:Maison_de_la_Renommee	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de la Renommée';   prop-fr:ville 	dbpedia-fr:Bruxelles	;.
+dbpedia-fr:Maison_de_la_Rose	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de la Rose';   prop-fr:ville 	dbpedia-fr:Bruxelles-ville	;.
+dbpedia-fr:Maison_de_Louis_XI_Cusset	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison de Louis XI (Cusset)';   prop-fr:ville 	dbpedia-fr:Cusset	;.
+dbpedia-fr:Maison_des_Anglais_Le_Chalard	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison des Anglais (Le Chalard)';   prop-fr:ville 	dbpedia-fr:Le_Chalard	;.
+dbpedia-fr:Maison_Frugès	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Frugès';   prop-fr:ville 	dbpedia-fr:Bordeaux	;.
+dbpedia-fr:Maison_romane_de_Saint_Gilles	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison romane de Saint-Gilles';   prop-fr:ville 	dbpedia-fr:Saint-Gilles_Gard	;.
+dbpedia-fr:Maison_Timol	rdf:type dbpedia-owl:Monument ; rdfs:label 'Maison Timol';   prop-fr:ville 	dbpedia-fr:Saint-Denis_La_Réunion	;.
+dbpedia-fr:Manoir_Beranger	rdf:type dbpedia-owl:Monument ; rdfs:label 'Manoir Béranger';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Manoir__rue_Maupertuis_2_4__Nyon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Manoir, rue Maupertuis 2-4, Nyon';   prop-fr:ville 	dbpedia-fr:Nyon	;.
+dbpedia-fr:Mausolee_du_Prince_Imperial	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mausolée du Prince Impérial';   prop-fr:ville 	dbpedia-fr:Rueil-Malmaison	;.
+dbpedia-fr:Mausolee_Juselius	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mausolée Juselius';   prop-fr:ville 	dbpedia-fr:Pori	;.
+dbpedia-fr:Megalithe_de_Guillay	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mégalithe de Guillay';   prop-fr:ville 	dbpedia-fr:Larriviere-Saint-Savin	;.
+dbpedia-fr:Menhir_de_la_Riveraie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Menhir de la Riveraie';   prop-fr:ville 	dbpedia-fr:Saint-Pere-en-Retz	;.
+dbpedia-fr:Meulières_du_Mont_Vouan	rdf:type dbpedia-owl:Monument ; rdfs:label 'Meulières du Mont Vouan';   prop-fr:ville 	dbpedia-fr:Viuz-en-Sallaz	;.
+dbpedia-fr:Mont_calvaire_de_Sombacour	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mont-calvaire de Sombacour';   prop-fr:ville 	dbpedia-fr:Sombacour	;.
+dbpedia-fr:Monument_aux_Hanovriens	rdf:type dbpedia-owl:Monument ; rdfs:label 'Monument aux Hanovriens';   prop-fr:ville 	dbpedia-fr:Lasne	;.
+dbpedia-fr:Monument_du_Centenaire	rdf:type dbpedia-owl:Monument ; rdfs:label 'Monument du Centenaire';   prop-fr:ville 	dbpedia-fr:Nice	;.
+dbpedia-fr:Moulin_de_la_Saulaie	rdf:type dbpedia-owl:Monument ; rdfs:label 'Moulin de la Saulaie';   prop-fr:ville 	dbpedia-fr:Cande	;.
+dbpedia-fr:Moulin_Delestic	rdf:type dbpedia-owl:Monument ; rdfs:label 'Moulin Delestic';   prop-fr:ville 	dbpedia-fr:Reillanne	;.
+dbpedia-fr:Moulins_à_vent_du_Champ_des_iles	rdf:type dbpedia-owl:Monument ; rdfs:label 'Moulins à vent du Champ des Îles';   prop-fr:ville 	dbpedia-fr:Varennes-sur-Loire	;.
+dbpedia-fr:Mur_de_Berlin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Mur de Berlin';   prop-fr:ville 	dbpedia-fr:Berlin-Ouest	;.
+dbpedia-fr:Noviciat_des_Jesuites_dAvignon	rdf:type dbpedia-owl:Monument ; rdfs:label 'Noviciat des Jésuites dAvignon';   prop-fr:ville 	dbpedia-fr:Avignon	;.
+dbpedia-fr:Office_du_tourisme_dAndenne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Office du tourisme dAndenne';   prop-fr:ville 	dbpedia-fr:Andenne	;.
+dbpedia-fr:Palais_de_justice_de_Tours	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais de justice de Tours';   prop-fr:ville 	dbpedia-fr:Tours	;.
+dbpedia-fr:Palais_des_archeveques_de_Narbonne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais des archevêques de Narbonne';   prop-fr:ville 	dbpedia-fr:Narbonne	;.
+dbpedia-fr:Palais_des_Arts_Marseille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais des Arts (Marseille)';   prop-fr:ville 	dbpedia-fr:Marseille	;.
+dbpedia-fr:Palais_Porto_piazza_Castello	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palais Porto (piazza Castello)';   prop-fr:ville 	dbpedia-fr:Vicence	;.
+dbpedia-fr:Palazzo_Piccolomini_Sienne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Palazzo Piccolomini (Sienne)';   prop-fr:ville 	dbpedia-fr:Sienne	;.
+dbpedia-fr:Pierre_couverte_de_la_planche	rdf:type dbpedia-owl:Monument ; rdfs:label 'Pierre couverte de la planche';   prop-fr:ville 	dbpedia-fr:Broc	;.
+dbpedia-fr:Polissoir_de_Mezy_Moulins	rdf:type dbpedia-owl:Monument ; rdfs:label 'Polissoir de Mézy-Moulins';   prop-fr:ville 	dbpedia-fr:Mezy-Moulins	;.
+dbpedia-fr:Pont_dEstaing	rdf:type dbpedia-owl:Monument ; rdfs:label 'Pont dEstaing';   prop-fr:ville 	dbpedia-fr:Estaing	;.
+dbpedia-fr:Pont_sur_la_Truyère_Entraygues_sur_Truyère	rdf:type dbpedia-owl:Monument ; rdfs:label 'Pont sur la Truyère (Entraygues-sur-Truyère)';   prop-fr:ville 	dbpedia-fr:Entraygues-sur-Truyere	;.
+dbpedia-fr:Porte_de_Genève	rdf:type dbpedia-owl:Monument ; rdfs:label 'Porte de Genève';   prop-fr:ville 	dbpedia-fr:Yvoire	;.
+dbpedia-fr:Presbytère_de_Satillieu	rdf:type dbpedia-owl:Monument ; rdfs:label 'Presbytère de Satillieu';   prop-fr:ville 	dbpedia-fr:Satillieu	;.
+dbpedia-fr:Prison_de_Petit_Canal	rdf:type dbpedia-owl:Monument ; rdfs:label 'Prison de Petit-Canal';   prop-fr:ville 	dbpedia-fr:Petit-Canal	;.
+dbpedia-fr:Remparts_du_Malzieu_Ville	rdf:type dbpedia-owl:Monument ; rdfs:label 'Remparts du Malzieu-Ville';   prop-fr:ville 	dbpedia-fr:Le_Malzieu-Ville	;.
+dbpedia-fr:Salins_de_Bregille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Salins de Bregille';   prop-fr:ville 	dbpedia-fr:Besançon	;.
+dbpedia-fr:Saumoduc_de_Salins_les_Bains_à_Arc_et_Senans	rdf:type dbpedia-owl:Monument ; rdfs:label 'Saumoduc de Salins-les-Bains à Arc-et-Senans';   prop-fr:ville 	dbpedia-fr:Salins-les-Bains	;.
+dbpedia-fr:Sculpture_tricephale_Lugrin	rdf:type dbpedia-owl:Monument ; rdfs:label 'Sculpture tricéphale (Lugrin)';   prop-fr:ville 	dbpedia-fr:Lugrin	;.
+dbpedia-fr:Temple_du_feu_dIspahan	rdf:type dbpedia-owl:Monument ; rdfs:label 'Temple du feu dIspahan';   prop-fr:ville 	dbpedia-fr:Ispahan	;.
+dbpedia-fr:Thermes_de_Salies_de_Bearn	rdf:type dbpedia-owl:Monument ; rdfs:label 'Thermes de Salies-de-Béarn';   prop-fr:ville 	dbpedia-fr:Salies-de-Bearn	;.
+dbpedia-fr:Tour_de_Bregille	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Bregille';   prop-fr:ville 	dbpedia-fr:Besancon	;.
+dbpedia-fr:Tour_de_Chamars	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Chamars';   prop-fr:ville 	dbpedia-fr:Besancon	;.
+dbpedia-fr:Tour_de_lHorloge_Nevers	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de lHorloge (Nevers)';   prop-fr:ville 	dbpedia-fr:Nevers	;.
+dbpedia-fr:Tour_de_Saint_Hospice	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour de Saint-Hospice';   prop-fr:ville 	dbpedia-fr:Saint-Jean-Cap-Ferrat	;.
+dbpedia-fr:Tour_Gloriette	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Gloriette';   prop-fr:ville 	dbpedia-fr:Arbois	;.
+dbpedia-fr:Tour_Magne	rdf:type dbpedia-owl:Monument ; rdfs:label 'Tour Magne';   prop-fr:ville 	dbpedia-fr:Nimes	;.
+dbpedia-fr:Triumphpforte	rdf:type dbpedia-owl:Monument ; rdfs:label 'Triumphpforte';   prop-fr:ville 	dbpedia-fr:Innsbruck	;.
+dbpedia-fr:Usine_à_chaux_de_Saint_Pierre	rdf:type dbpedia-owl:Monument ; rdfs:label 'Usine à chaux de Saint-Pierre';   prop-fr:ville 	dbpedia-fr:Angrie	;.
+dbpedia-fr:Vieux_couvent	rdf:type dbpedia-owl:Monument ; rdfs:label 'Vieux couvent';   prop-fr:ville 	dbpedia-fr:Caraquet	;.
+dbpedia-fr:Villa_Kramář	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Kramář';   prop-fr:ville 	dbpedia-fr:Prague	;.
+dbpedia-fr:Villa_Le_Castel	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Le Castel';   prop-fr:ville 	dbpedia-fr:Le_Touquet-Paris-Plage	;.
+dbpedia-fr:Villa_Mediterranee	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Méditerranée';   prop-fr:ville 	dbpedia-fr:Marseille	;.
+dbpedia-fr:Villa_Rotonda	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Rotonda';   prop-fr:ville 	dbpedia-fr:Vicence	;.
+dbpedia-fr:Villa_Strassburger	rdf:type dbpedia-owl:Monument ; rdfs:label 'Villa Strassburger';   prop-fr:ville 	dbpedia-fr:Deauville	;.
+dbpedia-fr:Waag_Amsterdam	rdf:type dbpedia-owl:Monument ; rdfs:label 'Waag (Amsterdam)';   prop-fr:ville 	dbpedia-fr:Amsterdam	;.
+dbpedia-fr:Musee_de_la_Maison_Bonaparte	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Maison Bonaparte';   prop-fr:ville 	dbpedia-fr:Ajaccio	;.
+dbpedia-fr:Musee_dart_contemporain_de_San_Diego	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart contemporain de San Diego';   prop-fr:ville 	dbpedia-fr:San_Diego	;.
+dbpedia-fr:Musee_Rockefeller	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Rockefeller';   prop-fr:ville 	dbpedia-fr:Jerusalem	;.
+dbpedia-fr:Fondation_suisse_pour_la_photographie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Fondation suisse pour la photographie';   prop-fr:ville 	dbpedia-fr:Winterthour	;.
+dbpedia-fr:Musee_Thyssen_Bornemisza	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Thyssen-Bornemisza';   prop-fr:ville 	dbpedia-fr:Madrid	;.
+dbpedia-fr:Musee_dart_colonial_de_Bogota	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart colonial de Bogota';   prop-fr:ville 	dbpedia-fr:Bogota	;.
+dbpedia-fr:Maison_des_anciens_remèdes	rdf:type dbpedia-owl:Museum ; rdfs:label 'Maison des anciens remèdes';   prop-fr:ville 	dbpedia-fr:Jovençan	;.
+dbpedia-fr:Musee_de_Tahiti_et_des_iles	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de Tahiti et des Îles';   prop-fr:ville 	dbpedia-fr:Punaauia	;.
+dbpedia-fr:Musee_metropolitain_de_Manille	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée métropolitain de Manille';   prop-fr:ville 	dbpedia-fr:Manille	;.
+dbpedia-fr:Musee_archeologique_national_de_Vulci	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée archéologique national de Vulci';   prop-fr:ville 	dbpedia-fr:Vulci	;.
+dbpedia-fr:Musee_Jorn	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Jorn';   prop-fr:ville 	dbpedia-fr:Silkeborg	;.
+dbpedia-fr:Musee_prefectoral_dhistoire_dIbaraki	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée préfectoral dhistoire dIbaraki';   prop-fr:ville 	dbpedia-fr:Mito	;.
+dbpedia-fr:Miami_Science_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Miami Science Museum';   prop-fr:ville 	dbpedia-fr:Miami	;.
+dbpedia-fr:Musee_dart_contemporain_de_Cracovie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart contemporain de Cracovie';   prop-fr:ville 	dbpedia-fr:Cracovie	;.
+dbpedia-fr:Musee_de_la_Liberation_de_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du Général-Leclerc-de-Hauteclocque-et-de-la-Libération-de-Paris – musée Jean-Moulin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_la_Contrefaçon	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Contrefaçon';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_la_vie_romantique	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la vie romantique';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Galerie_Lefebvre_et_Fils	rdf:type dbpedia-owl:Museum ; rdfs:label 'Galerie Lefebvre et Fils';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_national_des_arts_asiatiques___Guimet	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée national des arts asiatiques - Guimet';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_la_Legion_dhonneur	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Légion dhonneur';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Catacombes_de_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Catacombes de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Museum_national_dhistoire_naturelle	rdf:type dbpedia-owl:Museum ; rdfs:label 'Muséum national dhistoire naturelle';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Palais_de_la_decouverte	rdf:type dbpedia-owl:Museum ; rdfs:label 'Palais de la découverte';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_des_Arts_forains	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des Arts forains';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_lerotisme_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de lérotisme (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Aquarium_de_Paris___Cineaqua	rdf:type dbpedia-owl:Museum ; rdfs:label 'Aquarium de Paris - Cinéaqua';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Maison_de_lHistoire_de_France	rdf:type dbpedia-owl:Museum ; rdfs:label 'Maison de lHistoire de France';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Maison_de_Victor_Hugo	rdf:type dbpedia-owl:Museum ; rdfs:label 'Maison de Victor Hugo';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Zadkine	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Zadkine';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_lArmee_Paris	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de lArmée (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_de_lhistoire_de_limmigration	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de l’histoire de l’immigration';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Marmottan_Monet	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Marmottan Monet';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_du_Louvre	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du Louvre';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Gustave_Moreau	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Gustave-Moreau';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Appartement_du_docteur_Gagnon	rdf:type dbpedia-owl:Museum ; rdfs:label 'Appartement du docteur Gagnon';   prop-fr:ville 	dbpedia-fr:Grenoble	;.
+dbpedia-fr:Musee_archeologique_national_de_Urbisaglia	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée archéologique national de Urbisaglia';   prop-fr:ville 	dbpedia-fr:Urbisaglia	;.
+dbpedia-fr:Palais_de_la_decouverte	rdf:type dbpedia-owl:Museum ; rdfs:label 'Palais de la découverte';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_dart_contemporain_de_Rome	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart contemporain de Rome';   prop-fr:ville 	dbpedia-fr:Rome	;.
+dbpedia-fr:Musee_dart_et_dhistoire_de_Geneve	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart et dhistoire de Genève';   prop-fr:ville 	dbpedia-fr:Geneve	;.
+dbpedia-fr:Reiss_Engelhorn_Museen	rdf:type dbpedia-owl:Museum ; rdfs:label 'Reiss-Engelhorn-Museen';   prop-fr:ville 	dbpedia-fr:Mannheim	;.
+dbpedia-fr:Musee_national_du_Soudan	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée national du Soudan';   prop-fr:ville 	dbpedia-fr:Khartoum	;.
+dbpedia-fr:Achilleion	rdf:type dbpedia-owl:Museum ; rdfs:label 'Achilleion';   prop-fr:ville 	dbpedia-fr:Corfou	;.
+dbpedia-fr:Clark_Art_Institute	rdf:type dbpedia-owl:Museum ; rdfs:label 'Clark Art Institute';   prop-fr:ville 	dbpedia-fr:Williamstown	;.
+dbpedia-fr:Musee_Horne	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Horne';   prop-fr:ville 	dbpedia-fr:Florence	;.
+dbpedia-fr:Musee_du_rhum_de_Sainte_Marie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du rhum de Sainte-Marie';   prop-fr:ville 	dbpedia-fr:Sainte-Marie_Martinique	;.
+dbpedia-fr:Musee_des_beaux_arts_de_Nimes	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des beaux-arts de Nîmes';   prop-fr:ville 	dbpedia-fr:Nimes	;.
+dbpedia-fr:Hong_Kong_Museum_of_Coastal_Defence	rdf:type dbpedia-owl:Museum ; rdfs:label 'Hong Kong Museum of Coastal Defence';   prop-fr:ville 	dbpedia-fr:Hong_Kong	;.
+dbpedia-fr:Musee_polonais_de_Rapperswil	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée polonais de Rapperswil';   prop-fr:ville 	dbpedia-fr:Rapperswil	;.
+dbpedia-fr:Elyseum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Elyseum';   prop-fr:ville 	dbpedia-fr:Goteborg	;.
+dbpedia-fr:Imperial_War_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Imperial War Museum';   prop-fr:ville 	dbpedia-fr:Imperial_War_Museum_Duxford	;.
+dbpedia-fr:Musee_dart_du_comte_de_Los_Angeles	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée dart du comté de Los Angeles';   prop-fr:ville 	dbpedia-fr:Los_Angeles	;.
+dbpedia-fr:British_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'British Museum';   prop-fr:ville 	dbpedia-fr:Londres	;.
+dbpedia-fr:Musee_de_la_Mer_de_Cannes	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée de la Mer de Cannes';   prop-fr:ville 	dbpedia-fr:Cannes	;.
+dbpedia-fr:Musee_du_Chiado	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du Chiado';   prop-fr:ville 	dbpedia-fr:Lisbonne	;.
+dbpedia-fr:Musee_archeologique_dephese	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée archéologique dÉphèse';   prop-fr:ville 	dbpedia-fr:Selçuk	;.
+dbpedia-fr:Musee_Ernest_Cognacq	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Ernest-Cognacq';   prop-fr:ville 	dbpedia-fr:Saint-Martin-de-Re	;.
+dbpedia-fr:Musee_du_theatre_romain_de_Carthagene	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée du théâtre romain de Carthagène';   prop-fr:ville 	dbpedia-fr:Carthagene	;.
+dbpedia-fr:Musee_des_fossiles_de_Tourtour	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des fossiles de Tourtour';   prop-fr:ville 	dbpedia-fr:Tourtour	;.
+dbpedia-fr:Musee_national_dhistoire_Bulgarie	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée national dhistoire (Bulgarie)';   prop-fr:ville 	dbpedia-fr:Sofia	;.
+dbpedia-fr:Crypte_archeologique_du_parvis_Notre_Dame	rdf:type dbpedia-owl:Museum ; rdfs:label 'Crypte archéologique du parvis Notre-Dame';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Musee_Mathurin_Meheut	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée Mathurin-Méheut';   prop-fr:ville 	dbpedia-fr:Lamballe	;.
+dbpedia-fr:Barnums_American_Museum	rdf:type dbpedia-owl:Museum ; rdfs:label 'Barnums American Museum';   prop-fr:ville 	dbpedia-fr:New_York	;.
+dbpedia-fr:Moulin_et_musee_rural_du_Steenmeulen_de_Terdeghem	rdf:type dbpedia-owl:Museum ; rdfs:label 'Moulin et musée rural du Steenmeulen de Terdeghem';   prop-fr:ville 	dbpedia-fr:Terdeghem	;.
+dbpedia-fr:Museum_dhistoire_naturelle_de_Bourges	rdf:type dbpedia-owl:Museum ; rdfs:label 'Muséum dhistoire naturelle de Bourges';   prop-fr:ville 	dbpedia-fr:Bourges	;.
+dbpedia-fr:Musee_romain_de_Vallon	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée romain de Vallon';   prop-fr:ville 	dbpedia-fr:Vallon	;.
+dbpedia-fr:Musee_des_sciences_Príncipe_Felipe	rdf:type dbpedia-owl:Museum ; rdfs:label 'Musée des sciences Príncipe Felipe';   prop-fr:ville 	dbpedia-fr:Valence	;.
+dbpedia-fr:Seminaire_des_Carmes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Séminaire des Carmes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Synagogue_Rashi_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Synagogue Rashi (Paris)';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_reformee_de_lAnnonciation	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église réformée de lAnnonciation';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_de_lArche_dAlliance	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-lArche-dAlliance';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Vincent_de_Paul_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Vincent-de-Paul de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Germain_de_Charonne	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Germain de Charonne';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_reformee_de_Port_Royal	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église réformée de Port-Royal';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Georges_de_la_Villette	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Georges de la Villette';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Sainte_Jeanne_dArc_du_Touquet_Paris_Plage	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Sainte-Jeanne-dArc du Touquet-Paris-Plage';   prop-fr:ville 	dbpedia-fr:Le_Touquet-Paris-Plage	;.
+dbpedia-fr:Cloitre_et_eglise_des_Billettes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cloître et église des Billettes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Medard_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Médard de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_de_Compassion_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-Compassion de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Severin	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Séverin';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Andre_des_Arts	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-André-des-Arts';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_du_Bon_Conseil_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-du-Bon-Conseil de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_evangelique_Saint_Marcel	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église évangélique Saint-Marcel';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Michel_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Michel de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Ferdinand_des_Ternes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Ferdinand-des-Ternes';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Roch_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Roch de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_reformee_Saint_Jean	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église réformée Saint-Jean';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Chapelle_Notre_Dame_de_Consolation_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Notre-Dame-de-Consolation de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_des_Otages	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-des-Otages';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Basilique_Sainte_Jeanne_dArc_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Basilique Sainte-Jeanne-dArc de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Jacques_Saint_Christophe_de_la_Villette	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Jacques-Saint-Christophe de la Villette';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Sava_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Sava de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_des_Champs	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-des-Champs';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Paroisse_Notre_Dame_Joie_des_Affliges_et_Sainte_Genevieve	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Paroisse Notre-Dame-Joie-des-Affligés-et-Sainte-Geneviève';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_des_Trois_Saints_Docteurs_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale des Trois-Saints-Docteurs de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Union_liberale_israelite_de_France	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Union libérale israélite de France';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Nicolas_du_Chardonnet	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Nicolas-du-Chardonnet';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Denys_de_la_Chapelle	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Denys de la Chapelle';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_du_Rosaire_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-du-Rosaire de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_americaine_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale américaine de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_du_Travail_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-du-Travail de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Philippe_du_Roule	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Philippe-du-Roule';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Pierre_de_Montrouge	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Pierre-de-Montrouge';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Sulpice_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Sulpice de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Abbaye_Sainte_Geneviève_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Abbaye Sainte-Geneviève de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Eustache_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Eustache de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Chapelle_expiatoire	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle expiatoire';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Saint_Antoine_de_Padoue_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Antoine-de-Padoue de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:eglise_Notre_Dame_de_lAssomption_de_Passy	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-lAssomption-de-Passy';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_grecque_Saint_etienne_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale grecque Saint-Étienne de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_Saint_Alexandre_Nevsky_de_Paris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Saint-Alexandre-Nevsky de Paris';   prop-fr:ville 	dbpedia-fr:Paris	;.
+dbpedia-fr:Cathedrale_Saint_Nicolas_de_Sremski_Karlovci	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Saint-Nicolas de Sremski Karlovci';   prop-fr:ville 	dbpedia-fr:Sremski_Karlovci	;.
+dbpedia-fr:Chapelle_Notre_Dame_de_Nize	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Notre-Dame-de-Nize';   prop-fr:ville 	dbpedia-fr:Lunas	;.
+dbpedia-fr:Abbaye_Saint_Wandrille_de_Fontenelle	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Abbaye Saint-Wandrille de Fontenelle';   prop-fr:ville 	dbpedia-fr:Saint-Wandrille-Rançon	;.
+dbpedia-fr:eglise_Saint_Michel_et_Saint_Gabriel_de_Batajnica	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Michel et Saint-Gabriel de Batajnica';   prop-fr:ville 	dbpedia-fr:Belgrade	;.
+dbpedia-fr:eglise_Santa_Maria_del_Priorato	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Santa Maria del Priorato';   prop-fr:ville 	dbpedia-fr:Rome	;.
+dbpedia-fr:Mosquee_bleue	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Mosquée bleue';   prop-fr:ville 	dbpedia-fr:Istanbul	;.
+dbpedia-fr:eglise_armenienne_Saint_Jacques_de_Lyon	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église arménienne Saint-Jacques de Lyon';   prop-fr:ville 	dbpedia-fr:Lyon	;.
+dbpedia-fr:Cathedrale_de_Bologne	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Bologne';   prop-fr:ville 	dbpedia-fr:Bologne	;.
+dbpedia-fr:Maison_natale_dEsprit_Flechier	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Maison natale dEsprit Fléchier';   prop-fr:ville 	dbpedia-fr:Pernes-les-Fontaines	;.
+dbpedia-fr:Cathedrale_dIvree	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale dIvrée';   prop-fr:ville 	dbpedia-fr:Ivree	;.
+dbpedia-fr:Chapelle_Saint_Martin_de_Saduran	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Saint-Martin-de-Saduran';   prop-fr:ville 	dbpedia-fr:Bagnols-sur-Ceze	;.
+dbpedia-fr:Cathedrale_de_Bois_le_Duc	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Bois-le-Duc';   prop-fr:ville 	dbpedia-fr:Bois-le-Duc	;.
+dbpedia-fr:Monastère_de_Banjska	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Monastère de Banjska';   prop-fr:ville 	dbpedia-fr:Banjska	;.
+dbpedia-fr:Chapelle_Saint_Jean_du_Grès	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chapelle Saint-Jean-du-Grès';   prop-fr:ville 	dbpedia-fr:Fontvieille	;.
+dbpedia-fr:eglise_Saint_Clement_de_Sirach	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Clément de Sirach';   prop-fr:ville 	dbpedia-fr:Ria-Sirach	;.
+dbpedia-fr:Cathedrale_Saint_Maclou_de_Pontoise	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Saint-Maclou de Pontoise';   prop-fr:ville 	dbpedia-fr:Pontoise	;.
+dbpedia-fr:eglise_Notre_Dame_de_la_Purification_de_Lauris	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame-de-la-Purification de Lauris';   prop-fr:ville 	dbpedia-fr:Lauris	;.
+dbpedia-fr:Saint_Michel_de_Gignac	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Saint-Michel de Gignac';   prop-fr:ville 	dbpedia-fr:Le_Rove	;.
+dbpedia-fr:Cathedrale_de_Nuoro	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Nuoro';   prop-fr:ville 	dbpedia-fr:Nuoro	;.
+dbpedia-fr:Cathedrale_de_Talin	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Talin';   prop-fr:ville 	dbpedia-fr:Talin	;.
+dbpedia-fr:Abbaye_Saint_Vigor_le_Grand	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Abbaye Saint-Vigor-le-Grand';   prop-fr:ville 	dbpedia-fr:Saint-Vigor-le-Grand	;.
+dbpedia-fr:eglise_protestante_Saint_Pierre_le_Jeune_de_Strasbourg	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église protestante Saint-Pierre-le-Jeune de Strasbourg';   prop-fr:ville 	dbpedia-fr:Strasbourg	;.
+dbpedia-fr:Prieure_de_Rauzet	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Prieuré de Rauzet';   prop-fr:ville 	dbpedia-fr:Combiers	;.
+dbpedia-fr:Cathedrale_Notre_Dame_dAmiens	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Notre-Dame dAmiens';   prop-fr:ville 	dbpedia-fr:Amiens	;.
+dbpedia-fr:eglise_Saint_Medard_dAncienville	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Médard dAncienville';   prop-fr:ville 	dbpedia-fr:Ancienville	;.
+dbpedia-fr:Cathedrale_de_Giovinazzo	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Giovinazzo';   prop-fr:ville 	dbpedia-fr:Giovinazzo	;.
+dbpedia-fr:Cathedrale_Sainte_Marie_de_lAssomption_de_Vaison_la_Romaine	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Sainte Marie de lAssomption de Vaison-la-Romaine';   prop-fr:ville 	dbpedia-fr:Vaison-la-Romaine	;.
+dbpedia-fr:eglise_Saint_Denis_dHellemmes	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Denis-dHellemmes';   prop-fr:ville 	dbpedia-fr:Lille	;.
+dbpedia-fr:Chartreuse_de_Pavie	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Chartreuse de Pavie';   prop-fr:ville 	dbpedia-fr:Pavie	;.
+dbpedia-fr:Cathedrale_nouvelle_Lerida	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale nouvelle (Lérida)';   prop-fr:ville 	dbpedia-fr:Lerida	;.
+dbpedia-fr:eglise_Notre_Dame_de_Valliquerville	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame de Valliquerville';   prop-fr:ville 	dbpedia-fr:Valliquerville	;.
+dbpedia-fr:Carmel_de_Montreal	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Carmel de Montréal';   prop-fr:ville 	dbpedia-fr:Montreal	;.
+dbpedia-fr:Cathedrale_de_Sessa_Aurunca	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale de Sessa Aurunca';   prop-fr:ville 	dbpedia-fr:Sessa_Aurunca	;.
+dbpedia-fr:eglise_Sainte_Marie_des_Abeilles	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Sainte-Marie des Abeilles';   prop-fr:ville 	dbpedia-fr:Les_Abeilles	;.
+dbpedia-fr:eglise_Santa_Maria_Nuova_de_Perouse	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Santa Maria Nuova de Pérouse';   prop-fr:ville 	dbpedia-fr:Perouse	;.
+dbpedia-fr:eglise_Saint_Pierre_et_Saint_Romain_de_Savennieres	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Pierre-et-Saint-Romain de Savennières';   prop-fr:ville 	dbpedia-fr:Savennieres	;.
+dbpedia-fr:eglise_Notre_Dame_de_la_Bonne_Delivrance_des_Trois_ilets	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Notre-Dame de la Bonne-Délivrance des Trois-Îlets';   prop-fr:ville 	dbpedia-fr:Les_Trois-Ilets	;.
+dbpedia-fr:eglise_Saint_Pierre_et_Saint_Paul_de_Silly_le_Long	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Pierre-et-Saint-Paul de Silly-le-Long';   prop-fr:ville 	dbpedia-fr:Silly-le-Long	;.
+dbpedia-fr:Vieille_eglise_dAmsterdam	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Vieille église dAmsterdam';   prop-fr:ville 	dbpedia-fr:Amsterdam	;.
+dbpedia-fr:Cathedrale_Notre_Dame_de_Kazan_de_Moscou	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Cathédrale Notre-Dame-de-Kazan de Moscou';   prop-fr:ville 	dbpedia-fr:Moscou	;.
+dbpedia-fr:eglise_Saint_Augustin_Mayence	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Augustin (Mayence)';   prop-fr:ville 	dbpedia-fr:Mayence	;.
+dbpedia-fr:eglise_Saint_Georges_Villeneuve_Saint_Georges	rdf:type dbpedia-owl:ReligiousBuilding ; rdfs:label 'Église Saint-Georges (Villeneuve-Saint-Georges)';   prop-fr:ville 	dbpedia-fr:Villeneuve-Saint-Georges	;.
+
+dbpedia-fr:Ajaccio rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ajaccio';.
+dbpedia-fr:Amiens rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Amiens';.
+dbpedia-fr:Amsterdam rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Amsterdam' ;.
+dbpedia-fr:Ancienville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ancienville';.
+dbpedia-fr:Andenne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Andenne';.
+dbpedia-fr:Angers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Angers';.
+dbpedia-fr:Angrie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Angrie';.
+dbpedia-fr:Arbois rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Arbois';.
+dbpedia-fr:Arques rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Arques (Pas-de-Calais)';.
+dbpedia-fr:Asnières-sur-Oise rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Asnières-sur-Oise';.
+dbpedia-fr:Autrey-les-Gray rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Autrey-lès-Gray';.
+dbpedia-fr:Avignon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Avignon';.
+dbpedia-fr:Bagnols-sur-Ceze rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bagnols-sur-Cèze';.
+dbpedia-fr:Baix rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Baix';.
+dbpedia-fr:Banjska rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Banjska (Zvečan)';.
+dbpedia-fr:Barberier rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Barberier';.
+dbpedia-fr:Barcelone rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Barcelone';.
+dbpedia-fr:Barzy-sur-Marne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Barzy-sur-Marne';.
+dbpedia-fr:Basse-Terre rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Basse-Terre';.
+dbpedia-fr:Bazas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bazas';.
+dbpedia-fr:Belgrade rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Belgrade';.
+dbpedia-fr:Bellefond rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bellefond (Gironde)';.
+dbpedia-fr:Belmont-sur-Vair rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Belmont-sur-Vair';.
+dbpedia-fr:Bennecourt rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bennecourt';.
+dbpedia-fr:Berlin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Berlin';.
+dbpedia-fr:Berlin-Ouest rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Berlin-Ouest';.
+dbpedia-fr:Besancon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Besançon';.
+dbpedia-fr:Besançon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Besançon';.
+dbpedia-fr:Beugneux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Beugneux';.
+dbpedia-fr:Boce rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bocé';.
+dbpedia-fr:Bogota rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bogota';.
+dbpedia-fr:Bois-le-Duc rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bois-le-Duc';.
+dbpedia-fr:Bois-les-Pargny rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bois-lès-Pargny';.
+dbpedia-fr:Bologne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bologne';.
+dbpedia-fr:Bonneil rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bonneil';.
+dbpedia-fr:Bordeaux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bordeaux';.
+dbpedia-fr:Bourg-en-Bresse rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bourg-en-Bresse';.
+dbpedia-fr:Bourges rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bourges';.
+dbpedia-fr:Bram rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bram';.
+dbpedia-fr:Broc rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Broc (Maine-et-Loire)';.
+dbpedia-fr:Bruxelles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bruxelles-ville';.
+dbpedia-fr:Bruxelles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bruxelles';.
+dbpedia-fr:Bruxelles-ville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Bruxelles-ville';.
+dbpedia-fr:Budapest rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Budapest';.
+dbpedia-fr:Burzet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Burzet';.
+dbpedia-fr:Caen rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Caen';.
+dbpedia-fr:Cande rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Candé';.
+dbpedia-fr:Cannes rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cannes';.
+dbpedia-fr:Caraquet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Caraquet';.
+dbpedia-fr:Carthagene rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Carthagène (Espagne)';.
+dbpedia-fr:Champeix rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Champeix';.
+dbpedia-fr:Charleroi rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Charleroi';.
+dbpedia-fr:Chartres rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Chartres';.
+dbpedia-fr:Chermignac rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Chermignac';.
+dbpedia-fr:Clermont-Ferrand rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Clermont-Ferrand';.
+dbpedia-fr:Coire rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Coire';.
+dbpedia-fr:Combiers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Combiers';.
+dbpedia-fr:Combret rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Combret';.
+dbpedia-fr:Corfou rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Corfou';.
+dbpedia-fr:Cormeilles-en-Parisis rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cormeilles-en-Parisis';.
+dbpedia-fr:Coucy-le-Chateau-Auffrique rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Coucy-le-Château-Auffrique';.
+dbpedia-fr:Courdemanche_Sarthe rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Courdemanche (Sarthe)';.
+dbpedia-fr:Courgenard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Courgenard';.
+dbpedia-fr:Coutances rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Coutances';.
+dbpedia-fr:Cracovie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cracovie';.
+dbpedia-fr:Cuiry-les-Iviers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cuiry-lès-Iviers';.
+dbpedia-fr:Cusset rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Cusset';.
+dbpedia-fr:Deauville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Deauville';.
+dbpedia-fr:Donchery rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Donchery';.
+dbpedia-fr:Entraygues-sur-Truyere rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Entraygues-sur-Truyère';.
+dbpedia-fr:Estaing rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Estaing (Aveyron)';.
+dbpedia-fr:Evrecy rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Évrecy';.
+dbpedia-fr:Faucogney-et-la-Mer rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Faucogney-et-la-Mer';.
+dbpedia-fr:Fegreac rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Fégréac';.
+dbpedia-fr:Fillols rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Fillols';.
+dbpedia-fr:Florence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Florence';.
+dbpedia-fr:Fontvieille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Fontvieille';.
+dbpedia-fr:Gandrange rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Gandrange';.
+dbpedia-fr:Geneve rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Genève';.
+dbpedia-fr:Giovinazzo rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Giovinazzo';.
+dbpedia-fr:Glasgow rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Glasgow';.
+dbpedia-fr:Goteborg rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Göteborg';.
+dbpedia-fr:Grenoble rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Grenoble';.
+dbpedia-fr:Guiscriff rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Guiscriff';.
+dbpedia-fr:Hodenc-en-Bray rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Hodenc-en-Bray';.
+dbpedia-fr:Hong_Kong rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Hong Kong';.
+dbpedia-fr:Ile-dArz rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Île-dArz';.
+dbpedia-fr:Imperial_War_Museum_Duxford rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Imperial War Museum Duxford';.
+dbpedia-fr:Innsbruck rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Innsbruck';.
+dbpedia-fr:Ispahan rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ispahan';.
+dbpedia-fr:Istanbul rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Istanbul';.
+dbpedia-fr:Ivree rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ivrée';.
+dbpedia-fr:Jerusalem rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Jérusalem';.
+dbpedia-fr:Josselin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Josselin (Morbihan)';.
+dbpedia-fr:Jovençan rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Jovençan';.
+dbpedia-fr:Kecskemet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Kecskemét';.
+dbpedia-fr:Khartoum rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Khartoum';.
+dbpedia-fr:Kuopio rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Kuopio';.
+dbpedia-fr:La_Cavalerie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'La Cavalerie';.
+dbpedia-fr:La_Colle-sur-Loup rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'La Colle-sur-Loup';.
+dbpedia-fr:Lacaune rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lacaune (Tarn)';.
+dbpedia-fr:Lamballe rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lamballe';.
+dbpedia-fr:Lans-en-Vercors rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lans-en-Vercors';.
+dbpedia-fr:Lanuejols rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lanuéjols (Lozère)';.
+dbpedia-fr:Larriviere-Saint-Savin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Larrivière-Saint-Savin';.
+dbpedia-fr:Lasne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lasne';.
+dbpedia-fr:Lauris rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lauris';.
+dbpedia-fr:Le_Bizot rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Bizot';.
+dbpedia-fr:Le_Chalard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Chalard';.
+dbpedia-fr:Le_Malzieu-Ville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Malzieu-Ville';.
+dbpedia-fr:Le_Mesnil-Amelot rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Mesnil-Amelot';.
+dbpedia-fr:Le_Moule rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Moule';.
+dbpedia-fr:Le_Palais rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Palais';.
+dbpedia-fr:Le_Pouliguen rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Pouliguen';.
+dbpedia-fr:Le_Rove rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Rove';.
+dbpedia-fr:Le_Touquet-Paris-Plage rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Le Touquet-Paris-Plage';.
+dbpedia-fr:Lerida rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lérida';.
+dbpedia-fr:Les_Abeilles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Les Abeilles';.
+dbpedia-fr:Les_Riceys rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Les Riceys';.
+dbpedia-fr:Les_Trois-Ilets rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Les Trois-Îlets';.
+dbpedia-fr:Lesmont rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lesmont';.
+dbpedia-fr:Lille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lille';.
+dbpedia-fr:Lisbonne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lisbonne';.
+dbpedia-fr:Lisieux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lisieux';.
+dbpedia-fr:Livry rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Livry (Calvados)';.
+dbpedia-fr:Locoal-Mendon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Locoal-Mendon';.
+dbpedia-fr:Locqueltas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Locqueltas';.
+dbpedia-fr:Londres rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Londres';.
+dbpedia-fr:Longny-au-Perche rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Longny-au-Perche';.
+dbpedia-fr:Los_Angeles rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Los Angeles';.
+dbpedia-fr:Lugrin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lugrin';.
+dbpedia-fr:Lunas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lunas (Hérault)';.
+dbpedia-fr:Luxeuil-les-Bains rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Luxeuil-les-Bains';.
+dbpedia-fr:Lyon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Lyon';.
+dbpedia-fr:Mackinac_Island rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mackinac Island';.
+dbpedia-fr:Madrid rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Madrid';.
+dbpedia-fr:Manille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Manille';.
+dbpedia-fr:Mannheim rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mannheim';.
+dbpedia-fr:Marseille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label '6e arrondissement de Marseille';.
+dbpedia-fr:Marseille rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Marseille';.
+dbpedia-fr:Mauperthuis rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mauperthuis';.
+dbpedia-fr:Mayence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mayence';.
+dbpedia-fr:Meillard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Meillard';.
+dbpedia-fr:Merry-sur-Yonne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Merry-sur-Yonne';.
+dbpedia-fr:Mezy-Moulins rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mézy-Moulins';.
+dbpedia-fr:Miami rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Miami';.
+dbpedia-fr:Mito rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Mito';.
+dbpedia-fr:Molleville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Molleville';.
+dbpedia-fr:Montigny-sur-Meuse rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montigny-sur-Meuse';.
+dbpedia-fr:Montjaux rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montjaux';.
+dbpedia-fr:Montpellier rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montpellier';.
+dbpedia-fr:Montreal rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Montréal';.
+dbpedia-fr:Moscou rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Moscou';.
+dbpedia-fr:Moulins rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Moulins (Allier)';.
+dbpedia-fr:Moutiers-en-Puisaye rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Moutiers-en-Puisaye';.
+dbpedia-fr:Nantes rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nantes';.
+dbpedia-fr:Narbonne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Narbonne';.
+dbpedia-fr:Nevers rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nevers';.
+dbpedia-fr:New_York rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'New York';.
+dbpedia-fr:Nice rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nice';.
+dbpedia-fr:Nimes rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nîmes';.
+dbpedia-fr:Nitry rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nitry';.
+dbpedia-fr:Nuoro rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nuoro';.
+dbpedia-fr:Nyon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Nyon';.
+dbpedia-fr:Orleans rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Orléans';.
+dbpedia-fr:Orny rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Orny (Vaud)';.
+dbpedia-fr:Paris rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Paris';.
+dbpedia-fr:Pavie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pavie';.
+dbpedia-fr:Pernes-les-Fontaines rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pernes-les-Fontaines';.
+dbpedia-fr:Perouse rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pérouse (Italie)';.
+dbpedia-fr:Perros-Guirec rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Perros-Guirec';.
+dbpedia-fr:Petit-Canal rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Petit-Canal';.
+dbpedia-fr:Peyrusse-le-Roc rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Peyrusse-le-Roc';.
+dbpedia-fr:Picherande rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Picherande';.
+dbpedia-fr:Pontaubert rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pontaubert';.
+dbpedia-fr:Pontoise rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pontoise';.
+dbpedia-fr:Pontpoint rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pontpoint';.
+dbpedia-fr:Pori rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pori';.
+dbpedia-fr:Prague rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Prague';.
+dbpedia-fr:Pretoria rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Pretoria';.
+dbpedia-fr:Punaauia rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Punaauia';.
+dbpedia-fr:Questembert rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Questembert';.
+dbpedia-fr:Raillicourt rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Raillicourt';.
+dbpedia-fr:Rapperswil rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rapperswil (Saint-Gall)';.
+dbpedia-fr:Reillanne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Reillanne';.
+dbpedia-fr:Reims rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Reims';.
+dbpedia-fr:Ria-Sirach rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Ria-Sirach';.
+dbpedia-fr:Rochehaut rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rochehaut';.
+dbpedia-fr:Rome rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rome';.
+dbpedia-fr:Rozay-en-Brie rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rozay-en-Brie';.
+dbpedia-fr:Rueil-Malmaison rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Rueil-Malmaison';.
+dbpedia-fr:Saint-Avold rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Avold';.
+dbpedia-fr:Saint-Denis_La_Réunion rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Denis (La Réunion)';.
+dbpedia-fr:Saint-Etienne-de-Vicq rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Étienne-de-Vicq';.
+dbpedia-fr:Saint-Gilles_Gard rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Gilles (Gard)';.
+dbpedia-fr:Saint-Hilaire-du-Bois_Gironde rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Hilaire-du-Bois (Gironde)';.
+dbpedia-fr:Saint-Jean-Cap-Ferrat rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Jean-Cap-Ferrat';.
+dbpedia-fr:Saint-Martin-de-Re rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Martin-de-Ré';.
+dbpedia-fr:Saint-Pere-en-Retz rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Père-en-Retz';.
+dbpedia-fr:Saint-Pierre_Martinique rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Pierre (Martinique)';.
+dbpedia-fr:Saint-Trond rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Trond';.
+dbpedia-fr:Saint-Vallier rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Vallier (Saône-et-Loire)';.
+dbpedia-fr:Saint-Vigor-le-Grand rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Vigor-le-Grand';.
+dbpedia-fr:Saint-Wandrille-Rançon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Saint-Wandrille-Rançon';.
+dbpedia-fr:Sainte-Marie_Martinique rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sainte-Marie (Martinique)';.
+dbpedia-fr:Salies-de-Bearn rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Salies-de-Béarn';.
+dbpedia-fr:Salins-les-Bains rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Salins-les-Bains';.
+dbpedia-fr:Salles-la-Source rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Salles-la-Source';.
+dbpedia-fr:San_Diego rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'San Diego';.
+dbpedia-fr:Satillieu rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Satillieu';.
+dbpedia-fr:Savennieres rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Savennières';.
+dbpedia-fr:Savigny-en-Terre-Plaine rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Savigny-en-Terre-Plaine';.
+dbpedia-fr:Selçuk rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Selçuk (İzmir)';.
+dbpedia-fr:Semur-en-Brionnais rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Semur-en-Brionnais';.
+dbpedia-fr:Sessa_Aurunca rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sessa Aurunca';.
+dbpedia-fr:Sienne rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sienne';.
+dbpedia-fr:Silkeborg rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Silkeborg';.
+dbpedia-fr:Silly-le-Long rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Silly-le-Long';.
+dbpedia-fr:Sofia rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sofia';.
+dbpedia-fr:Sombacour rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sombacour';.
+dbpedia-fr:Sremski_Karlovci rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Sremski Karlovci';.
+dbpedia-fr:Strasbourg rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Strasbourg';.
+dbpedia-fr:Talin rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Talin';.
+dbpedia-fr:Targon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Targon';.
+dbpedia-fr:Tautavel rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tautavel';.
+dbpedia-fr:Terdeghem rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Terdeghem';.
+dbpedia-fr:Tours rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tours';.
+dbpedia-fr:Tourtour rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tourtour';.
+dbpedia-fr:Tracy-le-Val rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Tracy-le-Val';.
+dbpedia-fr:Tremolat rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Trémolat';.
+dbpedia-fr:Urbeis rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Urbeis';.
+dbpedia-fr:Urbisaglia rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Urbisaglia';.
+dbpedia-fr:Vaison-la-Romaine rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vaison-la-Romaine';.
+dbpedia-fr:Valence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Valence (Espagne)';.
+dbpedia-fr:Valliquerville rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Valliquerville';.
+dbpedia-fr:Vallon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vallon';.
+dbpedia-fr:Valreas rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Valréas';.
+dbpedia-fr:Varennes-sur-Loire rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Varennes-sur-Loire';.
+dbpedia-fr:Vernon rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vernon';.
+dbpedia-fr:Vernouillet rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vernouillet (Yvelines)';.
+dbpedia-fr:Vicence rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vicence';.
+dbpedia-fr:Villars-en-Pons rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villars-en-Pons';.
+dbpedia-fr:Villefranche_de_Lauragais rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villefranche de Lauragais';.
+dbpedia-fr:Villeneuve-Saint-Georges rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villeneuve-Saint-Georges';.
+dbpedia-fr:Villiers-sous-Grez rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Villiers-sous-Grez';.
+dbpedia-fr:Viuz-en-Sallaz rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Viuz-en-Sallaz';.
+dbpedia-fr:Vivier-au-Court rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vivier-au-Court';.
+dbpedia-fr:Vulci rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Vulci';.
+dbpedia-fr:Williamstown rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Williamstown (Massachusetts)';.
+dbpedia-fr:Winterthour rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Winterthour';.
+dbpedia-fr:Yvoire rdf:type dbpedia-owl:PopulatedPlace ; rdfs:label 'Yvoire';.
+dbpedia-fr:Tour_Eiffel
+  rdf:type dbpedia-owl:ArchitecturalStructure ;
+  rdf:type dbpedia-owl:Monument ;
+  prop-fr:ville dbpedia-fr:Paris ;
+.
+dc:creator
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range foaf:Person ;
+.
+dc:date
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:date ;
+.
+dc:description
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:string ;
+.
+dc:type
+  rdf:type rdf:Property ;
+  rdfs:domain :Photo ;
+  rdfs:range xsd:string ;
+.
+foaf:Person
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+foaf:firstName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain foaf:Person ;
+  rdfs:range xsd:string ;
+.
+foaf:lastName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain foaf:Person ;
+  rdfs:range xsd:string ;
+.

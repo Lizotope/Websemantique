@@ -117,6 +117,50 @@ prop-en:url
 :Album1
   rdf:type dbpedia-fr:Album_photos ;
   dbpedia-owl:owner :JeanDupont ;
+.  
+:Album2
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :RangerSevier ;
+.
+:Album3
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :RangerSevier ;
+.
+:Album4
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :SibylaAllard ;    
+.
+:Album5
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :SibylaAllard ;
+.
+:Album6
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :JeanDupont ;
+.
+:Album7
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :RangerSevier ;
+.
+:Album8
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :ColetteBriard ;  
+.
+:Album9
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :EdmeeJolicoeur ;
+.
+:Album10
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :AntonGabriaux ;
+.
+:Album11
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :MadeleineDumont ;
+.
+:Album12
+  rdf:type dbpedia-fr:Album_photos ;
+  dbpedia-owl:owner :ClaireLambert ;      
 .
 :AlbumParent
   rdf:type owl:ObjectProperty ;

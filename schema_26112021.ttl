@@ -2154,6 +2154,7 @@ prop-en:url
   dc:creator :JeanDupont ;
 
 . :Photo901 rdf:type :Photo ; :AlbumParent :Album1 ; :shows :Architectural ; :shows dbpedia-fr:Tour_Eiffel ; prop-fr:ville dbpedia-fr:Paris ; prop-en:url "https://www.sortiraparis.com/images/80/1467/582110-visuel-paris-tour-eiffel.jpg" ; dc:date "2018-03-18" ^^xsd:date ; dc:description "Ceci était vraiment génial !" ; :shows :AgatheChaussée ; dc:creator :MillardLagueux ;
+. :Photo902 rdf:type :Photo ; :AlbumParent :Album3 ; :shows :Architectural ; :shows dbpedia-fr:Tour_Eiffel ; prop-fr:ville dbpedia-fr:Paris ; prop-en:url "https://guide.toureiffel.paris/static/images/loading_background.png" ; dc:date "2018-05-11" ^^xsd:date ; dc:description "Ceci était vraiment génial !" ; :shows :JosepheDufresne ; dc:creator :JosepheDufresne ;
 
 . :Photo1 rdf:type :Photo ; :AlbumParent :Album1 ; :shows :Architectural ; :shows dbpedia-fr:10_Downing_Street ; prop-fr:ville dbpedia-fr:Londres ; prop-en:url "http://commons.wikimedia.org/wiki/Special:FilePath/2010_Official_Downing_Street_pic.jpg?width=300" ; dc:date "2018-03-18" ^^xsd:date ; dc:description "Ceci était vraiment génial !" ; :shows :AgatheChaussée ; dc:creator :MillardLagueux ;
 . :Photo2 rdf:type :Photo ; :AlbumParent :Album2 ; :shows :Architectural ; :shows dbpedia-fr:Arc_de_Wellington ; prop-fr:ville dbpedia-fr:Londres ; prop-en:url "http://commons.wikimedia.org/wiki/Special:FilePath/Wellington-Arch.JPG?width=300" ; dc:date "2018-09-25" ^^xsd:date ; dc:description "Ceci était vraiment génial !" ; :shows :JosepheDufresne ; dc:creator :GrégoireLanglais ;
@@ -5345,6 +5346,7 @@ dbpedia-fr:Thermes_de_Salies_de_Bearn
 dbpedia-fr:Tour_Eiffel
   rdf:type dbpedia-owl:ArchitecturalStructure ;
   rdf:type dbpedia-owl:Monument ;
+  rdfs:label "Tour Eiffel" ;  
   prop-fr:ville dbpedia-fr:Paris ;
 .
 dbpedia-fr:Tour_Gloriette

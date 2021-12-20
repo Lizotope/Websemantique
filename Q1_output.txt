@@ -1,0 +1,4 @@
+[Photo]	Purl	Alb	year	Mon
+Photo168	http://commons.wikimedia.org/wiki/Special:FilePath/Hôtel_Gaillard,_Paris,_1913.jpg?width=300	Album6	2017	Hôtel Gaillard
+Photo_0	https://upload.wikimedia.org/wikipedia/commons/7/7e/Parvis_Notre_Dame_05%2C_850th_anniversary_of_Notre-Dame.jpg	Album1	2017	Cathédrale Notre-Dame de Paris
+Photo_a	https://upload.wikimedia.org/wikipedia/commons/7/7e/Parvis_Notre_Dame_05%2C_850th_anniversary_of_Notre-Dame.jpg	Album1	2017	Cathédrale Notre-Dame de Paris

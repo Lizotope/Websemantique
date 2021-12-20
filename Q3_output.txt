@@ -1,0 +1,16 @@
+[Alb]	Photo	leg	owner
+Album1	Photo636	Sage est l'anniversaire qui demande au ciel les jours qu'on emploierait à pratiquer le bien.	JeanDupont
+Album1	Photo624	Quel anniversaire de folie !	JeanDupont
+Album1	Photo677	J'ai quitté l'école le jour de mon anniversaire. C'était en 1962 et j'étais prêt à faire de la musique.	JeanDupont
+Album1	Photo612	Les personnes âgées portent une attention toute particulière à leur anniversaire ; elles sont comme les calendriers : chaque fois que l'on en arrache une page, c'est encore une page de moins alors qu'il n'en reste déjà plus beaucoup.	JeanDupont
+Album1	Photo665	Je ne ferai jamais de chirurgie esthétique. Les marques de l'âge sont très importantes pour moi. Célébrer un anniversaire est toujours une fête.	JeanDupont
+Album1	Photo660	Les fêtes de fin d'année sont des célébrations d'un anniversaire collectif.	JeanDupont
+Album1	Photo648	Super gâteau d’anniversaire	JeanDupont
+Album1	Photo689	Un film, c'est la fête d'anniversaire du metteur en scène. C'est lui qui choisit ses invités et la musique, qui décide si l'on porte des chapeaux ou pas…	JeanDupont
+Album6	Photo682	Sage est l'anniversaire qui demande au ciel les jours qu'on emploierait à pratiquer le bien.	JeanDupont
+Album6	Photo617	C'est l'anniversaire de mon enlèvement à Ville-Evrard, cela fait 17 ans que Rodin et les marchands d'objet d'art m'ont envoyé faire pénitence dans les asiles d'aliénés.	JeanDupont
+Album6	Photo670	Quel anniversaire de folie !	JeanDupont
+Album6	Photo605	Une belle fin, suivie de belles funérailles, vaut bien un nouvel anniversaire.	JeanDupont
+Album6	Photo653	Chaque anniversaire est un cadeau. Chaque jour est un cadeau.	JeanDupont
+Album6	Photo641	Ma vie est comme un livre, chaque anniversaire représente un chapitre.	JeanDupont
+Album6	Photo629	La vraie fête des mères, c'est l'anniversaire de leurs enfants.	JeanDupont

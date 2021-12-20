@@ -1,0 +1,158 @@
+--------------------------------------------------------------------------
+Compte-Rendu du TP2-Projet
+MS Big Data - Web semantique
+--------------------------------------------------------------------------
+Equipe : Mouhssine Elfellah et Elisabeth Bourgeois
+Date : 07-12-2021
+--------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------- 
+Création d'instances 
+-------------------------------------------------------------------------- 
+
+Pour récupérer de la data massivement et de manière structurée, nous avons utilisé le requêteur http://fr.dbpedia.org/sparql :  
+
+** Liste de monuments avec leurs images et ville :  
+--------------------------------------------------------------------------
+select distinct ?Mon ?Mon_name ?dville ?ville ?P_url 
+where {?Mon rdf:type dbpedia-owl:Monument.?Mon  dbpedia-owl:thumbnail ?P_url. ?Mon rdfs:label ?Mon_name FILTER (lang(?Mon_name) = 'fr'  ).
+?Mon prop-fr:commune ?dville. ?dville rdfs:label ?ville FILTER (lang(?ville) = 'fr') 
+} 
+ORDER BY RAND() LIMIT 200 
+
+ 
+
+** Liste de musées  avec leurs images et ville :  
+--------------------------------------------------------------------------
+select distinct ?Mon ?Mon_name ?dville ?ville ?P_url  
+where {?Mon rdf:type dbpedia-owl:Museum. ?Mon  dbpedia-owl:thumbnail ?P_url. ?Mon rdfs:label ?Mon_name FILTER (lang(?Mon_name) = 'fr'  ).?Mon dbpedia-owl:city ?dville. ?dville rdfs:label ?ville FILTER (lang(?ville) = 'fr') } 
+ORDER BY RAND() LIMIT 200  
+
+ 
+
+** Musees parisiens seulement (cf énoncé Q1) :
+--------------------------------------------------------------------------
+select distinct ?Mon ?Mon_name ?dville ?ville ?P_url  
+where {?Mon rdf:type dbpedia-owl:Museum.  
+?Mon  dbpedia-owl:thumbnail ?P_url. ?Mon rdfs:label ?Mon_name FILTER (lang(?Mon_name) = 'fr'  ). 
+?Mon dbpedia-owl:city ?dville. ?dville rdfs:label ?ville FILTER (lang(?ville) = 'fr' && regex(?ville, "Paris", "i")) } 
+ORDER BY RAND() LIMIT 200  
+
+** Religiousbuilding parisiens :
+--------------------------------------------------------------------------
+select distinct ?Mon ?Mon_name ?dville ?ville ?P_url   
+where {?Mon rdf:type dbpedia-owl:ReligiousBuilding. ?Mon  dbpedia-owl:thumbnail ?P_url. ?Mon rdfs:label ?Mon_name FILTER (lang(?Mon_name) = 'fr'  ).?Mon dbpedia-owl:city ?dville. ?dville rdfs:label ?ville FILTER (lang(?ville) = 'fr' && regex(?ville, "Paris", "i")) }  
+ORDER BY RAND() LIMIT 200   
+
+ 
+
+** Lsite d'endroits naturels :
+--------------------------------------------------------------------------
+select distinct ?NatPl ?P_region ?P_url ?dep ?desc 
+where {?NatPl rdf:type dbpedia-owl:NaturalPlace.?NatPl foaf:depiction ?P_url.?NatPl dbpedia-owl:position ?P_region FILTER(?P_region = dbpedia-fr:France). ?NatPl dbpedia-owl:isPartOf ?dep. ?NatPl prop-fr:légende ?desc FILTER (lang(?desc) = 'fr') 
+}  
+ORDER BY RAND() LIMIT 100   
+
+
+Et pour la génération de personnes, nous nous sommes servis d'un générateur aléatoire de Prénom et Nom : FakenameGenerator.com 
+
+Puis  nous avons construits grâce à un tableur notre propre générateur de code pour insérer en masse de sinstances. 
+Pour cela nous avions manipulé les output des requêtes et insérer entre les différentes colonnes des output les 
+morceaux de code adéquats. 
+
+--------------------------------------------------------------------------
+REQUETES D'EXEMPLES
+--------------------------------------------------------------------------
+Nous considérons que moi = Jean Dupont
+
+Q1 :   
+
+
+SELECT distinct ?Photo  ?Purl ?Alb  ?year ?Mon 
+WHERE {?Alb dbpedia-owl:owner ?owner. 
+?owner foaf:firstName 'Jean'. 
+?owner foaf:lastName 'Dupont'. 
+?Photo :AlbumParent ?Alb. 
+?Photo dc:date  ?d. 
+bind(year(?d) as ?year). 
+filter(?year =  2017). 
+?Photo prop-en:url ?Purl. 
+?Photo prop-fr:ville ?Ville. 
+?Ville rdfs:label 'Paris'. 
+?Photo :shows ?Cont. 
+?Cont rdf:type dbpedia-owl:Monument. 
+?Cont rdfs:label ?Mon.
+FILTER (?Mon in ('Cathédrale Notre-Dame de Paris','Mon nom de monument 2','Hôtel Gaillard')). 
+?Photo rdf:type  :Photo 
+}  
+
+
+-------------------------------------------------------------------------------------------------------------------------------- 
+
+Q2 : 
+
+SELECT DISTINCT ?Photo  ?date ?Nom_Ville
+WHERE {?Photo :AlbumParent  ?Alb.
+?Alb dbpedia-owl:owner ?owner. 
+?owner foaf:firstName 'Jean'. 
+?owner foaf:lastName 'Dupont'. 
+?Photo :shows ?Pers1.
+?Photo :shows ?Pers2. FILTER (?Pers1 != ?Pers2)
+?Pers1 rdf:type foaf:Person.
+?Pers2 rdf:type foaf:Person.
+?Photo prop-fr:ville ?Ville.
+?Ville rdfs:label ?Nom_Ville.
+?Photo dc:date ?date
+}
+  
+ --------------------------------------------------------------------------------------------------------------------------------
+
+Q3 :  
+// le filtre "anniversaire" a bien été appliqué sur la légende et non sur le genre de la photos. 
+// le mélange majuscule/minuscule dans le filtre permet de vérifier l'insensbilité à la casse.
+
+SELECT DISTINCT ?Alb  ?Photo ?leg ?owner
+WHERE {
+?Alb rdf:type dbpedia-fr:Album_photos.
+?Alb dbpedia-owl:owner ?owner. 
+?owner foaf:firstName 'Jean'. 
+?owner foaf:lastName 'Dupont'. 
+?Photo  rdf:type :Photo.
+?Photo :AlbumParent  ?Alb.
+?Photo dc:description ?leg. FILTER regex(?leg, "aNNiversaire", "i") }
+ 
+--------------------------------------------------------------------------------------------------------------------------------
+Q4 :  
+// malgré l'important nombre d'instances de photos et monuments créés, nous avions omis de créer
+// des photos de Tour Eiffel. Nous en avons alors ajouté deux "à la main" (et seulement deux).
+
+SELECT  DISTINCT ?Photo ?date ?Alb ?date 
+WHERE  {?Photo rdf:type :Photo. 
+?Photo :shows ?Mon. 
+?Mon rdf:type dbpedia-owl:Monument.
+?Mon rdfs:label 'Tour Eiffel'. 
+?Photo dc:date ?date. 
+?Photo :AlbumParent ?Alb. 
+?Photo dc:date ?date 
+}    
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Q5 :  
+
+SELECT  DISTINCT ?Prenom ?Nom 
+WHERE  {?Pers rdf:type foaf:Person. 
+?Pers foaf:firstName ?Prenom. 
+?Pers foaf:lastName ?Nom. 
+?Phot1 :shows ?Pers. 
+?Phot2 :shows ?Pers. FILTER (?Phot1 != ?Phot2). 
+?Phot1 :AlbumParent ?Alb1. 
+?Phot2 :AlbumParent ?Alb2. FILTER (?Alb1 != ?Alb2) 
+}    
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+RESULTATS DES REQUETES : 
+
+Voir Q1_output.txt, Q2_output.txt, Q3_output.txt, Q4_output.txt, Q5_output.txt

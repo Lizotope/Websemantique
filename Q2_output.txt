@@ -1,0 +1,26 @@
+[Photo]	date	Nom_Ville
+Photo114	2018-10-25	Faucogney-et-la-Mer
+Photo13	2017-07-05	Paris
+Photo154	2018-04-06	Paris
+Photo156	2018-01-22	Paris
+Photo18	2017-09-28	Paris
+Photo210	2018-04-20	Varennes-sur-Loire
+Photo217	2017-11-21	Vicence
+Photo219	2017-10-17	Broc Maine-et-Loire
+Photo224	2019-02-19	Satillieu
+Photo226	2017-10-31	Le Malzieu-Ville
+Photo25	2018-03-06	Paris
+Photo250	2018-07-11	Winterthour
+Photo257	2018-09-08	Silkeborg
+Photo283	2017-08-18	Paris
+Photo290	2018-09-25	Florence
+Photo30	2018-01-29	Paris
+Photo338	2018-07-14	Paris
+Photo382	2017-07-14	Giovinazzo
+Photo384	2018-11-05	Lille
+Photo389	2017-12-01	Sessa Aurunca
+Photo396	2018-10-08	Moscou
+Photo42	2018-09-19	Londres
+Photo83	2018-08-04	Villefranche de Lauragais
+Photo_0	2017-07-14	Paris
+Photo_a	2017-07-14	Paris
